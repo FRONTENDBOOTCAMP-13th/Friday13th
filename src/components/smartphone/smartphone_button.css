@@ -1,0 +1,13 @@
+@import "../../common/modern-reset.css";
+
+.smartphone_button_container {
+  padding: 1.25rem;
+}
+
+.smartphone_button_buy {
+  background: #212425;
+  color: #fff;
+  width: 18.75rem;
+  height: 4.75rem;
+  border-radius: 1.25rem;
+}
