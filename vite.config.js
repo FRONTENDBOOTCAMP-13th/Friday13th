@@ -6,6 +6,7 @@ export default defineConfig({
       input: {
         index: 'index.html',
         header: 'src/components/header/header.html',
+        logo: 'src/components/main_logo/logo.html',
       },
     },
   },
