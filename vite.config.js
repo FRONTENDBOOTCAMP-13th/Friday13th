@@ -4,7 +4,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        index: 'index.html', // 기본 index.html
+        index: 'index.html',
+        header: 'src/components/header/header.html',
       },
     },
   },
