@@ -1,2 +1,3 @@
 /* CSS 스타일을 작성해 주세요. */
 @import "./components/header/header.css";
+@import "./components/smartphone/smartphone_button.css";
