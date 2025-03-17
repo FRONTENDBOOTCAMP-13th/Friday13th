@@ -1,0 +1,5 @@
+@import "/src/common/modern-reset.css";
+
+h1{
+  background: yellow;
+}
