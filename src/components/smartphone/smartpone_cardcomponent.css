@@ -1,0 +1,28 @@
+@import "/src/components/smartphone/smartphone_button.css";
+@import "/src/components/smartphone/smartphone_select_color.css";
+@import "/src/components/smartphone/smartphone_text.css";
+
+body {
+  background: #dddddd;
+}
+
+.components-container {
+  display: flex;
+  justify-content: center;
+  padding: 1.875rem;
+}
+
+.smartphone_card_component {
+  display: flex;
+  background: #fff;
+  flex-flow: column;
+  width: 20rem;
+  height: 45rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 1.3125rem;
+
+  .storage_label {
+    width: 4.6875rem;
+  }
+}
