@@ -1,0 +1,72 @@
+.smartphone_article {
+  padding: 1.875rem;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+}
+
+.smartphone_card_flag {
+  font-size: 0.6875rem;
+  color: #2189ff;
+  font-weight: bold;
+
+  &::after {
+    content: "| New 갤럭시 AI 구독클럽";
+  }
+}
+
+.smartphone_name {
+  font-size: 0.9144rem;
+  color: #212425;
+  font-weight: bold;
+  text-decoration: none;
+  padding-block: 0.9375rem;
+}
+
+.smartphone_code {
+  font-size: 0.6875rem;
+  color: #707070;
+  padding: 0.8125rem;
+}
+
+.smartphone_coupon {
+  font-size: 0.75rem;
+  color: #707070;
+}
+
+.smartphone_price {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.smartphone_expect {
+  font-size: 0.6875rem;
+  color: #707070;
+}
+
+.smartphone_point {
+  font-size: 0.6875rem;
+  color: #2189ff;
+  margin-inline-start: 1.875rem;
+}
+
+.smartphone_compare {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-start: 1.25rem;
+
+  .smartphone_compare_area,
+  .smartphone_star_area {
+    display: flex;
+  }
+}
+
+.smartphone_link_compare {
+  font-size: 0.8125rem;
+}
+
+.smartphone_star {
+  font-size: 0.8125rem;
+}

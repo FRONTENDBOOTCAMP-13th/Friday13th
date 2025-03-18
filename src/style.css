@@ -1,6 +1,9 @@
 /* CSS 스타일을 작성해 주세요. */
 @import "./components/header/header.css";
-new/smartphone
-@import "./components/smartphone/smartphone_button.css";
 @import "./components/main_logo/logo.css";
-develop
+
+/* 스마트폰 css */
+@import "./components/smartphone/smartphone_button.css";
+@import "./components/smartphone/smartphone_select_color.css";
+@import "./components/smartphone/smartpone_cardcomponent.css";
+@import "./components/smartphone/smartphone_text.css";
