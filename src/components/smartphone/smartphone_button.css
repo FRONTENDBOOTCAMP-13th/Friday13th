@@ -37,9 +37,9 @@
 /* label을 버튼처럼 스타일링 */
 .storage_label {
   display: inline-block;
-  border: 2px solid #dddddd;
+  border: 0.125rem solid #dddddd;
   border-radius: 9999px; /* pill shape */
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: #212425;
   cursor: pointer;
@@ -56,4 +56,20 @@
 .hidden_radio:checked + .storage_label {
   border-color: #2189ff;
   color: #212425;
+}
+
+/* 더보기 버튼 */
+
+.smore_prd_btn {
+  width: 11.4375rem;
+  height: 2.5rem;
+  border: 0.125rem solid #212425;
+  border-radius: 1.25rem;
+  background: #fff;
+  font-weight: bold;
+
+  .smore_prd_svg {
+    display: inline-block;
+    margin-inline-start: 0.625rem;
+  }
 }

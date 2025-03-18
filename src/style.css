@@ -9,6 +9,8 @@
 @import "./components/smartphone/smartphone_select_color.css";
 @import "./components/smartphone/smartpone_cardcomponent.css";
 @import "./components/smartphone/smartphone_text.css";
+@import "./components/smartphone/smartphone_nav.css";
+@import "./components/smartphone/smartphone_order.css";
 
 /* login */
 @import "./components/login/login_header.css";
@@ -18,12 +20,18 @@
 @import "./components/login/login_checkbox.css";
 @import "./components/login/login_button.css";
 @import "./components/login/login_id.css";
+
+@import "./components/login/login_account.css";
+@import "./components/login/login_google.css";
+@import "./components/login/login_qr.css";
+
 @import "./components/main_header/main_header.css";
 @import "./components/main_nav/main_nav.css";
 @import "./components/smartphone/smartphone_button.css";
 
 /* mypage */
 @import "./components/mypage/mypage_user_profile.css";
+
 @import "./components/mypage/mypage_smart_estimate.css";
 @import "./components/mypage/mypage_review_write.css";
 @import "./components/mypage/mypage_recent_store.css";
@@ -32,3 +40,8 @@
 @import "./components/mypage/mypage_order_status.css";
 @import "./components/mypage/mypage_favorite_products.css";
 @import "./components/mypage/mypage_class_registration.css";
+
+
+/* main footer */
+@import "./components/main_footer/main_footer_area1.css";
+
