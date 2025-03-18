@@ -5,7 +5,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: 'index.html',
-        header: 'src/components/header/header.html',
+        header: 'src/components/main_header/header.html',
+        nav: 'src/components/main_nav/main_nav.html',
       },
     },
   },
