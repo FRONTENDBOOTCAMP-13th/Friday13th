@@ -1,5 +1,4 @@
 /* CSS 스타일을 작성해 주세요. */
-<<<<<<< HEAD
 @import "./components/header/header.css";
 @import "./components/login/login_header.css";
 @import "./components/login/login_ment1.css";
@@ -11,7 +10,5 @@
 @import "./components/main_header/main_header.css";
 @import "./components/smartphone/smartphone_button.css";
 
-=======
 @import "./components/main_header/main_header.css";
 @import "./components/smartphone/smartphone_button.css";
->>>>>>> 0435008c9c4a4892bdd5a7cb1dc7df14249c50da
