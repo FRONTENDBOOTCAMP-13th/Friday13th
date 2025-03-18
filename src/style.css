@@ -1,5 +1,6 @@
 /* CSS 스타일을 작성해 주세요. */
 @import "./components/header/header.css";
+
 @import "./components/main_logo/logo.css";
 
 /* 스마트폰 css */
@@ -7,3 +8,17 @@
 @import "./components/smartphone/smartphone_select_color.css";
 @import "./components/smartphone/smartpone_cardcomponent.css";
 @import "./components/smartphone/smartphone_text.css";
+=======
+@import "./components/login/login_header.css";
+@import "./components/login/login_ment1.css";
+@import "./components/login/login_ment2.css";
+@import "./components/login/login_email.css";
+@import "./components/login/login_checkbox.css";
+@import "./components/login/login_button.css";
+@import "./components/login/login_id.css";
+@import "./components/main_header/main_header.css";
+@import "./components/smartphone/smartphone_button.css";
+
+@import "./components/main_header/main_header.css";
+@import "./components/smartphone/smartphone_button.css";
+
