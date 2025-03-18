@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   padding: 1.875rem;
+  background: #dddddd;
 }
 
 .smartphone_card_component {
@@ -16,6 +17,7 @@
   height: 45rem;
   align-items: center;
   padding: 1rem 0;
+  margin: 0.8rem;
   border-radius: 1.3125rem;
 
   .storage_label {
