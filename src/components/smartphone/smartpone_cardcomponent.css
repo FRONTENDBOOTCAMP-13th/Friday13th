@@ -2,10 +2,6 @@
 @import "/src/components/smartphone/smartphone_select_color.css";
 @import "/src/components/smartphone/smartphone_text.css";
 
-body {
-  background: #dddddd;
-}
-
 .components-container {
   display: flex;
   justify-content: center;

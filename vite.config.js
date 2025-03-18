@@ -4,18 +4,17 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
+        // page
         index: 'index.html',
-
+        //components
+        //main
         header: 'src/components/main_header/header.html',
         nav: 'src/components/main_nav/main_nav.html',
-
-
-        mypage: 'src/components/mypage/user_profile.html',
-
-        header: 'src/components/header/header.html',
+        //mypage
+        mypage: 'src/components/mypage/mypage_user_profile.html',
+        //login
         login_header: 'src/components/login/login_header.html',
         login_ment: 'src/components/login/login_ment.html',
-
       },
     },
   },
