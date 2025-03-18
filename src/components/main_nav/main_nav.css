@@ -1,16 +1,75 @@
 @import "../../common/modern-reset.css";
 
+.main_navigation_wrapper.active {
+  visibility: visible;
+}
+
+.main_navigation_wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  /* visibility: hidden;  */
+  /* 초기에는 숨김 처리 */
+  transition: 0.3s;
+}
+
 .main_navigation {
-  /* visibility: visible; */
   background: #fff;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -360px; /* 초기 위치는 화면 밖에 */
   width: 360px;
   height: 100%;
   z-index: 2;
+  transition: right 0.4s ease-in-out; /* 오른쪽에서 나오는 애니메이션 */
 
-  .main_nav {
-    color: #000;
+  .main_menu_name {
+    display: flex;
+    align-items: center;
+    margin: 10px 24px;
+    line-height: 1.5;
+  }
+
+  .main_navigation_wrapper.active .main_navigation {
+    right: 0; /* 활성화되면 오른쪽에서 나오도록 */
+  }
+  .main_menu_list {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 24px;
+    padding: 8px 0 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .main_menu_etc {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 24px;
+    padding: 8px 0 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .main_menu_item {
+    padding: 8px 0;
+    align-items: center;
+
+    .main_nav {
+      color: #000;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .main_nav::after {
+      content: ">";
+      display: inline-flex;
+      font-weight: 300;
+      color: #7c7b7b;
+    }
   }
 }
