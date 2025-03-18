@@ -11,6 +11,7 @@
 @import "./components/smartphone/smartphone_text.css";
 @import "./components/smartphone/smartphone_nav.css";
 @import "./components/smartphone/smartphone_order.css";
+@import "./page/smartphone/smartphone_page.css";
 
 /* login */
 @import "./components/login/login_header.css";
