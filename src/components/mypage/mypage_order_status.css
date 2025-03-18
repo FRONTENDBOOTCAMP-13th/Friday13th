@@ -1,0 +1,40 @@
+/* src/components/mypage/order_status.css
+.order_status {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu_card {
+  width: 150px;
+  height: 120px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.menu_icon {
+  margin-bottom: 10px;
+}
+
+.menu_icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.menu_card p {
+  font-family: "Pretendard Variable", sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+.menu_card span {
+  color: #007bff;
+  font-weight: bold;
+} */
