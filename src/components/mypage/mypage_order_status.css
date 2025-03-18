@@ -1,40 +1,51 @@
-/* src/components/mypage/order_status.css
-.order_status {
+.mypage_order_status {
   display: flex;
-  gap: 15px;
-  padding: 20px;
+  gap: 0.625rem;
+  padding: 0.9375rem;
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  align-items: center;
 }
 
-.menu_card {
-  width: 150px;
-  height: 120px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
+.mypage_status_card {
+  width: 9.375rem;
+  height: 9.375rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 10px;
-  background-color: #f9f9f9;
 }
 
-.menu_icon {
-  margin-bottom: 10px;
+.mypage_card_icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.menu_icon img {
-  width: 24px;
-  height: 24px;
+.mypage_card_icon img {
+  width: 100%;
+  height: 100%;
 }
 
-.menu_card p {
+.mypage_card_title {
   font-family: "Pretendard Variable", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
+  font-weight: bold;
   color: #333;
   margin: 0;
 }
 
-.menu_card span {
+.mypage_card_title .count_number {
   color: #007bff;
   font-weight: bold;
-} */
+}
+
+.dot_separator {
+  font-size: 1rem;
+  color: #333;
+  margin: 0 0.625rem;
+}

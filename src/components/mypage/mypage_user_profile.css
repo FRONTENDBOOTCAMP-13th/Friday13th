@@ -2,61 +2,49 @@
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 50rem;
-  padding: 1.25rem;
-  border: 0.125rem solid #2189ff;
-  border-radius: 0.75rem;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #007aff;
+  border-radius: 12px;
   background-color: #fff;
 }
 
 .mypage_profile_image {
-  width: 5rem;
-  height: 5rem;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #aaa;
   font-weight: bold;
-  margin-right: 1.25rem;
+  margin-right: 20px;
 }
 
-/* .profile_info h2 {
-  font-size: 1.25rem;
+.mypage_profile_info h2 {
+  font-size: 20px;
   margin: 0;
-} */
+}
 
-/* .profile_info p {
-  font-size: 0.875rem;
+.mypage_profile_info p {
+  font-size: 14px;
   color: #333;
   line-height: 1.5;
-} */
+}
 
-/* .profile_info a {
-  color: #2189ff;
+.mypage_profile_info a {
+  color: #007aff;
   text-decoration: none;
   font-weight: bold;
-  pointer-events: none;
-} */
+}
 
 .mypage_input_link {
   display: inline-block;
-  margin-top: 0.625rem;
-  font-size: 0.875rem;
-  color: black;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
   font-weight: bold;
   text-decoration: none;
-  cursor: pointer;
-}
-
-.mypage_no_link {
-  color: inherit;
-  text-decoration: none;
-  cursor: text;
-  pointer-events: none;
-  font-size: 0.875rem;
-  color: #333;
-  line-height: 1.5;
 }

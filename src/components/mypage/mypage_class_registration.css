@@ -1,1 +1,48 @@
-@import "../../common/modern-reset.css";
+.mypage_class_request {
+  width: 40.0625rem;
+  height: 7.43625rem;
+  padding: 0 0 0.75rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.mypage_request_center {
+  font-family: "Pretendard Variable", sans-serif;
+  font-size: 1.1875rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+  padding: 0 0.5rem;
+  position: absolute;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.mypage_separator {
+  width: 0;
+  height: 100%;
+  border-left: 0.0625rem dotted #999;
+  margin: 0 0.9375rem;
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+}
+
+.mypage_request_link {
+  font-family: "Pretendard Variable", sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0 0.25rem;
+  text-align: center;
+  position: absolute;
+  right: 2rem;
+}

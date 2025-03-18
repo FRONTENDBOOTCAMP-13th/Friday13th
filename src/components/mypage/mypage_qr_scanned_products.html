@@ -1,7 +1,23 @@
-<!-- qr_scanned_products.html -->
-<div class="qr_scanned_products">
-  <div class="menu_card">
-    <div class="menu_icon">📷</div>
-    <p>QR 스캔한 제품 <span>0개</span></p>
-  </div>
-</div>
+<!-- src/components/mypage/qr_scanned_products.html -->
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR 스캔한 제품</title>
+    <link rel="stylesheet" href="mypage_qr_scanned_products.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="mypage_qr_scanned_products">
+      <img
+        src="/public/assets/icon/icon-mmi-store02.png"
+        alt="QR 스캔한 제품 아이콘"
+        class="mypage_card_icon" />
+      <p class="mypage_card_title">QR 스캔한 제품</p>
+      <p class="mypage_card_count">
+        <span class="count_number">0</span><span class="count_unit"> 개</span>
+      </p>
+    </div>
+  </body>
+</html>
