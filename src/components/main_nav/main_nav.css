@@ -1,13 +1,16 @@
 @import "../../common/modern-reset.css";
 
-@media only screen and (max-width: 991px) {
-  .main_nav_wrapper {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 300px;
-    z-index: 1;
-    background: blue;
-    height: 100%;
+.main_navigation {
+  /* visibility: visible; */
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100%;
+  z-index: 2;
+
+  .main_nav {
+    color: #000;
   }
 }

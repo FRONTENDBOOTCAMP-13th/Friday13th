@@ -2,6 +2,7 @@
 /* components */
 /* main */
 @import "./components/main_header/main_header.css";
+@import "./components/main_nav/main_nav.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
