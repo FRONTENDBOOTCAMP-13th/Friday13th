@@ -9,7 +9,7 @@
 }
 
 .login_checkbox_custom .login_checkbox_type {
-  display: none; /* 기본 체크박스 숨김 */
+  display: none;
 }
 
 .login_checkbox_checkmark {
@@ -21,7 +21,7 @@
   display: inline-block;
 }
 
-/* 체크되었을 때 check.svg로 변경 */
+
 .login_checkbox_custom
   .login_checkbox_type:checked
   + .login_checkbox_checkmark {

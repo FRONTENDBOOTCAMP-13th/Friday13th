@@ -1,0 +1,58 @@
+@import "../../common/modern-reset.css";
+
+.login_google_container {
+  margin-top: 3.125rem; /*임시값*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login_google_base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 1.75;
+  color: #252525;
+  background-color: #e5e5e5;
+  width: 100%;
+  min-width: 13.5rem;
+  min-height: 2.75rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  border-width: 0rem;
+  border-radius: 1.375rem;
+}
+
+.login_google_totalbox {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.login_google_imgbox {
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0.25rem;
+}
+
+.login_google_img {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.login_goole_textbox {
+  padding-inline: 0.25rem 1.375rem;
+  flex-grow: 1;
+}
+
+.login_google_text {
+  color: #252525;
+  font-weight: 700;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+}

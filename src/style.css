@@ -2,6 +2,7 @@
 /* components */
 /* main */
 @import "./components/main_header/main_header.css";
+@import "./components/main_nav/main_nav.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
@@ -17,6 +18,6 @@
 @import "./components/login/login_checkbox.css";
 @import "./components/login/login_button.css";
 @import "./components/login/login_id.css";
-@import "./components/main_header/main_header.css";
-@import "./components/main_nav/main_nav.css";
-@import "./components/smartphone/smartphone_button.css";
+@import "./components/login/login_account.css";
+@import "./components/login/login_google.css";
+@import "./components/login/login_qr.css";
