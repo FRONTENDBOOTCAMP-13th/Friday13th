@@ -1,32 +1,85 @@
+<!-- src/components/mypage/order_status.html -->
+<!-- <!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>주문/배송</title>
+    <link rel="stylesheet" href="mypage_order_status.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="mypage_order_status">
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-order.png"
+          alt="최근 주문 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          최근 주문 <span class="count_number">0</span>
+        </p>
+      </div>
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-delivery2.png"
+          alt="배송중 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          배송중 <span class="count_number">0</span>
+        </p>
+      </div>
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-delivered.png"
+          alt="배송완료 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          배송완료 <span class="count_number">0</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html> -->
+<!-- src/components/mypage/order_status.html -->
 <!doctype html>
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>타이틀</title>
+    <title>주문/배송</title>
     <link rel="stylesheet" href="mypage_order_status.css" />
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
-    <!-- src/components/mypage/order_status.html -->
-    <div class="order_status">
-      <div class="menu_card">
-        <div class="menu_icon">
-          <img src="/assets/icons/shopping_cart.svg" alt="최근 주문" />
-        </div>
-        <p>최근 주문 <span>0</span></p>
+    <div class="mypage_order_status">
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-order.png"
+          alt="최근 주문 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          최근 주문 <span class="count_number">0</span>
+        </p>
       </div>
-      <div class="menu_card">
-        <div class="menu_icon">
-          <img src="/assets/icons/delivery_truck.svg" alt="배송중" />
-        </div>
-        <p>배송중 <span>0</span></p>
+      <span class="dot_separator">...</span>
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-delivery2.png"
+          alt="배송중 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          배송중 <span class="count_number">0</span>
+        </p>
       </div>
-      <div class="menu_card">
-        <div class="menu_icon">
-          <img src="/assets/icons/check_mark.svg" alt="배송완료" />
-        </div>
-        <p>배송완료 <span>0</span></p>
+      <span class="dot_separator">...</span>
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-delivered.png"
+          alt="배송완료 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          배송완료 <span class="count_number">0</span>
+        </p>
       </div>
     </div>
   </body>

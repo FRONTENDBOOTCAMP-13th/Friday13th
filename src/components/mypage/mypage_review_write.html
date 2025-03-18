@@ -1,55 +1,23 @@
-<!-- product_review.html -->
-
+<!-- src/components/mypage/product_review.html -->
 <!doctype html>
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>상품평 작성</title>
+    <link rel="stylesheet" href="mypage_review_write.css" />
     <script type="module" src="/src/main.js"></script>
-    <style>
-      .smart_estimate {
-        width: 150px;
-        height: 150px;
-        background: white;
-        border-radius: 16px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 16px;
-        text-align: center;
-      }
-
-      .card_icon {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 8px;
-      }
-
-      .card_title {
-        font-size: 16px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 4px;
-      }
-
-      .card_count {
-        font-size: 14px;
-        color: #2189ff;
-        font-weight: bold;
-      }
-    </style>
   </head>
   <body>
-    <div class="review_write">
+    <div class="mypage_product_review">
       <img
-        src="/public/icon/icon-mmi03.png"
-        alt="상품평 작성 이미지"
-        class="card_icon" />
-      <p class="card_title">상품평 작성</p>
-      <p class="card_count">0 개</p>
+        src="/public/assets/icon/icon-mmi01.png"
+        alt="상품평 작성 아이콘"
+        class="mypage_card_icon" />
+      <p class="mypage_card_title">상품평 작성</p>
+      <p class="mypage_card_count">
+        <span class="count_number">0</span><span class="count_unit"> 개</span>
+      </p>
     </div>
   </body>
 </html>
