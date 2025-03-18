@@ -1,0 +1,59 @@
+@import "../../common/modern-reset.css";
+
+.smartphone_button_container {
+  padding: 1.25rem;
+}
+
+/* 구매하기, 더 알아보기 버튼 */
+.smartphone_button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 0.1875rem solid #212425;
+  border-radius: 1.25rem;
+  width: 18.75rem;
+  height: 4.6875rem;
+  line-height: 4.6875rem;
+  margin-block-start: 0.625rem;
+
+  &.more {
+    background: #fff;
+    color: #212425;
+  }
+
+  &.buy {
+    background: #212425;
+    color: #fff;
+  }
+}
+
+/* 스토리지 크기 */
+
+/* 기본적으로 input radio 숨기기 */
+.hidden_radio {
+  display: none;
+}
+
+/* label을 버튼처럼 스타일링 */
+.storage_label {
+  display: inline-block;
+  border: 2px solid #dddddd;
+  border-radius: 9999px; /* pill shape */
+  font-size: 16px;
+  font-weight: bold;
+  color: #212425;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* 선택되지 않은 상태 */
+.storage_label {
+  background-color: #fff;
+  border-color: #dddddd;
+}
+
+/* 선택된 상태 */
+.hidden_radio:checked + .storage_label {
+  border-color: #2189ff;
+  color: #212425;
+}
