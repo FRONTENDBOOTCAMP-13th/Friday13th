@@ -9,11 +9,11 @@
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  border: 0.1875rem solid #212425;
+  border: 0.125rem solid #212425;
   border-radius: 1.25rem;
   width: 16.25rem;
-  height: 4.375rem;
-  line-height: 4.375rem;
+  height: 4.0625rem;
+  line-height: 4.0625rem;
   margin-block-start: 0.625rem;
 
   &.more {
@@ -38,8 +38,8 @@
 .storage_label {
   display: inline-block;
   border: 0.125rem solid #dddddd;
-  border-radius: 9999px; /* pill shape */
-  font-size: 1rem;
+  border-radius: 624.9375rem; /* pill shape */
+  font-size: 0.875rem;
   font-weight: bold;
   color: #212425;
   cursor: pointer;
@@ -61,15 +61,18 @@
 /* 더보기 버튼 */
 
 .smore_prd_btn {
-  width: 11.4375rem;
-  height: 2.5rem;
+  width: 8.4375rem;
+  height: 2.3rem;
   border: 0.125rem solid #212425;
   border-radius: 1.25rem;
   background: #fff;
   font-weight: bold;
+  font-size: 0.75rem;
 
   .smore_prd_svg {
     display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
     margin-inline-start: 0.625rem;
   }
 }

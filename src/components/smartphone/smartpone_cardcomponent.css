@@ -12,7 +12,7 @@
 .smartphone_card_component {
   display: flex;
   background: #fff;
-  flex-flow: column;
+  flex-flow: column nowrap;
   width: 17.5rem;
   height: 45rem;
   align-items: center;

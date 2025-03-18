@@ -1,8 +1,9 @@
 .smartphone_article {
   padding: 1.875rem;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   text-align: center;
+  gap: 0.3125rem 0;
 }
 
 .smartphone_card_flag {
@@ -16,18 +17,17 @@
 }
 
 .smartphone_name {
+  height: 2.5rem;
   font-size: 0.9144rem;
   color: #212425;
   font-weight: bold;
   text-decoration: none;
-  padding-block: 0.9375rem;
 }
 
 .smartphone_code {
   font-size: 0.6875rem;
   font-weight: bold;
   color: #707070;
-  padding: 0.8125rem;
 }
 
 .smartphone_coupon {
