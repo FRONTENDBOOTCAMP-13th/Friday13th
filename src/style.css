@@ -1,2 +1,9 @@
 /* CSS 스타일을 작성해 주세요. */
 @import "./components/header/header.css";
+@import "./components/login/login_header.css";
+@import "./components/login/login_ment1.css";
+@import "./components/login/login_ment2.css";
+@import "./components/login/login_email.css";
+@import "./components/login/login_checkbox.css";
+@import "./components/login/login_button.css";
+@import "./components/login/login_id.css";
