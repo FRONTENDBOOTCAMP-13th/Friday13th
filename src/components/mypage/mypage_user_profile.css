@@ -1,50 +1,62 @@
-.profile_card {
+.mypage_profile_card {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 800px;
-  padding: 20px;
-  border: 2px solid #007aff;
-  border-radius: 12px;
+  max-width: 50rem;
+  padding: 1.25rem;
+  border: 0.125rem solid #2189ff;
+  border-radius: 0.75rem;
   background-color: #fff;
 }
 
-.profile_image {
-  width: 80px;
-  height: 80px;
+.mypage_profile_image {
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: #f1f1f1;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #aaa;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
-.profile_info h2 {
-  font-size: 20px;
+/* .profile_info h2 {
+  font-size: 1.25rem;
   margin: 0;
-}
+} */
 
-.profile_info p {
-  font-size: 14px;
+/* .profile_info p {
+  font-size: 0.875rem;
   color: #333;
   line-height: 1.5;
-}
+} */
 
-.profile_info a {
-  color: #007aff;
+/* .profile_info a {
+  color: #2189ff;
   text-decoration: none;
   font-weight: bold;
-}
+  pointer-events: none;
+} */
 
-.input_link {
+.mypage_input_link {
   display: inline-block;
-  margin-top: 10px;
-  font-size: 14px;
-  color: #000;
+  margin-top: 0.625rem;
+  font-size: 0.875rem;
+  color: black;
   font-weight: bold;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.mypage_no_link {
+  color: inherit;
+  text-decoration: none;
+  cursor: text;
+  pointer-events: none;
+  font-size: 0.875rem;
+  color: #333;
+  line-height: 1.5;
 }

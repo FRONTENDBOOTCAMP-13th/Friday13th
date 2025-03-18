@@ -1,15 +1,33 @@
-<!-- order_delivery.html -->
-<div class="order_status">
-  <div class="menu_card">
-    <div class="menu_icon">🛒</div>
-    <p>최근 주문 <span>0</span></p>
-  </div>
-  <div class="menu_card">
-    <div class="menu_icon">🚚</div>
-    <p>배송중 <span>0</span></p>
-  </div>
-  <div class="menu_card">
-    <div class="menu_icon">✔️</div>
-    <p>배송완료 <span>0</span></p>
-  </div>
-</div>
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이틀</title>
+    <link rel="stylesheet" href="mypage_order_status.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <!-- src/components/mypage/order_status.html -->
+    <div class="order_status">
+      <div class="menu_card">
+        <div class="menu_icon">
+          <img src="/assets/icons/shopping_cart.svg" alt="최근 주문" />
+        </div>
+        <p>최근 주문 <span>0</span></p>
+      </div>
+      <div class="menu_card">
+        <div class="menu_icon">
+          <img src="/assets/icons/delivery_truck.svg" alt="배송중" />
+        </div>
+        <p>배송중 <span>0</span></p>
+      </div>
+      <div class="menu_card">
+        <div class="menu_icon">
+          <img src="/assets/icons/check_mark.svg" alt="배송완료" />
+        </div>
+        <p>배송완료 <span>0</span></p>
+      </div>
+    </div>
+  </body>
+</html>
