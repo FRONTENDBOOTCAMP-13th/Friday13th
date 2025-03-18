@@ -8,6 +8,8 @@
 @import "./components/smartphone/smartphone_select_color.css";
 @import "./components/smartphone/smartpone_cardcomponent.css";
 @import "./components/smartphone/smartphone_text.css";
+@import "./components/smartphone/smartphone_nav.css";
+@import "./components/smartphone/smartphone_order.css";
 
 /* login */
 @import "./components/login/login_header.css";

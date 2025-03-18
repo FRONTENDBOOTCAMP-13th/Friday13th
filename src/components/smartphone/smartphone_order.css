@@ -1,0 +1,21 @@
+.smartphone_order_container {
+  margin-top: 1.875rem;
+}
+
+.smartphone_order_nav {
+  display: flex;
+  border: 0.125rem solid #dddddd;
+  background: #fff;
+  padding: 1.25rem;
+  gap: 1.875rem;
+}
+
+.smartphone_detail_search {
+  display: flex;
+  font-weight: bold;
+}
+
+.smartphone_value {
+  color: #2189ff;
+  font-weight: bold;
+}
