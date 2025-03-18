@@ -5,7 +5,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: 'index.html',
-        header: 'src/components/header/header.html',
+        mypage: 'src/components/mypage/user_profile.html',
       },
     },
   },
