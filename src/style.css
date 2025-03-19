@@ -42,6 +42,12 @@
 @import "./components/mypage/mypage_favorite_products.css";
 @import "./components/mypage/mypage_class_registration.css";
 
+
+/* main footer */
+@import "./components/main_footer/main_footer_area1.css";
+@import "./components/main_footer/main_footer_area2.css";
+@import "./components/main_footer/main_footer_area3.css";
+
 /* search */
 @import "./components/search/searchbar.css";
 @import "./components/search/search_menu.css";
@@ -50,3 +56,4 @@
 
 /* main footer */
 @import "./components/main_footer/main_footer_area1.css";
+
