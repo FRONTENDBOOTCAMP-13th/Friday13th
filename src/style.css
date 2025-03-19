@@ -1,8 +1,10 @@
 /* CSS 스타일을 작성해 주세요. */
 /* components */
 /* main */
-@import "./components/main_header/main_header.css";
-@import "./components/main_nav/main_nav.css";
+@import "./components/main/header/main_header/main_header.css";
+@import "./components/main/header/main_nav/main_nav.css";
+@import "./components/main/header/main_nav_pc/main_nav_pc.css";
+@import "./components/main/header/main_search_bar/main_search_bar.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
@@ -26,10 +28,6 @@
 @import "./components/login/login_google.css";
 @import "./components/login/login_qr.css";
 
-@import "./components/main_header/main_header.css";
-@import "./components/main_nav/main_nav.css";
-@import "./components/smartphone/smartphone_button.css";
-
 /* mypage */
 @import "./components/mypage/mypage_user_profile.css";
 
@@ -41,6 +39,9 @@
 @import "./components/mypage/mypage_order_status.css";
 @import "./components/mypage/mypage_favorite_products.css";
 @import "./components/mypage/mypage_class_registration.css";
+
+/* main footer */
+@import "./components/main_footer/main_footer_area1.css";
 
 /* main footer */
 @import "./components/main_footer/main_footer_area1.css";
@@ -59,3 +60,4 @@
 /* frame location */
 @import "./components/frame/frame_location.css";
 @import "./components/frame/frame_shopping_cart.css";
+

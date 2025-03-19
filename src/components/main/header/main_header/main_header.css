@@ -1,0 +1,67 @@
+@import "../../common/modern-reset.css";
+
+.main_header {
+  display: flex;
+  margin-inline: 16px;
+  height: 62.656px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+
+  .main_logo_img {
+    display: flex;
+    padding: 19px 52px 19px 0;
+    height: 57px;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .main_icon_wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+    @media (min-width: 768px) {
+      .main_menu_icon{
+        display: none;
+      }
+      border: 1px solid blue;
+    }
+
+    .main_icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .main_mobile_nav {
+      position: relative;
+    }
+
+    .main_navigation_wrapper {
+      display: none;
+    }
+
+    .main_mobile_nav:hover .main_navigation_wrapper {
+      display: block;
+    }
+  }
+
+  .main_icon_wrapper {
+    .main_searchbar {
+      display: none;
+    }
+    @media (min-width: 768px) {
+      .main_search_button {
+        display: none;
+      }
+      .main_searchbar {
+        display: block;
+      }
+    }
+  }
+}

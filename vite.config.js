@@ -10,6 +10,7 @@ export default defineConfig({
         //main
         header: 'src/components/main_header/header.html',
         nav: 'src/components/main_nav/main_nav.html',
+        nav_pc: 'src/components/main/header/main_nav_pc/main_nav_pc.html',
         //mypage
         mypage: 'src/components/mypage/mypage_user_profile.html',
         //login
