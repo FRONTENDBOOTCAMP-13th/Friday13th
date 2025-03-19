@@ -1,0 +1,51 @@
+@import "/src/common/modern-reset.css";
+
+.search_product_container {
+  margin: 1.875rem;
+}
+
+.search_product_link {
+  display: block;
+  color: black;
+  width: 12.5rem;
+}
+
+.search_product {
+  transition: all 0.5s linear;
+}
+
+.search_product_link:hover {
+  .search_product {
+    transform: scale(1.07);
+  }
+}
+
+.search_product_component {
+  width: 12.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.625rem;
+}
+.search_product_box {
+  background: #f7f7f7;
+  width: 220px;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_product_article {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.3125rem;
+  .search_product_name {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+}

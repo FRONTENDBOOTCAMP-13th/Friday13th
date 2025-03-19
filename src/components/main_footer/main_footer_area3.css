@@ -1,0 +1,332 @@
+@import "../../common/modern-reset.css";
+
+/* .main_footer_area3_container3 {
+  border-top: 0.0625rem solid #d9d9d9;
+  background-color: #ffffff;
+  padding: 1.875rem 1.5rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  width: 100%;
+}
+
+.main_footer_area3_group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.main_footer_area3_btn {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.main_footer_area3_korean {
+  display: flex;
+  align-items: center;
+}
+
+.main_footer_area3_korean_text {
+  padding: 0 0.3125rem;
+  line-height: 2.5rem;
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: #000000;
+  vertical-align: top;
+}
+
+.main_footer_area3_ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.main_footer_area3_li_email {
+  list-style: none;
+}
+
+.main_footer_area3_a_email {
+  padding: 0 0.3125rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-size: 0.8rem;
+  color: #000000;
+  vertical-align: top;
+}
+
+.main_footer_area3_li_id {
+  margin-left: 0.55rem;
+  position: relative;
+  float: left;
+}
+
+.main_footer_area3_a_id {
+  padding: 0 0.3125rem;
+  line-height: 2.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #000000;
+  vertical-align: top;
+}
+
+.main_footer_area3_li_site {
+  margin-left: 1.0625rem;
+  position: relative;
+  padding-left: 1.0625rem;
+  float: left;
+}
+
+.main_footer_area3_a_site {
+  padding: 0 0.3125rem;
+  line-height: 2.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  vertical-align: top;
+  color: #000000;
+}
+
+.main_footer_area3_linkbox {
+  margin-top: 0.9375rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.main_footer_area3_wrap_sns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.1rem;
+}
+
+.main_footer_area3_tit {
+  float: left;
+  line-height: 2.5rem;
+  font-size: 0.6913rem;
+  color: #000000;
+  font-weight: bold;
+  height: 2.5rem;
+}
+
+.main_footer_area3_sns {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.main_footer_area3_sns_li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.main_footer_area3_sns_facebook {
+  background-image: url(../../../public/assets/icon/facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.main_footer_area3_sns_youtube {
+  background-image: url(../../../public/assets/icon/youtube.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.main_footer_area3_sns_instagram {
+  background-image: url(../../../public/assets/icon/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.main_footer_area3_sns_kakao {
+  background-image: url(../../../public/assets/icon/kakao.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 2.2125rem;
+  height: 2.0356rem;
+}
+
+.main_footer_area3_sns_twiiter {
+  background-image: url(../../../public/assets/icon/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 1.6875rem;
+  height: 1.7244rem;
+}
+
+.main_footer_area3_sns_share {
+  background-image: url(../../../public/assets/icon/share.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 2.25rem;
+  height: 2.25rem;
+} */
+
+/* ai가 공통 코드 묶어준거 */
+/* 공통 컨테이너 스타일 */
+.main_footer_area3_container3,
+.main_footer_area3_group,
+.main_footer_area3_btn,
+.main_footer_area3_korean,
+.main_footer_area3_ul,
+.main_footer_area3_linkbox,
+.main_footer_area3_wrap_sns,
+.main_footer_area3_sns {
+  display: flex;
+  align-items: center;
+}
+
+/* 전체 폭 적용 */
+.main_footer_area3_container3,
+.main_footer_area3_group,
+.main_footer_area3_linkbox {
+  width: 100%;
+}
+
+/* 텍스트 스타일 공통 */
+.main_footer_area3_korean_text,
+.main_footer_area3_a_email,
+.main_footer_area3_a_id,
+.main_footer_area3_a_site,
+.main_footer_area3_tit {
+  font-weight: bold;
+  color: #000000;
+  line-height: 2.5rem;
+  vertical-align: top;
+}
+
+/* 링크 스타일 공통 */
+.main_footer_area3_a_email,
+.main_footer_area3_a_id,
+.main_footer_area3_a_site {
+  padding: 0 0.3125rem;
+  font-size: 0.8rem;
+}
+
+/* SNS 아이콘 공통 스타일 */
+.main_footer_area3_sns_facebook,
+.main_footer_area3_sns_youtube,
+.main_footer_area3_sns_instagram,
+.main_footer_area3_sns_kakao,
+.main_footer_area3_sns_twiiter,
+.main_footer_area3_sns_share {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+/* 개별 스타일 */
+.main_footer_area3_container3 {
+  border-top: 0.0625rem solid #d9d9d9;
+  background-color: #ffffff;
+  padding: 1.875rem 1.5rem;
+  flex-direction: column;
+}
+
+.main_footer_area3_group {
+  justify-content: flex-start;
+}
+
+.main_footer_area3_btn {
+  gap: 1.5rem;
+}
+
+.main_footer_area3_korean_text {
+  font-size: 0.82rem;
+}
+
+.main_footer_area3_ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main_footer_area3_li_email {
+  list-style: none;
+}
+
+.main_footer_area3_li_id {
+  margin-left: 0.55rem;
+  position: relative;
+  float: left;
+}
+
+.main_footer_area3_li_site {
+  margin-left: 1.0625rem;
+  position: relative;
+  padding-left: 1.0625rem;
+  float: left;
+}
+
+.main_footer_area3_linkbox {
+  margin-top: 0.9375rem;
+}
+
+.main_footer_area3_wrap_sns {
+  gap: 1rem;
+  font-size: 0.1rem;
+}
+
+.main_footer_area3_tit {
+  float: left;
+  font-size: 0.6913rem;
+  height: 2.5rem;
+}
+
+.main_footer_area3_sns {
+  margin-left: auto;
+}
+
+.main_footer_area3_sns_li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.main_footer_area3_sns_facebook {
+  background-image: url(../../../public/assets/icon/facebook.svg);
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.main_footer_area3_sns_youtube {
+  background-image: url(../../../public/assets/icon/youtube.svg);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.main_footer_area3_sns_instagram {
+  background-image: url(../../../public/assets/icon/instagram.svg);
+  width: 2.375rem;
+  height: 2.375rem;
+}
+
+.main_footer_area3_sns_kakao {
+  background-image: url(../../../public/assets/icon/kakao.svg);
+  width: 2.2125rem;
+  height: 2.0356rem;
+}
+
+.main_footer_area3_sns_twiiter {
+  background-image: url(../../../public/assets/icon/twitter.svg);
+  width: 1.6875rem;
+  height: 1.7244rem;
+}
+
+.main_footer_area3_sns_share {
+  background-image: url(../../../public/assets/icon/share.svg);
+  width: 2.25rem;
+  height: 2.25rem;
+}

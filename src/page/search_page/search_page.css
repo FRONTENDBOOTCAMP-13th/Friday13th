@@ -1,0 +1,20 @@
+.search_page_main {
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(200px, 1fr);
+}
+
+.search_bar_nav {
+  grid-column: 1/-1;
+}
+
+.search_page_product_section {
+  .search_view_title {
+    margin-left: 0.625rem;
+  }
+
+  .search_product_article_list {
+    grid-column: 2/4;
+  }
+}
