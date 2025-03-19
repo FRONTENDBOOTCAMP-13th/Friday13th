@@ -42,7 +42,6 @@
 @import "./components/mypage/mypage_favorite_products.css";
 @import "./components/mypage/mypage_class_registration.css";
 
-
 /* main footer */
 @import "./components/main_footer/main_footer_area1.css";
 @import "./components/main_footer/main_footer_area2.css";
@@ -57,3 +56,6 @@
 /* main footer */
 @import "./components/main_footer/main_footer_area1.css";
 
+/* frame location */
+@import "./components/frame/frame_location.css";
+@import "./components/frame/frame_shopping_cart.css";
