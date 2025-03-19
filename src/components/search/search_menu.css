@@ -1,0 +1,23 @@
+@import "/src/common/modern-reset.css";
+
+.navbar_menu_container {
+  padding: 1.875rem;
+}
+
+.search_menu_nav {
+  width: 300px;
+}
+.search_view_title {
+  color: #757575;
+}
+
+.search_view_txt {
+  margin-block-start: 1.25rem;
+  .search_view_li {
+    padding: 0.3125rem;
+  }
+  .search_view_a {
+    color: black;
+    font-weight: bold;
+  }
+}

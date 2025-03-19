@@ -1,4 +1,4 @@
-@import '/src/common/login-theme.css';
+@import "/src/common/login-theme.css";
 
 /* 스크린리더 사용자를 위한 클래스 (화면에는 보이지 않지만 스크린 리더 사용자는 접근해서 읽을 수 있음 */
 .sr-only {
@@ -19,6 +19,6 @@
 }
 
 *:focus-visible {
-  box-shadow: 0 0 0 1px var(--green-700);
+  box-shadow: 0 0 0 1px var(--gray-400);
   border-radius: var(--rounded-xs);
 }
