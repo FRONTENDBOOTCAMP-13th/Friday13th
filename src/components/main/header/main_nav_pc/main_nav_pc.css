@@ -1,1 +1,21 @@
 @import "../../../../common/modern-reset.css";
+
+.main_nav_pc_container {
+  .main_nav_pc_wrapper {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 50px;
+
+    gap: 20px;
+    align-items: center;
+  }
+  .main_nav_pc_item {
+    text-wrap: nowrap;
+
+    .main_nav_pc {
+      color: #000000;
+      font-size: 14.625px;
+    }
+  }
+}
