@@ -1,12 +1,15 @@
 @import "/src/common/modern-reset.css";
 
-main {
-  background: #dddddd;
+smartphone_page_main {
+  background: #f7f7f7;
   text-align: center;
 }
 .smartphone_list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
-  justify-content: space-between;
-  align-items: center;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.smartphone_storages {
+  margin-block-start: 0.625rem;
 }

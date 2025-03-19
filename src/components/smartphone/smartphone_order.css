@@ -1,10 +1,11 @@
 .smartphone_order_container {
-  margin-top: 1.875rem;
+  margin-block-start: 1.875rem;
 }
 
 .smartphone_order_nav {
   display: flex;
-  border: 0.125rem solid #dddddd;
+  border-top: 0.125rem solid #dddddd;
+  border-bottom: 0.125rem solid #dddddd;
   background: #fff;
   padding: 1.25rem;
   gap: 1.875rem;

@@ -1,0 +1,22 @@
+.search_page_main {
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 6.875rem);
+}
+
+.search_bar_nav {
+  grid-column: 1/-1;
+}
+
+.search_page_product_section {
+  grid-column: 2/3;
+  display: flex;
+  gap: 0.625rem;
+  flex-flow: column;
+
+  .search_product_article_list {
+    display: flex;
+    gap: 0.625rem;
+  }
+}
