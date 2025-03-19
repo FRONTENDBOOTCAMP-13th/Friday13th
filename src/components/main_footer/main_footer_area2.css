@@ -59,6 +59,9 @@
 /* ai 코드 중복 정리 */
 /* 공통 컨테이너 스타일 */
 .main_footer_area2_container2 {
+  border-top: 0.0625rem solid #d9d9d9;
+  background-color: #ffffff;
+  flex-direction: column;
   padding: 0.9375rem 1.5rem;
   position: relative;
   margin: 0 auto;
