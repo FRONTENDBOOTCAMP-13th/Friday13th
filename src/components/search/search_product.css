@@ -7,7 +7,7 @@
 .search_product_link {
   display: block;
   color: black;
-  width: 15rem;
+  width: 12.5rem;
 }
 
 .search_product {
@@ -21,15 +21,15 @@
 }
 
 .search_product_component {
-  width: 15rem;
+  width: 12.5rem;
   display: flex;
   flex-flow: column nowrap;
   gap: 0.625rem;
 }
 .search_product_box {
   background: #f7f7f7;
-  width: 15rem;
-  height: 15rem;
+  width: 220px;
+  height: 12.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@
   flex-flow: column nowrap;
   gap: 0.3125rem;
   .search_product_name {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: bold;
     display: block;
     white-space: nowrap;
