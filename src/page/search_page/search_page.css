@@ -7,10 +7,18 @@
   grid-template-columns: 25% 75%;
   grid-template-rows: 100px 400px;
 
+
+  .search_search{
+    width: 24px;
+    height: 24px;
+  }
+
+
   .search_search {
     width: 24px;
     height: 24px;
   }
+
 }
 
 .search_bar_nav {
@@ -28,6 +36,12 @@
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     place-items: center;
     gap: 5%;
+
+    }
+  }
+
+
+
   }
 }
 
@@ -35,3 +49,4 @@
   display: flex;
   align-items: center;
 }
+
