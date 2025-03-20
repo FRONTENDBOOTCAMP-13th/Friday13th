@@ -1,4 +1,4 @@
-@import "../../common/modern-reset.css";
+@import "../../../../common/modern-reset.css";
 
 .main_header {
   display: flex;
@@ -27,7 +27,7 @@
     margin-right: 10px;
 
     @media (min-width: 768px) {
-      .main_menu_icon{
+      .main_menu_icon {
         display: none;
       }
       border: 1px solid blue;
