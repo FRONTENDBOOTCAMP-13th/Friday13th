@@ -6,20 +6,20 @@
 
 .frame_empty_cart_maincart {
   position: relative;
-  margin-bottom: 0.875rem;
 }
 
 .frame_empty_cart_blind {
+  margin-top: 2.5rem;
+  margin: 1.25rem;
   padding-bottom: 0.3125rem;
   font-size: 1.25rem;
   color: #000;
   font-weight: bold;
-  border-bottom: 0.125rem solid #191919;
 }
 
 .frame_empty_cart_txt {
+  margin: 0 20px;
   display: block;
-  margin-bottom: 3rem;
   position: relative;
   min-height: 12.5rem;
   text-align: center;
