@@ -22,6 +22,7 @@
     height: 100%;
     border: 10px solid red;
   }
+
   .main_banner_mobile_wrapper {
     border: 6px solid olive;
     flex: 0 0 100%;
