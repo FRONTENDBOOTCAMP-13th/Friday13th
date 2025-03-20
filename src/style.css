@@ -30,7 +30,6 @@
 
 /* mypage */
 @import "./components/mypage/mypage_user_profile.css";
-
 @import "./components/mypage/mypage_smart_estimate.css";
 @import "./components/mypage/mypage_review_write.css";
 @import "./components/mypage/mypage_recent_store.css";
