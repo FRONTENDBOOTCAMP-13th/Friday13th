@@ -2,3 +2,9 @@
   background: #f7f7f7;
   text-align: center;
 }
+
+.kitchen_list {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
