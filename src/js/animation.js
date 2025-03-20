@@ -1,53 +1,50 @@
-// src/main.js 파일에 다음 코드를 추가하세요
+document.addEventListener("DOMContentLoaded", () => {
+  const outer = document.querySelector(".main_banner_mobile");
+  const innerList = document.querySelector(".main_banner_mobile_list");
+  const inners = document.querySelectorAll(".main_banner_mobile_wrapper");
+  const buttonLeft = document.querySelector(".main_banner_mobile_button_left");
+  const buttonRight = document.querySelector(".main_banner_mobile_button_right");
 
-// DOM이 로드된 후 실행
-document.addEventListener('DOMContentLoaded', () => {
-  // 필요한 요소 선택
-  const navWrapper = document.querySelector('.main_navigation_wrapper');
-  const body = document.body;
+  let currentIndex = 0; // 현재 슬라이드 인덱스
+  const totalSlides = inners.length;
+  let interval; // 자동 슬라이드 타이머
 
-  // 메뉴 버튼 생성 및 추가 (HTML에 버튼이 없는 경우)
-  const menuButton = document.createElement('button');
-  menuButton.classList.add('menu-toggle-btn');
-  menuButton.innerHTML = '메뉴';
-  menuButton.style.position = 'fixed';
-  menuButton.style.top = '20px';
-  menuButton.style.right = '20px';
-  menuButton.style.zIndex = '5';
-  menuButton.style.padding = '10px 15px';
-  document.body.appendChild(menuButton);
-
-  // 메뉴 닫기 버튼 생성 및 추가
-  const closeButton = document.createElement('button');
-  closeButton.classList.add('menu-close-btn');
-  closeButton.innerHTML = '닫기';
-  closeButton.style.position = 'absolute';
-  closeButton.style.top = '20px';
-  closeButton.style.right = '20px';
-  document.querySelector('.main_navigation').appendChild(closeButton);
-
-  // 메뉴 열기 기능
-  menuButton.addEventListener('click', () => {
-    navWrapper.classList.add('active');
-    body.style.overflow = 'hidden'; // 스크롤 방지
+  // 모든 슬라이드의 width를 동일하게 설정
+  inners.forEach((slide) => {
+    slide.style.width = `${outer.clientWidth}px`;
   });
 
-  // 메뉴 닫기 기능 - 닫기 버튼 클릭
-  closeButton.addEventListener('click', () => {
-    navWrapper.classList.remove('active');
-    body.style.overflow = ''; // 스크롤 복원
+  // innerList 크기 설정
+  innerList.style.width = `${outer.clientWidth * totalSlides}px`;
+
+  // 슬라이드 이동 함수
+  function moveSlide(index) {
+    currentIndex = index < 0 ? totalSlides - 1 : index % totalSlides;
+    innerList.style.transform = `translateX(-${currentIndex * outer.clientWidth}px)`;
+  }
+
+  // 좌우 버튼 클릭 이벤트
+  buttonLeft.addEventListener("click", () => {
+    moveSlide(currentIndex - 1);
+    resetInterval();
   });
 
-  // 메뉴 외부 클릭 시 닫기
-  navWrapper.addEventListener('click', (e) => {
-    // 클릭한 요소가 navWrapper인 경우에만 닫힘 (내부 요소 클릭은 무시)
-    if (e.target === navWrapper) {
-      navWrapper.classList.remove('active');
-      body.style.overflow = '';
-    }
+  buttonRight.addEventListener("click", () => {
+    moveSlide(currentIndex + 1);
+    resetInterval();
   });
 
-  // 페이지 로드 시 메뉴 초기 상태 설정
-  // 기본적으로 CSS에서 .active 클래스를 제거하기
-  navWrapper.classList.remove('active');
+  // 자동 슬라이드 기능
+  function startAutoSlide() {
+    interval = setInterval(() => {
+      moveSlide(currentIndex + 1);
+    }, 2000);
+  }
+
+  function resetInterval() {
+    clearInterval(interval);
+    startAutoSlide();
+  }
+
+  startAutoSlide(); // 자동 슬라이드 시작
 });

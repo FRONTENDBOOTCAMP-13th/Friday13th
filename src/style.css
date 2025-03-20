@@ -5,6 +5,7 @@
 @import "./components/main/header/main_nav/main_nav.css";
 @import "./components/main/header/main_nav_pc/main_nav_pc.css";
 @import "./components/main/header/main_search_bar/main_search_bar.css";
+@import "./components/main/main_compo/main_banner.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
