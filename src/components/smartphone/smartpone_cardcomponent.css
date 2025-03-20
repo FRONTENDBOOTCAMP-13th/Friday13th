@@ -15,9 +15,9 @@
   background: #fff;
   flex-flow: column nowrap;
   width: 17.5rem;
-  height: 45rem;
+  /* height: 45rem; */
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem 0 0 0;
   margin: 0.8rem;
   border-radius: 1.3125rem;
 

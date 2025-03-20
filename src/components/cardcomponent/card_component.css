@@ -1,8 +1,6 @@
-@import "/src/components/smartphone/smartphone_button.css";
-@import "/src/components/smartphone/smartphone_select_color.css";
-@import "/src/components/smartphone/smartphone_text.css";
 @import "../../common/modern-reset.css";
 
+/* 보기 편하게 넣은겁니다. */
 .components-container {
   display: flex;
   justify-content: center;
@@ -10,18 +8,24 @@
   background: #dddddd;
 }
 
-.card_component {
+/* 컴포넌트 전체 */
+.card_component_section {
   display: flex;
   background: #fff;
   flex-flow: column nowrap;
   width: 17.5rem;
-  height: 45rem;
+  height: auto;
   align-items: center;
-  padding: 1rem 0;
+  padding-block-start: 1rem;
   margin: 0.8rem;
   border-radius: 1.3125rem;
 
   .storage_label {
     width: 4.6875rem;
   }
+}
+
+/* 카드 컴포넌트 버튼 묶음  */
+.card_component_button_area {
+  height: 9.375rem;
 }
