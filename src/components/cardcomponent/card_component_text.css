@@ -1,5 +1,6 @@
 @import "../../common/modern-reset.css";
 
+/* 카드 컴포넌트 텍스트 묶음  */
 .products_article {
   padding: 1.875rem;
   display: flex;
@@ -8,6 +9,7 @@
   gap: 0.3125rem 0;
 }
 
+/* 카드 컴포넌트 텍스트 플래그 */
 .products_card_flag {
   font-size: 0.6875rem;
   color: #2189ff;
@@ -18,6 +20,7 @@
   }
 }
 
+/* 제품 명 */
 .products_name {
   height: 2.5rem;
   font-size: 0.9144rem;
@@ -26,27 +29,32 @@
   text-decoration: none;
 }
 
+/* 제품 코드 */
 .products_code {
   font-size: 0.6875rem;
   font-weight: bold;
   color: #707070;
 }
 
+/* 쿠폰 적용 예상가 */
 .products_coupon {
   font-size: 0.75rem;
   color: #707070;
 }
 
+/* 제품 가격 */
 .products_price {
   font-size: 1rem;
   font-weight: bold;
 }
 
+/* 적립 예정 포인트 텍스트 */
 .products_expect {
   font-size: 0.6875rem;
   color: #707070;
 }
 
+/* 적립 포인트 */
 .products_point {
   font-size: 0.6875rem;
   color: #2189ff;
@@ -66,10 +74,12 @@
   }
 }
 
+/* 비교하기 */
 .products_link_compare {
   font-size: 0.8125rem;
 }
 
+/* 별점 */
 .products_star {
   font-size: 0.8125rem;
 }
