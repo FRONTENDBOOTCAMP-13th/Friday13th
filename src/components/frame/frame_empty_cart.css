@@ -1,0 +1,61 @@
+@import "../../common/modern-reset.css";
+
+.frame_empty_cart_area {
+  padding: 0;
+}
+
+.frame_empty_cart_maincart {
+  position: relative;
+  margin-bottom: 0.875rem;
+}
+
+.frame_empty_cart_blind {
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 0.125rem solid #191919;
+}
+
+.frame_empty_cart_txt {
+  display: block;
+  margin-bottom: 3rem;
+  position: relative;
+  min-height: 12.5rem;
+  text-align: center;
+  background: #f7f7f7;
+  border-top: 0.125rem solid #191919;
+}
+
+.frame_empty_cart_txt_leftbox {
+  width: max-content;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: middle;
+  transform: translate(-50%, -50%);
+}
+
+.frame_empty_cart_txt_leftbox_img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.frame_empty_cart_textbox {
+  padding-left: 1rem;
+}
+
+.frame_empty_cart_text {
+  position: initial;
+  transform: initial;
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: -0.0187rem;
+  font-weight: bold;
+}
