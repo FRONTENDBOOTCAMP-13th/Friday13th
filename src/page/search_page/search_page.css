@@ -1,11 +1,16 @@
 @import "../../common/modern-reset.css";
 
 .search_page_main {
-  min-width: 758px;
+  min-width: 100vw;
   padding: 3.125rem;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 100px 400px;
+
+  .search_search {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .search_bar_nav {
@@ -19,9 +24,14 @@
 
   .search_product_article_list {
     display: grid;
-    min-width: 480px;
+    min-width: 50vw;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     place-items: center;
-    gap: 10px;
+    gap: 5%;
   }
+}
+
+.search_bar_nav_area {
+  display: flex;
+  align-items: center;
 }

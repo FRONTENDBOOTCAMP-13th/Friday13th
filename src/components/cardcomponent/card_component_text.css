@@ -1,0 +1,75 @@
+@import "../../common/modern-reset.css";
+
+.products_article {
+  padding: 1.875rem;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  gap: 0.3125rem 0;
+}
+
+.products_card_flag {
+  font-size: 0.6875rem;
+  color: #2189ff;
+  font-weight: bold;
+
+  &::after {
+    content: "| New 갤럭시 AI 구독클럽";
+  }
+}
+
+.products_name {
+  height: 2.5rem;
+  font-size: 0.9144rem;
+  color: #212425;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.products_code {
+  font-size: 0.6875rem;
+  font-weight: bold;
+  color: #707070;
+}
+
+.products_coupon {
+  font-size: 0.75rem;
+  color: #707070;
+}
+
+.products_price {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.products_expect {
+  font-size: 0.6875rem;
+  color: #707070;
+}
+
+.products_point {
+  font-size: 0.6875rem;
+  color: #2189ff;
+  margin-inline-start: 1.875rem;
+}
+
+.products_compare {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-start: 1.25rem;
+
+  .products_compare_area,
+  .products_star_area {
+    display: flex;
+  }
+}
+
+.products_link_compare {
+  font-size: 0.8125rem;
+}
+
+.products_star {
+  font-size: 0.8125rem;
+}

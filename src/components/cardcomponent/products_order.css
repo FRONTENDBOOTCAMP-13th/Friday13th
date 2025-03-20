@@ -1,0 +1,24 @@
+@import "../../common/modern-reset.css";
+
+.products_order_container {
+  margin-block-start: 1.875rem;
+}
+
+.products_order_nav {
+  display: flex;
+  border-top: 0.125rem solid #dddddd;
+  border-bottom: 0.125rem solid #dddddd;
+  background: #fff;
+  padding: 1.25rem;
+  gap: 1.875rem;
+}
+
+.products_detail_search {
+  display: flex;
+  font-weight: bold;
+}
+
+.products_value {
+  color: #2189ff;
+  font-weight: bold;
+}
