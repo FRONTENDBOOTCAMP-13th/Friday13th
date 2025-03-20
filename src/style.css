@@ -62,6 +62,13 @@
 @import "./components/frame/frame_location.css";
 @import "./components/frame/frame_shopping_cart.css";
 
+@import "./components/frame/frame_empty_cart.css";
+@import "./components/frame/frame_recommend.css";
+@import "./components/frame/frame_button.css";
+@import "./components/frame/frame_cart_foot.css";
+@import "./components/frame/frame_payment.css";
+
+
 /* tv */
 @import "./components/tv/tv_card_component.css";
 @import "./page/tv_page/tv_page.css";
@@ -73,3 +80,4 @@
 @import "./components/cardcomponent/card_component_text.css";
 @import "./components/cardcomponent/products_nav.css";
 @import "./components/cardcomponent/products_order.css";
+
