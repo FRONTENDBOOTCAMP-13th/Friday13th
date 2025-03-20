@@ -1,0 +1,24 @@
+.tv_page_main {
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.tv_svg {
+  display: flex;
+  padding: 0.625rem;
+  gap: 0.625rem;
+}
+
+.tv_list {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.smartphone_storages {
+  margin-block-start: 0.625rem;
+}
+
+.card_component_button_area {
+  height: 150px;
+}

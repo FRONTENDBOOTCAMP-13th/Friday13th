@@ -61,3 +61,15 @@
 /* frame location */
 @import "./components/frame/frame_location.css";
 @import "./components/frame/frame_shopping_cart.css";
+
+/* tv */
+@import "./components/tv/tv_card_component.css";
+@import "./page/tv_page/tv_page.css";
+
+/* card_component */
+
+@import "./components/cardcomponent/card_component_button.css";
+@import "./components/cardcomponent/card_component.css";
+@import "./components/cardcomponent/card_component_text.css";
+@import "./components/cardcomponent/products_nav.css";
+@import "./components/cardcomponent/products_order.css";
