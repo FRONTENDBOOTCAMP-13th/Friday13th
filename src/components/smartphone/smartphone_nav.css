@@ -1,3 +1,5 @@
+@import "../../common/modern-reset.css";
+
 .smartphone_nav_container {
   padding: 0.9375rem;
 }

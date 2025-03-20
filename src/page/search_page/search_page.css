@@ -1,12 +1,28 @@
+@import "../../common/modern-reset.css";
+
 .search_page_main {
+  min-width: 100vw;
   padding: 3.125rem;
   display: grid;
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(200px, 1fr);
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100px 400px;
+
+
+  .search_search{
+    width: 24px;
+    height: 24px;
+  }
+
+
+  .search_search {
+    width: 24px;
+    height: 24px;
+  }
+
 }
 
 .search_bar_nav {
-  grid-column: 1/-1;
+  grid-column: 1/3;
 }
 
 .search_page_product_section {
@@ -15,6 +31,22 @@
   }
 
   .search_product_article_list {
-    grid-column: 2/4;
+    display: grid;
+    min-width: 50vw;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    place-items: center;
+    gap: 5%;
+
+    }
+  }
+
+
+
   }
 }
+
+.search_bar_nav_area {
+  display: flex;
+  align-items: center;
+}
+

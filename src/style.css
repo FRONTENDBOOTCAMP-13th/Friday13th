@@ -5,6 +5,7 @@
 @import "./components/main/header/main_nav/main_nav.css";
 @import "./components/main/header/main_nav_pc/main_nav_pc.css";
 @import "./components/main/header/main_search_bar/main_search_bar.css";
+@import "./components/main/main_compo/main_banner.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
@@ -60,8 +61,23 @@
 /* frame location */
 @import "./components/frame/frame_location.css";
 @import "./components/frame/frame_shopping_cart.css";
+
 @import "./components/frame/frame_empty_cart.css";
 @import "./components/frame/frame_recommend.css";
 @import "./components/frame/frame_button.css";
 @import "./components/frame/frame_cart_foot.css";
 @import "./components/frame/frame_payment.css";
+
+
+/* tv */
+@import "./components/tv/tv_card_component.css";
+@import "./page/tv_page/tv_page.css";
+
+/* card_component */
+
+@import "./components/cardcomponent/card_component_button.css";
+@import "./components/cardcomponent/card_component.css";
+@import "./components/cardcomponent/card_component_text.css";
+@import "./components/cardcomponent/products_nav.css";
+@import "./components/cardcomponent/products_order.css";
+

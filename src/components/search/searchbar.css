@@ -1,5 +1,5 @@
-@import "/src/common/modern-reset.css";
-@import "/src/common/a11y.css";
+@import "../../common/modern-reset.css";
+@import "../../../src/common/a11y.css";
 
 .search_bar_container {
   padding: 30px;

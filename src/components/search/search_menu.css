@@ -1,4 +1,4 @@
-@import "/src/common/modern-reset.css";
+@import "../../common/modern-reset.css";
 
 .navbar_menu_container {
   padding: 1.875rem;
