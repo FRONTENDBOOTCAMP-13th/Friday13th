@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내 페이지</title>
+    <style>
+      /* 공통 스타일 */
+      body {
+        font-family: 'SamsungOneKorean', Dotum, 돋움, sans-serif;
+        margin: 0;
+        background-color: #f7f7f7;
+      }
+
+      /* 유저 프로필 */
+      .mypage_profile_card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center; /* 가운데 정렬 */
+        width: 80%; /* 가로 크기 늘림 */
+        max-width: 800px; /* 최대 너비 조정 */
+        padding: 14px 16px;
+        border: 1px solid #2189ff;
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+        margin: 20px auto; /* 중앙 정렬을 위해 auto 사용 */
+      }
+
+      .mypage_profile_image img {
+        width: 61px;
+        height: 61px;
+        border-radius: 50%;
+        background-color: #f7f7f7;
+      }
+
+      .mypage_profile_info {
+        margin-left: 16px;
+        flex: 1;
+      }
+
+      .mypage_profile_name_line {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+
+      .mypage_name {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .mypage_profile_text.with-line {
+        font-size: 14px;
+        color: #000;
+        margin: 0 0 12px 0;
+        padding-bottom: 12px;
+        border-bottom: 1px dashed #d5d5d5;
+      }
+
+      .mypage_profile_subtext {
+        font-size: 14px;
+        color: #000;
+        margin: 12px 0;
+      }
+
+      .mypage_profile_subtext .mypage_no_click {
+        color: #2189ff;
+        cursor: default;
+        text-decoration: none;
+      }
+
+      .mypage_input_link {
+        display: inline-block;
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+      }
+
+      /* 최근주문, 배송중, 배송완료 묶기 */
+      .mypage_order_status {
+        display: flex;
+        width: 30%; /* 유저 프로필의 절반 크기 */
+        margin: 20px auto;
+        padding: 10px;
+        background-color: #ffffff;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+        justify-content: space-between;
+        cursor: pointer;
+      }
+
+      .mypage_status_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        background-color: #ffffff;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .mypage_card_icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 8px;
+      }
+
+      .mypage_card_title {
+        font-size: 14px;
+        color: #000;
+        text-align: center;
+        margin: 0;
+      }
+
+      .mypage_card_title .mypage_count_number {
+        color: #2189ff;
+        font-weight: 600;
+        margin-left: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 유저 프로필 -->
+    <div class="mypage_profile_card">
+      <a href="#" class="mypage_profile_image">
+        <img src="/public/assets/icon/icon_profile.png" alt="프로필 이미지" />
+      </a>
+      <div class="mypage_profile_info">
+        <div class="mypage_profile_name_line">
+          <p class="mypage_name">남주성 님</p>
+        </div>
+        <p class="mypage_profile_text with-line">
+          고객님은 삼성전자 멤버십 온라인 서비스를 이용하시려면 부가 정보 확인이
+          필요합니다.
+        </p>
+        <p class="mypage_profile_subtext">
+          추가 정보를 입력하여
+          <span class="mypage_no_click">삼성전자 멤버십</span>을 활성화하시고
+          포인트 적립 및 사용, 이벤트 참여 등
+          <span class="mypage_no_click">다양한 혜택</span>을 즐겨 보세요.
+        </p>
+        <a href="#" class="mypage_input_link">입력하러 가기 &gt;</a>
+      </div>
+    </div>
+
+    <!-- 최근주문, 배송중, 배송완료 묶은 카드 -->
+    <div class="mypage_order_status">
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-order.png"
+          alt="최근 주문 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          최근 주문 <span class="mypage_count_number">0</span>
+        </p>
+      </div>
+
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-delivery2.png"
+          alt="배송중 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          배송중 <span class="mypage_count_number">0</span>
+        </p>
+      </div>
+
+      <div class="mypage_status_card">
+        <img
+          src="/public/assets/icon/ico-mmi-delivered.png"
+          alt="배송완료 아이콘"
+          class="mypage_card_icon" />
+        <p class="mypage_card_title">
+          배송완료 <span class="mypage_count_number">0</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

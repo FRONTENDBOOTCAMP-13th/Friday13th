@@ -1,51 +1,65 @@
+/* mypage_order_status.css */
+body {
+  font-family: "SamsungOneKorean", Dotum, 돋움, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
 .mypage_order_status {
   display: flex;
-  gap: 0.625rem;
-  padding: 0.9375rem;
-  background-color: #fff;
-  border-radius: 1rem;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
-  align-items: center;
+  width: 641.99px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  padding: 20px 0;
+}
+
+.mypage_order_dotted_line {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  right: 80px;
+  height: 1px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #d5d5d5,
+    #d5d5d5 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  z-index: 0;
 }
 
 .mypage_status_card {
-  width: 9.375rem;
-  height: 9.375rem;
-  background-color: #fff;
-  border-radius: 1rem;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .mypage_card_icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mypage_card_icon img {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
 }
 
 .mypage_card_title {
-  font-family: "Pretendard Variable", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
   margin: 0;
 }
 
-.mypage_card_title .count_number {
-  color: #007bff;
-  font-weight: bold;
-}
-
-.dot_separator {
-  font-size: 1rem;
-  color: #333;
-  margin: 0 0.625rem;
+.mypage_card_title .mypage_count_number {
+  color: #2189ff;
+  font-weight: 600;
+  margin-left: 2px;
 }

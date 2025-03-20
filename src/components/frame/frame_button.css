@@ -1,0 +1,37 @@
+@import "../../common/modern-reset.css";
+
+.frame_button_cart_btn_box {
+  display: block;
+  padding: 2.25rem 0 3.75rem;
+  text-align: center;
+}
+
+.frame_button_type1,
+.frame_button_type2 {
+  min-width: 6rem;
+  height: 2.5rem;
+  line-height: 2.375rem;
+  font-size: 0.875rem;
+  border-radius: 1.25rem;
+  display: inline-block;
+  margin: 0 0.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 0.0625rem solid;
+  overflow: hidden;
+}
+
+.frame_button_type1 {
+  color: #212425;
+  background: #fff;
+  border-color: #212425;
+}
+
+.frame_button_type2 {
+  color: #fff;
+  background: #212425;
+  border-color: #202425;
+}
