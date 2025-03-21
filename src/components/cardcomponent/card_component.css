@@ -29,3 +29,16 @@
 .card_component_button_area {
   height: 9.375rem;
 }
+.pc_button_list {
+  display: flex;
+  margin-block-start: 0.625rem;
+  flex-flow: column;
+  gap: 0.625rem;
+}
+
+.pc_screen {
+  width: 6.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
