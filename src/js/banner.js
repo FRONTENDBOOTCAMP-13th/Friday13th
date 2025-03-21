@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function setupAutoSlide() {
     const autoSlideInterval = setInterval(() => {
       moveBanner(currentIndex + 1);
-    }, 3000); // 3초마다 슬라이드
+    }, 5000); // 5초마다 슬라이드
 
     // 사용자 상호작용 시 자동 슬라이드 일시 중지
     const container = document.querySelector('.main_banner_mobile_container');
@@ -89,9 +89,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // 선택적: 마우스나 터치가 떠나면 자동 슬라이드 다시 시작
-    // container.addEventListener('mouseleave', () => {
-    //   setupAutoSlide();
-    // });
+    container.addEventListener('mouseleave', () => {
+      setupAutoSlide();
+    });
   }
 
   // 드래그 이벤트 처리 (데스크톱 지원)
