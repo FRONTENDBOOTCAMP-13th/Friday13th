@@ -73,8 +73,10 @@
 @import "./components/tv/tv_card_component.css";
 @import "./page/tv_page/tv_page.css";
 
-/* refrigerator */
+/* kitchen */
 @import "./page/kitchen_page/kitchen_page.css";
+
+@import "./page/living_page/living_page.css";
 
 /* card_component */
 
