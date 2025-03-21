@@ -85,3 +85,7 @@
 @import "./components/cardcomponent/card_component_text.css";
 @import "./components/cardcomponent/products_nav.css";
 @import "./components/cardcomponent/products_order.css";
+
+/*pc_page  */
+
+@import "./page/pc_page/pc_page.css";

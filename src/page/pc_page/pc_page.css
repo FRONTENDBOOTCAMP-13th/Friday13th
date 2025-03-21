@@ -1,0 +1,15 @@
+.pc_page_main {
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.pc_list {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.pc_svg {
+  display: flex;
+  gap: 5px;
+}

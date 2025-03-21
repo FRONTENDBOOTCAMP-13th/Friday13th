@@ -14,15 +14,11 @@
   font-size: 0.6875rem;
   color: #2189ff;
   font-weight: bold;
-
-  &::after {
-    content: "| New 갤럭시 AI 구독클럽";
-  }
 }
 
 /* 제품 명 */
 .products_name {
-  height: 2.5rem;
+  height: 3.75rem;
   font-size: 0.9144rem;
   color: #212425;
   font-weight: bold;
