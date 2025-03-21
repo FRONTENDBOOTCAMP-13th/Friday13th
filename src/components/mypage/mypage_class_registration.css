@@ -1,3 +1,4 @@
+@import "../../common/modern-reset.css";
 /* mypage_class_registration.css */
 .mypage_class_request {
   display: flex;
@@ -8,6 +9,7 @@
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 .mypage_request_center {
@@ -37,4 +39,18 @@
   text-decoration: underline;
   margin: 3px 0 0 0;
   cursor: pointer;
+}
+.mypage_class_request::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #d5d5d5,
+    #d5d5d5 2px,
+    transparent 2px,
+    transparent 4px
+  );
 }
