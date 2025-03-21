@@ -1,9 +1,5 @@
 /* mypage_class_registration.css */
-body {
-  font-family: "SamsungOneKorean", Dotum, 돋움, sans-serif;
-  margin: 0;
-  background-color: #f7f7f7;
-}
+
 
 .mypage_class_request {
   display: flex;
