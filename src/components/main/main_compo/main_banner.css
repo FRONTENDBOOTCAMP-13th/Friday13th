@@ -2,15 +2,14 @@
 @import "../../../common/main-theme.css";
 
 .main_banner_mobile_container {
-  display: flex;
-  flex: row nowrap;
   position: relative;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 
   .main_banner_mobile {
     border: 6px solid royalblue;
     width: 100%;
-    height: 100%;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -18,30 +17,77 @@
   .main_banner_mobile_list {
     display: flex;
     transition: transform 0.5s ease-out;
-    width: 100%;
-    height: 100%;
-    border: 10px solid red;
   }
 
   .main_banner_mobile_wrapper {
+    position: relative;
     border: 6px solid olive;
     flex: 0 0 100%;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
+    .main_banner_mobile_item {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .main_banner_element {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    border: 1px solid red;
+
+    @media (min-width: 768px) {
+      /* margin-left: 90px; */
+    }
+
+    .main_banner_textcontainer_m {
+      color: var(--black);
+
+      .main_banner_start_text {
+        font-size: 12px;
+        padding-bottom: 10px;
+        line-height: 18px;
+        font-weight: 700;
+      }
+      .main_banner_prime_text {
+        font-size: 26px;
+        line-height: 34px;
+      }
+      .main_banner_sub_text {
+        margin-top: 12px;
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    .main_banner_box_btn {
+      padding: 40px 0 0;
+      border: 1px solid blue;
+
+      .banner_box_btn1 {
+        width: 91px;
+        height: 29px;
+        border-radius: 20px;
+        background: var(--black);
+        color: var(--white);
+        font-size: 10px;
+        align-self: center;
+      }
+    }
+  }
   .main_banner_mobile_button {
     position: absolute;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-
     border: none;
     padding: 10px;
     cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
 
     .main_banner_button {
       width: 40px;
