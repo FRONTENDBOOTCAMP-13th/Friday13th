@@ -1,10 +1,4 @@
 /* mypage_qr_scanned_products.css */
-body {
-  font-family: "SamsungOneKorean", Dotum, 돋움, sans-serif;
-  margin: 0;
-  background-color: #f7f7f7;
-}
-
 .mypage_qr_scanned_products {
   display: block;
   width: 209.67px;
