@@ -1,113 +1,54 @@
 @import "../../common/modern-reset.css";
 
-/* .main_footer_area_container1 {
-  background: #ffffff;
-  border-top: 0.0625rem solid #d9d9d9;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 2.25rem 1.5rem;
-  line-height: 1rem;
-  width: 100%;
-  font-size: 0.68rem;
-  color: #707070;
-  gap: 0.625rem;
-}
-
-.main_footer_section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.75rem;
-  width: 100%;
-  text-align: left;
-  margin-bottom: 0.5rem;
-}
-.main_footer_section1,
-.main_footer_section2 {
-  font-weight: bold;
-}
-
-.main_footer_section.merge {
-  flex-wrap: nowrap;
-  gap: 0.75rem;
-}
-
-.main_footer_section {
-  white-space: nowrap;
-}
-
-.main_footer_area_vertical {
-  width: 0.0625rem;
-  height: 0.75rem;
-  background-color: #d9d9d9;
-  display: inline-block;
-}
-
-.main_footer_area1_12_text,
-.main_footer_area1_3_text {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.3125rem 0.75rem;
-  font-size: 0.75rem;
-  color: #ffffff;
-  background: #777777;
-  border-radius: 0.625rem;
-  border: 0.0625rem solid #777777;
-  white-space: nowrap;
-  line-height: 1.25rem;
-  height: 1.25rem;
-}
-
-.main_footer_area1_12_text:hover {
-  background: #505050;
-} */
-
-/* ai가 중복 코드 정리 */
-/* 공통 컨테이너 스타일 */
-.main_footer_area_container1,
-.main_footer_section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-/* 개별 컨테이너 스타일 */
 .main_footer_area_container1 {
   background: #ffffff;
   border-top: 0.0625rem solid #d9d9d9;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 2.25rem 1.5rem;
   line-height: 1rem;
+  width: 100%;
   font-size: 0.68rem;
   color: #707070;
   gap: 0.625rem;
 }
 
-.main_footer_section {
+.main_footer_section,
+.main_footer_section1,
+.main_footer_section2 {
+  display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: flex-start;
   gap: 0.75rem;
+  width: 100%;
   text-align: left;
   margin-bottom: 0.5rem;
-  white-space: nowrap;
 }
 
-/* 섹션 변형 스타일 */
-.main_footer_section.merge {
-  flex-wrap: nowrap;
-}
-
-/* 섹션 내 강조 스타일 */
 .main_footer_section1,
 .main_footer_section2 {
   font-weight: bold;
 }
 
-/* 세로 구분선 스타일 */
+/* main_footer_area1_2와 main_footer_area1_3_text를 한 줄에 배치 */
+.main_footer_section1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+
+/* 사업자등록번호 + 버튼을 감싸는 컨테이너 추가 */
+.main_footer_area1_2_container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+/* 세로 구분선 */
 .main_footer_area_vertical {
   width: 0.0625rem;
   height: 0.75rem;
@@ -115,7 +56,7 @@
   display: inline-block;
 }
 
-/* 텍스트 박스 공통 스타일 */
+/* 버튼 스타일 */
 .main_footer_area1_12_text,
 .main_footer_area1_3_text {
   display: inline-flex;
@@ -132,7 +73,42 @@
   height: 1.25rem;
 }
 
-/* 텍스트 박스 호버 스타일 */
 .main_footer_area1_12_text:hover {
   background: #505050;
+}
+
+/* main_footer_area1_11이 작은 화면에서 줄바꿈되도록 수정 */
+.main_footer_area1_11 {
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+
+/* 반응형 (최대 너비 800px) */
+@media screen and (max-width: 800px) {
+  .main_footer_section,
+  .main_footer_section1,
+  .main_footer_section2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .main_footer_area_vertical {
+    display: none;
+  }
+
+  /* 작은 화면에서도 사업자등록번호와 버튼이 한 줄에 유지되도록 */
+  .main_footer_area1_2_container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  /* 개별 판매자 관련 텍스트가 잘리지 않고 줄바꿈되도록 */
+  .main_footer_area1_11 {
+    word-break: break-word;
+    white-space: normal;
+    max-width: 100%;
+  }
 }
