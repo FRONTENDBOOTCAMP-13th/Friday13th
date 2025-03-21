@@ -6,14 +6,16 @@ export default defineConfig({
       input: {
         // page
         index: 'index.html',
-        main_page:'src/page/main_page/main_page.html',
+        main_page: 'src/page/main_page/main_page.html',
         //components
         //main
         header: 'src/components/main/header/main_header/header.html',
         nav: 'src/components/main/header/main_nav/main_nav.html',
         nav_pc: 'src/components/main/header/main_nav_pc/main_nav_pc.html',
-        search_bar: 'src/components/main/header/main_search_bar/main_search_bar.html',
-        banner:'./src/components/main/main_compo/main_banner.html',
+        search_bar:
+          'src/components/main/header/main_search_bar/main_search_bar.html',
+        banner: './src/components/main/main_compo/main_banner.html',
+        cardimg: './src/components/main/main_compo/main_cardimg.html',
         //mypage
         mypage: 'src/components/mypage/mypage_user_profile.html',
         //login
