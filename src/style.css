@@ -1,6 +1,8 @@
 /* CSS 스타일을 작성해 주세요. */
-/* components */
-/* main */
+@import "./common/modern-reset.css";
+@import "./common/font.css";
+
+/* components */ /* main */
 @import "./components/main/header/main_header/main_header.css";
 @import "./components/main/header/main_nav/main_nav.css";
 @import "./components/main/header/main_nav_pc/main_nav_pc.css";
@@ -67,7 +69,6 @@
 @import "./components/frame/frame_cart_foot.css";
 @import "./components/frame/frame_payment.css";
 
-
 /* tv */
 @import "./components/tv/tv_card_component.css";
 @import "./page/tv_page/tv_page.css";
@@ -82,4 +83,3 @@
 @import "./components/cardcomponent/card_component_text.css";
 @import "./components/cardcomponent/products_nav.css";
 @import "./components/cardcomponent/products_order.css";
-
