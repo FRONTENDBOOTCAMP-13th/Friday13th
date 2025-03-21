@@ -8,3 +8,8 @@
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+.smart_shopping {
+  height: 720px;
+  border-radius: 20px;
+}
