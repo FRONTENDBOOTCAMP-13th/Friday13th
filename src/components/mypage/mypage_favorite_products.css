@@ -1,9 +1,5 @@
 /* mypage_favorite_products.css */
-body {
-  font-family: "SamsungOneKorean", Dotum, 돋움, sans-serif;
-  margin: 0;
-  background-color: #f7f7f7;
-}
+
 .mypage_favorite_products {
   display: block;
   width: 209.67px;
