@@ -76,3 +76,16 @@
     margin-inline-start: 0.625rem;
   }
 }
+
+.pc_button_component {
+  display: flex;
+  gap: 35px;
+}
+
+.pc_screen {
+  display: flex;
+  border: 0;
+  background: #fff;
+  gap: 15px;
+  font-size: 12px;
+}

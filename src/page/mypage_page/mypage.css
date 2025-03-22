@@ -1,44 +1,69 @@
 @import "../../common/modern-reset.css";
 
-/* 유저 프로필 */
+/* === 기본 카드 아이콘/타이틀/카운트 === */
+.mypage_card_icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+.mypage_card_title {
+  font-size: 14px;
+  margin: 0 0 4px 0;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+}
+.mypage_card_count {
+  font-size: 14px;
+  text-align: center;
+}
+.mypage_count_number {
+  color: #2189ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.mypage_count_unit {
+  color: #000000;
+  font-size: 14px;
+}
+
+/* === 유저 프로필 === */
+.profile-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
 .mypage_profile_card {
   display: flex;
   align-items: flex-start;
-  justify-content: center; /* 가운데 정렬 */
-  width: 80%; /* 가로 크기 늘림 */
-  max-width: 800px; /* 최대 너비 조정 */
+  width: 100%;
   padding: 14px 16px;
   border: 1px solid #2189ff;
   border-radius: 12px;
   background-color: #ffffff;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
-  margin: 20px auto; /* 중앙 정렬을 위해 auto 사용 */
 }
-
 .mypage_profile_image img {
   width: 61px;
   height: 61px;
   border-radius: 50%;
   background-color: #f7f7f7;
 }
-
 .mypage_profile_info {
   margin-left: 16px;
   flex: 1;
 }
-
 .mypage_profile_name_line {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
 }
-
 .mypage_name {
   font-size: 16px;
   font-weight: 700;
   margin: 0;
 }
-
 .mypage_profile_text.with-line {
   font-size: 14px;
   color: #000;
@@ -46,19 +71,16 @@
   padding-bottom: 12px;
   border-bottom: 1px dashed #d5d5d5;
 }
-
 .mypage_profile_subtext {
   font-size: 14px;
   color: #000;
   margin: 12px 0;
 }
-
 .mypage_profile_subtext .mypage_no_click {
   color: #2189ff;
   cursor: default;
   text-decoration: none;
 }
-
 .mypage_input_link {
   display: inline-block;
   font-size: 14px;
@@ -68,47 +90,152 @@
   margin-top: 8px;
 }
 
-/* 최근주문, 배송중, 배송완료 묶기 */
-.mypage_order_status {
+/* === 행 레이아웃(2줄) === */
+.mypage-row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 40px;
   display: flex;
-  width: 30%; /* 유저 프로필의 절반 크기 */
-  margin: 20px auto;
-  padding: 10px;
-  background-color: #ffffff;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
-  justify-content: space-between;
-  cursor: pointer;
+  gap: 20px;
+  padding: 0 20px;
+  align-items: stretch; /* 높이 동일 */
 }
 
+/* 왼쪽 큰 카드, 오른쪽 3개 카드 */
+.left-big {
+  width: 50%;
+  display: flex; /* 높이 늘리기 */
+}
+.right-3cards {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* 주문/배송 (큰 카드) */
+.mypage_order_status {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1; /* 높이 늘림 */
+}
+.mypage_order_dotted_line {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  right: 80px;
+  height: 1px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #d5d5d5,
+    #d5d5d5 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  z-index: 0;
+}
 .mypage_status_card {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+/* 공통 작은 카드 */
+.mypage_product_review,
+.mypage_product_management,
+.mypage_favorite_products,
+.mypage_recent_store,
+.mypage_qr_scanned_products,
+.mypage_smart_estimate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 32%;
+  min-width: 160px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* 클래스 신청 (큰 카드) */
+.mypage_class_request {
+  display: flex;
+  width: 100%;
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
-  border-radius: 8px;
+  border-radius: 16px;
+  overflow: hidden;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  flex: 1; /* 높이 늘림 */
+  align-items: center;
+  padding: 60px 0;
 }
-
-.mypage_card_icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 8px;
-}
-
-.mypage_card_title {
-  font-size: 14px;
+.mypage_request_center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
   color: #000;
   text-align: center;
-  margin: 0;
+}
+.mypage_separator {
+  width: 1px;
+  background-color: #e5e5e5;
+}
+.mypage_request_link {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.mypage_card_title .mypage_count_number {
-  color: #2189ff;
-  font-weight: 600;
-  margin-left: 2px;
+@media (max-width: 1024px) {
+  .mypage-row {
+    flex-direction: column;
+  }
+  .left-big,
+  .right-3cards {
+    width: 100% !important;
+  }
+  .left-big > .mypage_order_status,
+  .left-big > .mypage_class_request {
+    margin-bottom: 20px; /* 한 줄로 분리 */
+  }
+  /* 3개 카드 한 줄에 표시 -> 강제로 너비 축소 */
+  .right-3cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-3cards > div {
+    width: calc((100% - 2 * 20px) / 3);
+    min-width: 100px;
+    margin-bottom: 0;
+  }
 }

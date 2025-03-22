@@ -8,6 +8,7 @@
 @import "./components/main/header/main_nav_pc/main_nav_pc.css";
 @import "./components/main/header/main_search_bar/main_search_bar.css";
 @import "./components/main/main_compo/main_banner.css";
+@import "./components/main/main_compo/main_cardimg.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
@@ -66,8 +67,10 @@
 @import "./components/tv/tv_card_component.css";
 @import "./page/tv_page/tv_page.css";
 
-/* refrigerator */
+/* kitchen */
 @import "./page/kitchen_page/kitchen_page.css";
+
+@import "./page/living_page/living_page.css";
 
 /* card_component */
 
@@ -76,3 +79,7 @@
 @import "./components/cardcomponent/card_component_text.css";
 @import "./components/cardcomponent/products_nav.css";
 @import "./components/cardcomponent/products_order.css";
+
+/*pc_page  */
+
+@import "./page/pc_page/pc_page.css";
