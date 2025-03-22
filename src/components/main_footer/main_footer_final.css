@@ -73,7 +73,11 @@
 }
 
 .main_footer_sns_kr {
-  position: relative;
+  display: none;
+  @media (min-width: 800px) {
+    display: block;
+    position: relative;
+  }
 }
 
 .main_footer_sns_text {
