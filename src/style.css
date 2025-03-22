@@ -30,6 +30,7 @@
 @import "./components/login/login_account.css";
 @import "./components/login/login_google.css";
 @import "./components/login/login_qr.css";
+@import "./components/login/loginpage.css";
 
 /* mypage */
 @import "./components/mypage/mypage_user_profile.css";

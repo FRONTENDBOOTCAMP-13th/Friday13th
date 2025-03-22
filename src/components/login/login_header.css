@@ -1,7 +1,7 @@
 @import "../../common/modern-reset.css";
 
 .login_header_logo {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
@@ -13,9 +13,13 @@
   background-color: #fcfcfc;
   padding: 1.2813rem 1.5rem;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5rem; */
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background: #fff;
 }
+
 .login_header_logo_img {
-  min-width: 5.5rem;
-  height: 0.875rem;
+  margin-left: 128px;
 }

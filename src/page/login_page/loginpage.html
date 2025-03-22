@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body class="login_body">
+    <header class="login_header">
+      <div class="login_header_logo">
+        <img
+          width="205px"
+          height="24px"
+          class="login_header_logo_img"
+          src="../../../public/assets/img/login/samsungAccount.svg"
+          alt="삼성 로고" />
+      </div>
+    </header>
+    <main class="login_main_area">
+      <article class="login_container">
+        <section class="login_box">
+          <div class="login_ment">
+            <p class="login_p_ment1">하나의 계정으로, 모든 기기에서,</p>
+            <p class="login_p_ment1">나만을 위한 서비스를!</p>
+            <p class="login_p_ment2">삼성 계정에 로그인하세요.</p>
+          </div>
+          <form action="/" method="POST" class="login_form">
+            <div class="login_email_container">
+              <input
+                class="login_email_type"
+                type="email"
+                id="email"
+                placeholder=" "
+                required />
+              <label class="login_email_address" for="email"
+                >이메일 주소 또는 전화번호</label
+              >
+              <p class="login_error">ID로 찾을 수 있는 계정이 없습니다.</p>
+            </div>
+            <label class="login_checkbox_custom">
+              <input
+                class="login_checkbox_type"
+                type="checkbox"
+                id="rememberId" />
+              <span class="login_checkbox_checkmark"></span>
+              ID 기억하기
+            </label>
+            <input
+              class="login_button_disable"
+              disabled
+              type="button"
+              value="다음" />
+          </form>
+          <div class="login_search_account">
+            <a class="login_id_search" href="">ID 찾기</a>
+            <a class="login_account_create" href="">계정 생성</a>
+          </div>
+          <div class="login_button_list">
+            <button class="login_base google">
+              <img src="/public/assets/img/login/google.svg" alt="google" />
+              <span class="login_google_text">Google 계정으로 로그인</span>
+            </button>
+            <button class="login_base qr">
+              <img src="/public/assets/img/login/qr.svg" alt="google" />
+              <span class="login_google_text">QR 코드로 로그인</span>
+            </button>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
