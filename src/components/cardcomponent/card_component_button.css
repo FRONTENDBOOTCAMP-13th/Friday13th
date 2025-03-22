@@ -89,3 +89,9 @@
   gap: 15px;
   font-size: 12px;
 }
+
+.flex_test {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}

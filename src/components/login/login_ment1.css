@@ -1,21 +1,14 @@
 @import "../../common/modern-reset.css";
 
-.login_ment1 {
-  position: absolute;
-  width: 22.5rem;
-  height: 4.5rem;
-  left: calc(50% - 328.48px / 2 + 0.1px);
-  top: 4.5rem;
-  font-weight: 37.5rem;
+.login_p_ment1 {
   font-size: 1.5625rem;
   line-height: 2.25rem;
   color: #252525;
-  background-color: #fcfcfc;
-  text-align: center;
-  margin: 0;
   font-weight: 600;
-  font-size: 1.5425rem;
-  line-height: 2.25rem;
-  align-items: center;
-  text-align: center;
+}
+
+.login_p_ment2 {
+  font-weight: 500;
+  font-size: 1.0283rem;
+  color: #333333;
 }

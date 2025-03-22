@@ -1,15 +1,15 @@
 @import "../../common/modern-reset.css";
 
+.login_button_container {
+  padding: 1.25rem;
+}
+
 .login_button_enable {
-  margin-inline: 1.25rem;
-  display: inline-flex;
-  position: relative;
   cursor: pointer;
   color: #fafafa;
   background-color: #0381fe;
   width: 100%;
-  min-width: 13.5rem;
-  min-height: 2.75rem;
+  height: 2.75rem;
   font-size: 1.0625rem;
   font-weight: 700;
   border-width: 0rem;
@@ -18,20 +18,17 @@
 
 .login_button_disable {
   /* margin-top은 임시값 */
-  margin-inline: 1.25rem;
-  margin-top: 6.25rem;
-  display: inline-flex;
-  position: relative;
+  width: 100%;
+  margin-top: 1.875rem;
   cursor: pointer;
   line-height: 1.75;
   color: #fafafa;
   background-color: #0381fe;
   opacity: 40%;
   width: 100%;
-  min-width: 13.5rem;
-  min-height: 2.75rem;
+  height: 2.75rem;
   font-size: 1.0625rem;
   font-weight: 700;
-  border-width: 0rem;
   border-radius: 1.375rem;
+  border: 0;
 }

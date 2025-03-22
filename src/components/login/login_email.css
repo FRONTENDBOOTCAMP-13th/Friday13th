@@ -1,10 +1,10 @@
 @import "../../common/modern-reset.css";
 
 .login_email_container {
-  margin-top: 1.25rem;
-  justify-self: center;
+  margin-top: 90px;
+  /* justify-self: center; */
   position: relative;
-  width: 28.5rem;
+  /* width: 320px; */
 }
 
 .login_email_type {
@@ -13,7 +13,6 @@
   border: none;
   border-bottom: 0.125rem solid gray;
   font-size: 1rem;
-  outline: none;
 }
 
 .login_email_address {
@@ -47,4 +46,10 @@
 
 .login_error.active {
   display: block;
+}
+
+.login_email_type:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
