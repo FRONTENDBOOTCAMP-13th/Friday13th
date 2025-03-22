@@ -27,7 +27,6 @@
 @import "./components/login/login_checkbox.css";
 @import "./components/login/login_button.css";
 @import "./components/login/login_id.css";
-
 @import "./components/login/login_account.css";
 @import "./components/login/login_google.css";
 @import "./components/login/login_qr.css";
@@ -45,11 +44,9 @@
 
 /* main footer */
 @import "./components/main_footer/main_footer_area1.css";
-
-/* main footer */
-@import "./components/main_footer/main_footer_area1.css";
 @import "./components/main_footer/main_footer_area2.css";
 @import "./components/main_footer/main_footer_area3.css";
+@import "./components/main_footer/main_footer_final.css";
 
 /* search */
 @import "./components/search/searchbar.css";
@@ -57,13 +54,9 @@
 @import "./components/search/search_product.css";
 @import "./page/search_page/search_page.css";
 
-/* main footer */
-@import "./components/main_footer/main_footer_area1.css";
-
 /* frame location */
 @import "./components/frame/frame_location.css";
 @import "./components/frame/frame_shopping_cart.css";
-
 @import "./components/frame/frame_empty_cart.css";
 @import "./components/frame/frame_recommend.css";
 @import "./components/frame/frame_button.css";
