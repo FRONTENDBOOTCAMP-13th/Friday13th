@@ -12,7 +12,6 @@
   max-width: 90rem;
   height: 3.125rem;
   line-height: 3.125rem;
-  margin: 0 auto;
   padding: 0 1.5rem;
   overflow: hidden;
 }
@@ -40,4 +39,10 @@
   background: url(../../../public/assets/icon/angle\ bracket.svg) no-repeat;
   transform: translateY(-50%);
   content: "";
+}
+
+@media (max-width: 800px) {
+  .frame_location_inner {
+    display: none;
+  }
 }
