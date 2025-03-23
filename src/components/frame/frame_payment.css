@@ -1,12 +1,15 @@
 @import "../../common/modern-reset.css";
 
+.frame_payment_total_box {
+  position: sticky;
+}
 .frame_payment_area_empty {
-  top: 7.5rem;
   border: 0.0625rem solid #ddd;
   border-radius: 0.625rem;
-  position: absolute;
+  top: 7.5rem;
   right: 1.5rem;
   width: 100%;
+  position: absolute;
   max-width: 20.625rem;
   background: #fff;
   z-index: 10;
@@ -176,4 +179,10 @@
   padding: 0;
   font-size: 1.5rem;
   line-height: normal;
+}
+
+@media (max-width: 800px) {
+  .frame_payment_area_empty {
+    display: none;
+  }
 }
