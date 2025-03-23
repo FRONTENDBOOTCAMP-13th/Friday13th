@@ -57,6 +57,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  white-space: nowrap;
 }
 
 .login_p_ment2 {
