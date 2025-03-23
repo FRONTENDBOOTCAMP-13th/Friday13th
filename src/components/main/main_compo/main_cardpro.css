@@ -3,211 +3,244 @@
   display: none;
 }
 
-@media (min-width: 0px) {
-  .main_cardpro {
-    .main_cardpro_btn_black {
-      display: inline-flex;
-      background: var(--black);
-      border: 1px solid #000;
-      align-items: center;
-      justify-content: center;
-      border-radius: 20px;
-      padding: 12px 20px;
+.main_cardpro {
+  .main_cardpro_btn_black {
+    display: inline-flex;
+    background: var(--black);
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 12px 20px;
 
-      .main_cardpro_btn_text_black {
-        line-height: 1;
-        vertical-align: middle;
-        color: var(--white);
-      }
+    .main_cardpro_btn_text_black {
+      line-height: 1;
+      vertical-align: middle;
+      color: var(--white);
     }
+  }
 
-    .main_cardpro_btn_white {
-      background: var(--white);
-      align-items: center;
-      justify-content: center;
-      border-radius: 20px;
-      padding: 12px 20px;
-      border: 1px solid white;
+  .main_cardpro_btn_white {
+    background: var(--white);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 12px 20px;
+    border: 1px solid white;
 
-      .main_cardpro_btn_text_white {
-        line-height: 1;
-        vertical-align: middle;
-        color: var(--black);
-      }
+    .main_cardpro_btn_text_white {
+      line-height: 1;
+      vertical-align: middle;
+      color: var(--black);
     }
+  }
 
-    /* cardpro 컴포넌트 */
-    .main_cardpro_pc_wrapper {
-      position: relative;
+  /* 모바일 & pc */
+  .main_cardpro_pc_wrapper_mobile {
+    width: 100%;
+    height: 100%;
+    background: url("/public/assets/img/main/모바일PC.jpg") center/cover
+      no-repeat;
 
-      .main_cardpro_txt {
-        display: flex;
-        height: 90%;
-        width: 100%;
-        flex-direction: column;
-        position: absolute;
-        justify-content: space-between;
-        align-items: center;
+    .main_cardpro_txt {
+      text-align: center;
+      /* width: 100%;
+      height: 100%; */
+      .main_cardpro_text_up {
+        margin-bottom: 120vw;
 
-        .main_cardpro_text_up {
-          width: 100%;
-          height: 80%;
-          position: absolute;
-
-          .main_cardpro_starttext {
-            padding-block: 30px;
-            font-size: 6vw;
-            font-weight: 700;
-            text-align: center;
-          }
-
-          .main_cardpro_navtext_list {
-            display: flex;
-            gap: 7vw;
-            padding-inline: 7vw;
-            overflow-x: scroll;
-            white-space: nowrap;
-
-            .main_cardpro_navtext {
-              font-size: 4vw;
-              font-weight: 700;
-            }
-          }
-          .main_cardpro_navtext_list::-webkit-scrollbar {
-            display: none;
-          }
+        .main_cardpro_starttext {
+          font-size: 7vw;
+          font-weight: 700;
+          padding-top: 9vw;
         }
-
-        .main_cardpro_text_under {
+        .main_cardpro_navtext_list {
           display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 5vw;
-          position: absolute;
-          bottom: 0;
+          gap: 6vw;
+          padding-inline: 7vw;
+          overflow-x: scroll;
+          white-space: nowrap;
 
-          .main_cardpro_primetext {
-            font-size: 8vw;
-            font-weight: 800;
-          }
-          .main_cardpro_primetext2 {
-            font-size: 8vw;
-            font-weight: 800;
-            margin-top: -3vw;
-          }
-          .main_cardpro_subtext {
+          margin-top: 6vw;
+
+          .main_cardpro_navtext {
             font-size: 4vw;
-          }
-          .main_cardpro_subtext2 {
-            margin-top: -4vw;
-            font-size: 4vw;
-          }
-        }
-      }
-
-      .main_cardpro_txt_white {
-        color: var(--white);
-        display: flex;
-        height: 90%;
-        width: 100%;
-        flex-direction: column;
-        position: absolute;
-        justify-content: space-between;
-        align-items: center;
-
-        .main_cardpro_text_up {
-          width: 100%;
-          height: 80%;
-          position: absolute;
-
-          .main_cardpro_starttext {
-            padding-block: 30px;
-            font-size: 6vw;
             font-weight: 700;
-            text-align: center;
           }
-
-          .main_cardpro_navtext_list {
-            display: flex;
-            gap: 7vw;
-            padding-inline: 7vw;
-            overflow-x: scroll;
-            white-space: nowrap;
-
-            .main_cardpro_navtext {
-              font-size: 4vw;
-              font-weight: 700;
-            }
-          }
-          .main_cardpro_navtext_list::-webkit-scrollbar {
-            display: none;
+          .main_cardpro_navtext:hover {
+            border-bottom: 2px solid #000;
           }
         }
-
-        .main_cardpro_text_under {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 5vw;
-          position: absolute;
-          bottom: 0;
-
-          .main_cardpro_primetext {
-            font-size: 8vw;
-            font-weight: 800;
-          }
-          .main_cardpro_subtext {
-            font-size: 4vw;
-          }
+        .main_cardpro_navtext_list::-webkit-scrollbar {
+          display: none;
         }
       }
+      .main_cardpro_text_under {
+        .main_cardpro_primetext {
+          font-size: 8vw;
+          font-weight: 800;
+        }
+        .main_cardpro_subtext {
+          padding-top: 4vw;
+          font-size: 3.5vw;
+        }
+        .main_cardpro_btn_black {
+          margin-top: 4vw;
+          margin-bottom: 10vw;
+        }
+      }
+    }
+  }
 
-      .main_cardpro_pc {
-        width: 100%;
-        height: 100%;
+  /* TV/영상,음향 */
+  .main_cardpro_pc_wrapper_white {
+    width: 100%;
+    height: 100%;
+    background: url("/public/assets/img/main/TV영상음향.webp")
+      center/cover no-repeat;
+
+    .main_cardpro_txt_white {
+      text-align: center;
+      color: var(--white);
+      .main_cardpro_text_up {
+        margin-bottom: 110vw;
+        .main_cardpro_starttext {
+          font-size: 7vw;
+          font-weight: 700;
+          padding-top: 9vw;
+        }
+      }
+      .main_cardpro_navtext_list {
+        display: flex;
+        gap: 6vw;
+        padding-inline: 7vw;
+        overflow-x: scroll;
+        white-space: nowrap;
+        margin-top: 6vw;
+
+        .main_cardpro_navtext {
+          font-size: 4vw;
+          font-weight: 700;
+        }
+        .main_cardpro_navtext:hover {
+          border-bottom: 2px solid #fff;
+        }
+      }
+      .main_cardpro_navtext_list::-webkit-scrollbar {
+        display: none;
       }
     }
 
-    /* cardpro 스토리 */
-    .main_cardpro_story_wrapper {
+    .main_cardpro_text_under {
+      padding-bottom: 14vw;
+      .main_cardpro_primetext {
+        font-size: 8vw;
+        font-weight: 800;
+        padding-bottom: 3vw;
+      }
+      .main_cardpro_subtext {
+        padding-top: 4vw;
+        font-size: 3.5vw;
+        padding-bottom: 7vw;
+      }
+    }
+  }
+
+  /* 가전 */
+  .main_cardpro_pc_wrapper_bespoke {
+    width: 100%;
+    height: 100%;
+    background: url("/public/assets/img/main/가전.webp") center/cover
+      no-repeat;
+
+    .main_cardpro_txt {
+      text-align: center;
+      /* width: 100%;
+    height: 100%; */
+      .main_cardpro_text_up {
+        margin-bottom: 120vw;
+
+        .main_cardpro_starttext {
+          font-size: 7vw;
+          font-weight: 700;
+          padding-top: 9vw;
+        }
+        .main_cardpro_navtext_list {
+          display: flex;
+          gap: 6vw;
+          padding-inline: 7vw;
+          overflow-x: scroll;
+          white-space: nowrap;
+
+          margin-top: 6vw;
+
+          .main_cardpro_navtext {
+            font-size: 4vw;
+            font-weight: 700;
+          }
+          .main_cardpro_navtext:hover {
+            border-bottom: 2px solid #000;
+          }
+        }
+        .main_cardpro_navtext_list::-webkit-scrollbar {
+          display: none;
+        }
+      }
+      .main_cardpro_text_under {
+        .main_cardpro_primetext {
+          font-size: 8vw;
+          font-weight: 800;
+        }
+        .main_cardpro_subtext {
+          padding-top: 4vw;
+          font-size: 3.5vw;
+        }
+        .main_cardpro_btn_black {
+          margin-top: 4vw;
+          margin-bottom: 10vw;
+        }
+      }
+    }
+  }
+
+  /* 스토리 */
+  .main_cardpro_story_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .main_cardpro_story {
+      border-radius: 20px;
+    }
+    .main_story_txt_up {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-block: 10vw;
 
-      .main_cardpro_story {
-        border-radius: 20px;
+      .main_story_firsttxt {
+        font-size: 9vw;
+        font-weight: 800;
       }
-      .main_story_txt_up {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-block: 10vw;
+      .main_story_secondtxt {
+        font-size: 7vw;
+        font-weight: 800;
+        letter-spacing: -2px;
 
-        .main_story_firsttxt {
-          font-size: 9vw;
-          font-weight: 800;
-        }
-        .main_story_secondtxt {
-          font-size: 7vw;
-          font-weight: 800;
-          letter-spacing: -2px;
-
-          margin-top: 5vw;
-        }
+        margin-top: 5vw;
       }
-      .main_story_thirdtxt {
-        font-size: 4vw;
-        margin-block: 7vw;
-        font-weight: 700;
-        color: var(--black);
-      }
+    }
+    .main_story_thirdtxt {
+      font-size: 4vw;
+      margin-block: 7vw;
+      font-weight: 700;
+      color: var(--black);
     }
   }
 }
-
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .main_cardpro {
     display: none;
   }
@@ -406,57 +439,6 @@
         }
       }
     }
-
-    /* .main_cardpro_wrapper_large_white {
-      width: 100%;
-      background: url("../../../../public/assets/img/main/tv영상음향_large.webp")
-        center/cover no-repeat;
-      .main_cardpro_text_up_large_white {
-        text-align: center;
-        width: 100%;
-        padding-top: 50px;
-        color: var(--white);
-        .main_cardpro_starttext_large_white {
-          width: 100%;
-          font-size: 3vw;
-          font-weight: 700;
-          text-align: center;
-        }
-        .main_cardpro_navtext_list_large_white {
-          display: inline-flex;
-          padding-top: 20px;
-          gap: 2vw;
-          white-space: nowrap;
-
-          .main_cardpro_navtext_large {
-            font-size: 1.5vw;
-            font-weight: 600;
-          }
-        }
-      }
-
-      .main_cardpro_text_under_large_white {
-        color: var(--white);
-        text-align: center;
-        margin-top: 40vw;
-
-        .main_cardpro_primetext_large {
-          font-size: 3vw;
-          font-weight: 700;
-          letter-spacing: -1px;
-        }
-
-        .main_cardpro_subtext_large {
-          margin-top: 8px;
-          font-size: 1.5vw;
-          font-weight: 500;
-        }
-        .main_cardpro_btn_white {
-          margin-top: 10px;
-          margin-bottom: 40px;
-        }
-      }
-    } */
 
     /* 스토리 vv*/
     .main_cardpro_wrapper_story_large {
