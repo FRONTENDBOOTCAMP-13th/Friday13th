@@ -1,0 +1,140 @@
+@import "../../common/modern-reset.css";
+
+/* 전체 컨테이너 가로폭 예시 */
+.putchase_flagship_pd
+  .putchase_pd_info
+  .putchase_info_option.putchase_color_option {
+  width: 348px;
+  margin: 0 auto;
+  font-family: "SamsungOneKorean", sans-serif;
+}
+
+/* 큰 타이틀: "색상" */
+.putchase_flagship_pd
+  .putchase_pd_info
+  .putchase_info_option
+  .putchase_info_tit {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+  color: #000;
+}
+
+/* option_box (samsung / normal) 공통 */
+.putchase_option_box.putchase_color {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* 소제목: 삼성닷컴/삼성강남 전용 컬러, 일반 */
+.putchase_option_box.putchase_color .putchase_option_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #000;
+}
+
+/* ul 배치 */
+.putchase_option_box.putchase_color ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+/* li 배치 */
+.putchase_option_box.putchase_color ul li {
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  position: relative; /* 라디오 숨기기 대비 */
+}
+
+/* 라디오 버튼 숨김 */
+.putchase_option_box.putchase_color ul li input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/* 네모 박스(삼성닷컴) */
+.putchase_color_rect {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* 모서리 살짝 둥글게 */
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 원형(일반 컬러) */
+.putchase_color_circle {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #7f7f7f inset;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 이미지(삼성닷컴) 안에서 60×60 contain */
+.putchase_color_rect img,
+.putchase_color_circle img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 라디오 체크 시 파란색(#2189ff) 테두리 */
+.putchase_option_box.putchase_color
+  ul
+  li
+  input[type="radio"]:checked
+  + .putchase_color_rect {
+  border: 2px solid #2189ff;
+}
+.putchase_option_box.putchase_color
+  ul
+  li
+  input[type="radio"]:checked
+  + .putchase_color_circle {
+  box-shadow: 0 0 0 2px #2189ff inset;
+}
+
+/* 색상명 표시 */
+.putchase_color_name {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400; /* 기본은 보통 */
+  transition: font-weight 0.2s;
+}
+
+/* 라디오 체크 시 텍스트 진하게 */
+.putchase_option_box.putchase_color
+  ul
+  li
+  input[type="radio"]:checked
+  ~ .putchase_color_name {
+  font-weight: 700;
+}
+
+/* 구분선(hr) 스타일 */
+.putchase_flagship_pd
+  .putchase_pd_info
+  .putchase_info_option.putchase_color_option
+  hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
