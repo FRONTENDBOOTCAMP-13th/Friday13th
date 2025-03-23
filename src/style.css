@@ -9,8 +9,8 @@
 @import "./components/main/header/main_search_bar/main_search_bar.css";
 @import "./components/main/main_compo/main_banner.css";
 @import "./components/main/main_compo/main_cardimg.css";
-
 @import "./components/main/main_compo/main_cardpro.css";
+@import "./components/main/main_compo/main_cardscroll.css";
 
 /* 스마트폰 css */
 @import "./components/smartphone/smartphone_button.css";
