@@ -2,38 +2,32 @@
 @import "../../../src/common/a11y.css";
 
 .search_bar_container {
-  padding: 30px;
+  margin-top: 30px;
 }
 
 .search_bar_nav {
-  height: 5rem;
-  border-bottom: 0.125rem solid #dddddd;
+  height: 3rem;
+  border-bottom: 0.0625rem solid #ddd;
 }
 
 .search_form {
   display: flex;
-  gap: 0.5rem;
   align-items: center;
+  padding-bottom: 17px;
+  gap: 5px;
+}
 
-  .search_input {
-    height: 2.9375rem;
-    width: 73.75rem;
-    font-size: 2rem;
-    font-weight: bold;
-    background: #fff;
-    border: none;
+.search_input {
+  border: 0;
+  text-indent: 0;
+  font-weight: 700;
+  height: 32px;
+  width: 100%;
+  font-size: 24px;
+  background: #fff;
+  outline: none;
 
-    &:focus {
-      border: 0.125rem dotted black;
-    }
-    &::placeholder {
-      color: #dddddd;
-    }
-  }
-
-  .search_move {
-    &:focus {
-      border: 0.125rem dotted black;
-    }
+  &::placeholder {
+    color: rgba(0, 0, 0, 0.18);
   }
 }

@@ -1,42 +1,47 @@
 @import "../../common/modern-reset.css";
 
 .search_page_main {
-  min-width: 100vw;
-  padding: 3.125rem;
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 100px 400px;
+  padding: 18px 24px 36px;
 
-  .search_search {
-    width: 24px;
-    height: 24px;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
   }
+}
 
-  .search_search {
-    width: 24px;
-    height: 24px;
-  }
+.search_menu_nav {
+  margin-top: 30px;
 }
 
 .search_bar_nav {
-  grid-column: 1/3;
-}
-
-.search_page_product_section {
-  .search_view_title {
-    margin-left: 0.625rem;
+  @media (min-width: 768px) {
+    height: 4rem;
+    grid-column: 1/-1;
   }
-
-  .search_product_article_list {
-    display: grid;
-    min-width: 50vw;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    place-items: center;
-    gap: 5%;
+  .search_input {
+    @media (min-width: 768px) {
+      height: 40px;
+    }
   }
 }
 
-.search_bar_nav_area {
+.search_products {
   display: flex;
-  align-items: center;
+  flex-flow: column;
+}
+
+.search_products_list {
+  display: grid;
+  grid-template-columns: repeat(2, 40vw);
+  place-items: center;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    display: flex;
+    width: 15vw;
+  }
+}
+
+.search_view_title {
+  padding-block: 20px;
 }
