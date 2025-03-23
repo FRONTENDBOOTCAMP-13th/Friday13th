@@ -1,3 +1,19 @@
 @import "../../common/modern-reset.css";
 
+.main_banner_mobile_container {
+  margin-bottom: 3vw;
+}
 
+.main_cardimg_component {
+  margin-bottom: 7vw;
+}
+
+.main_cardscroll {
+  margin-bottom: 2vw;
+}
+
+@media (max-width: 768px) {
+  .main_container {
+    padding-inline: 10px;
+  }
+}
