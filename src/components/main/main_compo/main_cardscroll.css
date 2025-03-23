@@ -1,0 +1,149 @@
+@import "../../../common/main-theme.css";
+
+/* 메인 카드 스크롤 컨테이너 */
+.main_cardscroll {
+  width: 100%;
+  overflow: hidden;
+}
+.main_cardscroll_1 {
+  font-size: 4vw;
+  font-weight: 700;
+  margin-bottom: 2vw;
+  margin-inline: 7vw;
+}
+.main_cardscroll_2 {
+  font-size: 3vw;
+  margin-bottom: 3vw;
+  margin-inline: 7vw;
+}
+
+/* 카드 컴포넌트 리스트 - 가로 스크롤 컨테이너 */
+.main_cardscroll_list {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 2vw;
+  padding: 2vw 7vw;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* 파이어폭스 스크롤바 숨김 */
+}
+
+/* 크롬/사파리 스크롤바 숨김 */
+.main_cardscroll_list::-webkit-scrollbar {
+  display: none;
+}
+
+/* 모든 카드 컴포넌트에 공통 스타일 적용 */
+.main_cardscroll_list [class^="main_cardscroll_cardcompo_"] {
+  min-width: 60%;
+  flex: 0 0 60%;
+  scroll-snap-align: center;
+  background: #f7f7f7;
+  border-radius: 20px;
+  margin-right: 1vw;
+}
+
+.main_cardscroll_cardcompo_ele {
+  width: 100%;
+  padding: 2vw;
+}
+
+.main_cardscroll_topic {
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.main_cardscroll_img {
+  margin-top: 3vw;
+  padding: 1vw 2vw 4vw 2vw;
+  width: 40%; /* 이미지 너비 조절 */
+  object-fit: contain;
+}
+
+.main_cardscroll_text {
+  flex-grow: 1;
+  margin-top: 3vw;
+}
+
+.main_cardscroll_name {
+  font-size: 2vw;
+  font-weight: 600;
+  margin-bottom: 4vw;
+  white-space: normal; /* 텍스트 줄바꿈 허용 */
+}
+
+.main_cardscroll_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+}
+
+.main_cardscroll_price_q {
+  font-size: 1.5vw;
+}
+
+.main_cardscroll_price_a {
+  font-size: 2vw;
+  color: #007aff;
+}
+
+.main_cardscroll_point {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #707070;
+}
+
+.main_cardscroll_point_q {
+  font-size: 1.6vw;
+}
+
+.main_cardscroll_point_a {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.main_cardscroll_mark {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1vw;
+  padding-block: 1.5vw;
+  border-top: 0.5px solid #b6b2b2;
+  margin-top: 2vw;
+}
+
+.main_cardscroll_mark_star {
+  width: 1.8vw;
+  height: 1.8vw;
+}
+
+.main_cardscroll_review {
+  font-size: 1.6vw;
+  padding-right: 1vw;
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+  .main_cardscroll_list [class^="main_cardscroll_cardcompo_"] {
+    min-width: 80%;
+    flex: 0 0 80%;
+  }
+
+  .main_cardscroll_name {
+    font-size: 3vw;
+  }
+
+  .main_cardscroll_price_q,
+  .main_cardscroll_point_q {
+    font-size: 2.5vw;
+  }
+
+  .main_cardscroll_price_a,
+  .main_cardscroll_point_a,
+  .main_cardscroll_review {
+    font-size: 3vw;
+  }
+}
