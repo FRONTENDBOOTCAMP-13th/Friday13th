@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>구매페이지 1</title>
+    <link rel="stylesheet" href="putchase1.css" />
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
@@ -175,5 +176,247 @@
       </section>
     </div>
     <!-- 주성님이 만드실 곳 -->
+    <div class="purchase_layout">
+      <!-- 왼쪽: 배너 -->
+      <section class="purchase_left">
+        <div class="putchase_banner_container">
+          <img
+            src="/public/assets/img/putchase/b7813a9b-221c-4102-9c26-d2e0baf207c2.avif"
+            alt="Galaxy S25 Ultra 배너 이미지"
+            class="putchase_banner_image" />
+        </div>
+      </section>
+
+      <!-- 오른쪽: 구매 옵션들 -->
+      <section class="purchase_right">
+        <!-- (1) 구매방식 -->
+        <div class="purchase_section">
+          <h3 class="putchase_info_tit">구매방식</h3>
+          <div class="putchase_method_container">
+            <label class="putchase_method_item">
+              <input
+                type="radio"
+                name="purchaseMethod"
+                value="자급제"
+                checked />
+              <div class="putchase_method_content">
+                <span class="putchase_method_text"
+                  >새 기기만 사서 자유롭게 쓸래요</span
+                >
+                <span class="putchase_method_sub">자급제</span>
+              </div>
+            </label>
+            <label class="putchase_method_item">
+              <input type="radio" name="purchaseMethod" value="통신사" />
+              <div class="putchase_method_content">
+                <span class="putchase_method_text"
+                  >내 통신사 혜택받고 쓸래요</span
+                >
+                <span class="putchase_method_sub">통신사폰</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- (2) 모델 -->
+        <div class="purchase_section">
+          <h3 class="putchase_info_tit">모델</h3>
+          <div class="putchase_model_container">
+            <label class="putchase_model_item">
+              <input
+                type="radio"
+                name="modelOption"
+                value="Galaxy S25 Ultra"
+                checked />
+              <div class="putchase_model_content">Galaxy S25 Ultra</div>
+            </label>
+            <div class="putchase_model_ai">
+              <img
+                src="/public/assets/img/putchase/9d8db568-bdb6-4f30-9f72-b95a1c41014c.webp"
+                alt="Galaxy AI 로고"
+                class="putchase_ai_logo" />
+            </div>
+          </div>
+        </div>
+
+        <!-- (3) 용량 -->
+        <div class="purchase_section">
+          <h3 class="putchase_info_tit">용량</h3>
+          <div class="putchase_storage_container">
+            <label class="putchase_storage_item">
+              <input type="radio" name="storageOption" value="1TB" checked />
+              <div class="putchase_storage_box">1TB</div>
+            </label>
+            <label class="putchase_storage_item">
+              <input type="radio" name="storageOption" value="512GB" />
+              <div class="putchase_storage_box">512GB</div>
+            </label>
+            <label class="putchase_storage_item">
+              <input type="radio" name="storageOption" value="256GB" />
+              <div class="putchase_storage_box">256GB</div>
+            </label>
+          </div>
+        </div>
+
+        <!-- (4) 메모리 -->
+        <div class="purchase_section">
+          <h3 class="putchase_info_tit">메모리</h3>
+          <div class="putchase_memory_container">
+            <label class="putchase_memory_item">
+              <input type="radio" name="memoryOption" value="12GB" checked />
+              <div class="putchase_memory_box">12GB</div>
+            </label>
+          </div>
+        </div>
+
+        <!-- (5) 색상 -->
+        <div class="purchase_section">
+          <h3 class="putchase_info_tit">색상</h3>
+          <div class="putchase_flagship_pd">
+            <div class="putchase_pd_info">
+              <div class="putchase_info_option putchase_color_option">
+                <div
+                  class="putchase_option_box putchase_samsung putchase_color">
+                  <h4 class="putchase_option_title">
+                    삼성닷컴 | 삼성강남 전용 컬러
+                  </h4>
+                  <ul>
+                    <li>
+                      <input type="radio" id="jetblack" name="colorOption2" />
+                      <label for="jetblack" class="putchase_color_rect">
+                        <img
+                          src="/public/assets/img/putchase/003b8b04-8e50-479e-af9f-dc7951d3c27d.webp"
+                          alt="티타늄 제트블랙" />
+                      </label>
+                      <p class="putchase_color_name">티타늄 제트블랙</p>
+                    </li>
+                    <li>
+                      <input type="radio" id="jadegreen" name="colorOption2" />
+                      <label for="jadegreen" class="putchase_color_rect">
+                        <img
+                          src="/public/assets/img/putchase/4ffbbc0e-5d8c-415b-b114-bb26d04ef136.webp"
+                          alt="티타늄 제이드그린" />
+                      </label>
+                      <p class="putchase_color_name">티타늄 제이드그린</p>
+                    </li>
+                    <li>
+                      <input type="radio" id="pinkgold" name="colorOption2" />
+                      <label for="pinkgold" class="putchase_color_rect">
+                        <img
+                          src="/public/assets/img/putchase/8169d81c-3daf-4131-ab65-b2dd3161adca.webp"
+                          alt="티타늄 핑크골드" />
+                      </label>
+                      <p class="putchase_color_name">티타늄 핑크골드</p>
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="putchase_option_box putchase_normal putchase_color">
+                  <h4 class="putchase_option_title">일반</h4>
+                  <ul>
+                    <li>
+                      <input type="radio" id="silverblue" name="colorOption2" />
+                      <label
+                        for="silverblue"
+                        class="putchase_color_circle"
+                        style="background-color: #8e9fbc"></label>
+                      <p class="putchase_color_name">티타늄 실버블루</p>
+                    </li>
+                    <li>
+                      <input type="radio" id="gray" name="colorOption2" />
+                      <label
+                        for="gray"
+                        class="putchase_color_circle"
+                        style="background-color: #4a4a4d"></label>
+                      <p class="putchase_color_name">티타늄 그레이</p>
+                    </li>
+                    <li>
+                      <input type="radio" id="blackcolor" name="colorOption2" />
+                      <label
+                        for="blackcolor"
+                        class="putchase_color_circle"
+                        style="background-color: #b3ab9e"></label>
+                      <p class="putchase_color_name">티타늄 블랙</p>
+                    </li>
+                    <li>
+                      <input
+                        type="radio"
+                        id="whitesilver"
+                        name="colorOption2" />
+                      <label
+                        for="whitesilver"
+                        class="putchase_color_circle"
+                        style="background-color: #d9d9d6"></label>
+                      <p class="putchase_color_name">티타늄 화이트실버</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- (6) 수량 -->
+        <div class="purchase_section">
+          <div class="purchase_quantity_inline">
+            <h3 class="putchase_info_tit">수량</h3>
+            <div class="putchase_quantity_wrapper">
+              <button class="putchase_btn putchase_minus putchase_disabled">
+                -
+              </button>
+              <input type="text" class="putchase_qty_input" readonly />
+              <button class="putchase_btn putchase_plus">+</button>
+            </div>
+          </div>
+          <p class="putchase_notice">
+            지금 주문 시 04월 01일 이후 순차 배송됩니다.
+          </p>
+        </div>
+        <!-- (7) 장바구니 & 구매하기 버튼 -->
+        <div class="purchase_btn_box">
+          <!-- 장바구니 버튼 -->
+          <a class="purchase_cart_btn" href="#">장바구니</a>
+
+          <!-- 구매하기 버튼 -->
+          <a class="purchase_buy_btn" href="#">구매하기</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- (3) 수량 증가/감소 스크립트 (숫자 표시) -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const minusBtn = document.querySelector('.putchase_minus');
+        const plusBtn = document.querySelector('.putchase_plus');
+        const qtyInput = document.querySelector('.putchase_qty_input');
+
+        let currentVal = 1; // 초기값
+        const MIN_VAL = 1;
+        const MAX_VAL = 9999;
+
+        // 초기 표시
+        qtyInput.value = currentVal;
+
+        // 감소 버튼
+        minusBtn.addEventListener('click', () => {
+          if (currentVal > MIN_VAL) {
+            currentVal--;
+            qtyInput.value = currentVal;
+            if (currentVal === MIN_VAL) {
+              minusBtn.classList.add('putchase_disabled');
+            }
+          }
+        });
+
+        // 증가 버튼
+        plusBtn.addEventListener('click', () => {
+          if (currentVal < MAX_VAL) {
+            currentVal++;
+            qtyInput.value = currentVal;
+            minusBtn.classList.remove('putchase_disabled');
+          }
+        });
+      });
+    </script>
   </body>
 </html>

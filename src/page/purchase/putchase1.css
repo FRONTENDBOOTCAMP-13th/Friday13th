@@ -1,0 +1,439 @@
+@import "../../common/modern-reset.css";
+
+/* ===== 전체 페이지 중앙 정렬 ===== */
+.header_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 메인 레이아웃 */
+.purchase_layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px 0; /* 상하 20px, 좌우 0 => 좌우는 auto정렬 */
+}
+
+/* 왼쪽 배너 */
+.purchase_left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* 상단 정렬 */
+}
+
+/* 오른쪽 옵션 */
+.purchase_right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 반응형: 모바일에서 세로 스택 */
+@media (max-width: 768px) {
+  .purchase_layout {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .purchase_left,
+  .purchase_right {
+    width: 100%;
+    max-width: 600px; /* 예시 */
+  }
+}
+
+/* 각 섹션 */
+.purchase_section {
+  width: 348px;
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+/* 배너 */
+.putchase_banner_container {
+  width: 100%;
+  max-width: 600px; /* 배너 크기 */
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+.putchase_banner_image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 타이틀 */
+.putchase_info_tit {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: #000;
+}
+
+/* 구매방식 */
+.putchase_method_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.putchase_method_item {
+  position: relative;
+  display: inline-block;
+  width: 348px;
+  height: 76px;
+  cursor: pointer;
+}
+.putchase_method_item input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+.putchase_method_content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+.putchase_method_item input[type="radio"]:checked ~ .putchase_method_content {
+  border-color: #007aff;
+}
+.putchase_method_text {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.putchase_method_sub {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+/* 모델 */
+.putchase_model_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.putchase_model_item {
+  position: relative;
+  display: inline-block;
+  width: 348px;
+  height: 54px;
+  cursor: pointer;
+}
+.putchase_model_item input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+.putchase_model_content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.putchase_model_item input[type="radio"]:checked ~ .putchase_model_content {
+  border-color: #007aff;
+}
+.putchase_model_ai {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.putchase_ai_logo {
+  width: 100px;
+  height: auto;
+}
+
+/* 용량 */
+.putchase_storage_container {
+  width: 348px;
+  display: flex;
+  gap: 8px;
+}
+.putchase_storage_item {
+  position: relative;
+  display: inline-block;
+  width: 108px;
+  height: 54px;
+  cursor: pointer;
+}
+.putchase_storage_item input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+.putchase_storage_box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.putchase_storage_item input[type="radio"]:checked ~ .putchase_storage_box {
+  border-color: #007aff;
+}
+
+/* 메모리 */
+.putchase_memory_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.putchase_memory_item {
+  position: relative;
+  display: inline-block;
+  width: 348px;
+  height: 54px;
+  cursor: pointer;
+}
+.putchase_memory_item input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+.putchase_memory_box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.3s;
+}
+.putchase_memory_item input[type="radio"]:checked ~ .putchase_memory_box {
+  border-color: #007aff;
+}
+
+/* 색상 */
+.putchase_flagship_pd
+  .putchase_pd_info
+  .putchase_info_option.putchase_color_option {
+  width: 348px;
+  margin: 0 auto;
+}
+.putchase_option_box.putchase_color {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.putchase_option_box.putchase_color .putchase_option_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #000;
+}
+.putchase_option_box.putchase_color ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.putchase_option_box.putchase_color ul li {
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.putchase_option_box.putchase_color ul li input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+/* 네모 박스(삼성닷컴) */
+.putchase_color_rect {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+/* 원형(일반) */
+.putchase_color_circle {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #7f7f7f inset;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.putchase_color_rect img,
+.putchase_color_circle img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.putchase_option_box.putchase_color
+  ul
+  li
+  input[type="radio"]:checked
+  + .putchase_color_rect {
+  border: 2px solid #2189ff;
+}
+.putchase_option_box.putchase_color
+  ul
+  li
+  input[type="radio"]:checked
+  + .putchase_color_circle {
+  box-shadow: 0 0 0 2px #2189ff inset;
+}
+.putchase_color_name {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  transition: font-weight 0.2s;
+}
+.putchase_option_box.putchase_color
+  ul
+  li
+  input[type="radio"]:checked
+  ~ .putchase_color_name {
+  font-weight: 700;
+}
+.putchase_flagship_pd
+  .putchase_pd_info
+  .putchase_info_option.putchase_color_option
+  hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* 수량 (한 줄 + 안내문구) */
+.purchase_quantity_inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 타이틀 왼쪽, 버튼 오른쪽 */
+  gap: 16px;
+}
+.putchase_quantity_wrapper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.putchase_btn {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 38px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+}
+.putchase_minus {
+  border-right: 1px solid #ddd;
+}
+.putchase_plus {
+  border-left: 1px solid #ddd;
+}
+.putchase_qty_input {
+  width: 60px;
+  height: 38px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.putchase_disabled {
+  color: #a6a6a6;
+  cursor: not-allowed;
+}
+.putchase_notice {
+  font-size: 14px;
+  color: #000;
+  background-color: #f7f7f7;
+  padding: 16px;
+  border-radius: 4px;
+  line-height: 1.4;
+  margin-top: 12px;
+}
+
+/* (7) 장바구니 & 구매하기 버튼 */
+.purchase_btn_box {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  justify-content: center;
+}
+.purchase_cart_btn,
+.purchase_buy_btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 9999px; /* 완전 둥근 모양 */
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 장바구니 버튼: 흰 배경, 회색 테두리, 어두운 폰트 */
+.purchase_cart_btn {
+  color: #808080;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+}
+
+/* 구매하기 버튼: 검정 배경, 흰 폰트 */
+.purchase_buy_btn {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+/* 호버 효과 */
+.purchase_cart_btn:hover {
+  border-color: #808080;
+  color: #000;
+}
+.purchase_buy_btn:hover {
+  background-color: #333;
+  border-color: #333;
+}
