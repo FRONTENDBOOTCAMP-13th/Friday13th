@@ -86,3 +86,8 @@
 /*pc_page  */
 
 @import "./page/pc_page/pc_page.css";
+
+/* main_page */
+
+@import "./page/main_page/main_page.css";
+@import "./page/main_page/main_page_reset.css";
