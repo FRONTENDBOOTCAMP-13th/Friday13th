@@ -16,8 +16,11 @@ export default defineConfig({
           'src/components/main/header/main_search_bar/main_search_bar.html',
         banner: './src/components/main/main_compo/main_banner.html',
         cardimg: './src/components/main/main_compo/main_cardimg.html',
+        cardpro: './src/components/main/main_compo/main_cardpro.html',
+
         //mypage
         mypage: 'src/components/mypage/mypage_user_profile.html',
+
         //login
         login_header: 'src/components/login/login_header.html',
         login_ment1: 'src/components/login/login_ment1.html',
