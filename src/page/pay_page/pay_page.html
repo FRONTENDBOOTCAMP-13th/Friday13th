@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="main_header">
+        <a class="main_logo_wrapper" href="#">
+          <img
+            class="main_logo_img"
+            src="/public/assets/icon/header_files/logo.svg"
+            alt="logo이미지" />
+        </a>
+
+        <div class="main_icon_wrapper">
+          <a
+            class="main_button main_search_button"
+            href="../../page/search_page/search_page.html">
+            <img
+              class="main_icon main_search_icon"
+              src="/public/assets/icon/header_files/icon_search.svg"
+              alt="search 아이콘" />
+          </a>
+          <div class="main_searchbar">
+            <a
+              href="../../page/search_page/search_page.html"
+              class="main_searchber_warpper">
+              <img
+                class="main_searchbar_icon"
+                src="/public/assets/icon/header_files/icon_search.svg"
+                alt="돋보기 이미지" />
+              <p class="main_searchbar_name">제품 검색</p>
+            </a>
+          </div>
+
+          <a
+            class="main_button main_frame_button"
+            href="../../page/frame_page/frame_page.html">
+            <img
+              class="main_icon main_frame_icon"
+              src="/public/assets/icon/header_files/icon_frame.svg"
+              alt="장바구니 아이콘" />
+          </a>
+
+          <a
+            class="main_button main_profile_button"
+            href="../../page/mypage_page/mypage.html">
+            <img
+              class="main_icon main_profile_icon"
+              src="/public/assets/icon/header_files/icon_profile.png"
+              alt="프로필 아이콘" />
+          </a>
+
+          <div class="main_mobile_nav">
+            <img
+              class="main_icon main_menu_icon"
+              src="/public/assets/icon/header_files/icon_menu.svg"
+              alt="메뉴 아이콘" />
+
+            <!-- nav -->
+            <section class="main_navigation_wrapper">
+              <section class="main_navigation">
+                <h1 class="main_menu_name">menu</h1>
+                <ul class="main_menu_list">
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">기획전</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a
+                      class="main_nav"
+                      href="../../page/smartphone/smartphone_page.html"
+                      >모바일</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../../page/tv_page/tv_page.html"
+                      >TV/영상&#8226;음향</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a
+                      class="main_nav"
+                      href="../../page/kitchen_page/kitchen_page.html"
+                      >주방가전</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a
+                      class="main_nav"
+                      href="../../page/living_page/living_page.html"
+                      >리빙가전</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../../page/pc_page/pc_page.html"
+                      >PC/주변기기</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">AI구독클럽</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">소모품/악세서리</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">스마트싱스</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">AI</a>
+                  </li>
+                </ul>
+                <ul class="main_menu_etc">
+                  <li class="main_menu_item">
+                    <a
+                      class="main_nav"
+                      href="../../page/mypage_page/mypage.html"
+                      >마이페이지</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">로그아웃</a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </div>
+        </div>
+        <!-- main_nav_pc -->
+        <section class="main_nav_pc_container">
+          <ul class="main_nav_pc_wrapper">
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">기획전</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a
+                class="main_nav_pc"
+                href="../../page/smartphone/smartphone_page.html"
+                >모바일</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../../page/tv_page/tv_page.html"
+                >TV/영상&#8226;음향</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a
+                class="main_nav_pc"
+                href="../../page/kitchen_page/kitchen_page.html"
+                >주방가전</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a
+                class="main_nav_pc"
+                href="../../page/living_page/living_page.html"
+                >리빙가전</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../../page/pc_page/pc_page.html"
+                >PC/주변기기</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">AI 구독클럽</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">소모품/악세서리</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">스마트싱스</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">AI</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </header>
+    <nav class="products_nav">
+      <h3>주문/결제</h3>
+    </nav>
+    <img class="pay_banner" src="/public/assets/img/pay/pay_page_banner.webp" />
+    <main class="pay_page_main">
+      <h2 class="pay_sub_title">주문상품</h2>
+      <section class="pay_product_area">
+        <!--pay cardcomponent-->
+        <article class="pay_product_top">
+          <div class="pay_bundle">
+            <div class="pay_product_box">
+              <img
+                class="pay_product_img"
+                src="/public/assets/img/pay/3bb68c66-3b75-4173-b729-bd284669a91f.avif" />
+            </div>
+            <div class="pay_product_txt">
+              <a class="pay_o_link" ihref=""> 갤럭시 S25 울트라 자급제</a>
+              <p class="pay_o_label">SM-S938NZKAKOO</p>
+              <p class="pay_o_color">티타늄 블랙/256GB</p>
+            </div>
+          </div>
+          <div class="pay_order_count_price">
+            <div class="pay_order_count">
+              <span class="pay_count">1개</span>
+            </div>
+            <div class="pay_order_price">
+              <span class="pay_price">
+                1,636,400
+                <em>원</em>
+              </span>
+            </div>
+          </div>
+        </article>
+        <article class="pay_product_bottom">
+          <!--pay button-->
+          <span class="sale_coupon_code">할인 쿠폰/코드</span>
+          <div class="pay_coupon_code_wrap">
+            <div class="pay_coupon_top">
+              <a class="pay_coupon_code" href=""
+                ><span class="pay_span_coupon">쿠폰 할인 적용 금액</span
+                ><span class="pay_span_price"
+                  ><strong id="coupon_price">0 원</strong>변경</span
+                ></a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <h2 class="pay_delivery_title">배송정보</h2>
+        <div class="pay_orderer_header">
+          <span class="pay_orderer_title">주문자</span>
+          <button type="button" class="pay_orderer_save_btn">저장</button>
+        </div>
+        <div class="pay_orderer_form">
+          <label for="pay_orderer_name" class="pay_s_head">이름</label>
+          <input
+            type="text"
+            id="pay_orderer_name"
+            name="pay_orderer_name"
+            class="pay_inp_line"
+            placeholder="이름을 입력해주세요." />
+
+          <label for="pay_orderer_phone" class="pay_s_head">연락처</label>
+          <input
+            type="tel"
+            id="pay_orderer_phone"
+            name="pay_orderer_phone"
+            class="pay_inp_line"
+            placeholder="숫자만 입력 가능합니다.('-' 제외)"
+            pattern="[0-9]*"
+            inputmode="numeric" />
+          <label for="pay_orderer_email" class="pay_s_head">이메일</label>
+          <input
+            type="email"
+            id="pay_orderer_email"
+            name="pay_orderer_email"
+            class="pay_inp_line"
+            placeholder="이메일을 입력해주세요." />
+        </div>
+        <div class="pay_orderer_header">
+          <span class="pay_orderer_title">배송지</span>
+          <button type="button" class="pay_orderer_save_btn">신규 등록</button>
+        </div>
+        <div class="pay_orderer_form">
+          <label for="pay_orderer_name" class="pay_s_head">수령인 이름</label>
+          <input
+            type="text"
+            id="pay_orderer_name"
+            name="pay_orderer_name"
+            class="pay_inp_line"
+            placeholder="이름을 입력해주세요." />
+
+          <label for="pay_orderer_phone" class="pay_s_head">연락처</label>
+          <input
+            type="tel"
+            id="pay_orderer_phone"
+            name="pay_orderer_phone"
+            class="pay_inp_line"
+            placeholder="숫자만 입력 가능합니다.('-' 제외)"
+            pattern="[0-9]*"
+            inputmode="numeric" />
+          <label for="pay_orderer_email" class="pay_s_head">배송지 명칭</label>
+          <input
+            type="email"
+            id="pay_orderer_email"
+            name="pay_orderer_email"
+            class="pay_inp_line"
+            placeholder="명칭을 입력해주세요." />
+          <label for="pay_orderer_email" class="pay_s_head">주소</label>
+          <input
+            type="email"
+            id="pay_orderer_email"
+            name="pay_orderer_email"
+            class="pay_inp_line"
+            placeholder="상세주소를 선택해 주세요." />
+          <label for="pay_orderer_email" class="pay_s_head">기본주소</label>
+          <input
+            type="email"
+            id="pay_orderer_email"
+            name="pay_orderer_email"
+            class="pay_inp_line"
+            placeholder="기본주소를 입력하세요." />
+          <label for="pay_orderer_email" class="pay_s_head">상세주소</label>
+          <input
+            type="email"
+            id="pay_orderer_email"
+            name="pay_orderer_email"
+            class="pay_inp_line"
+            placeholder="상세주소를 선택해 주세요." />
+        </div>
+
+        <div class="pay_orderer_header">
+          <span class="pay_orderer_title">일반 배송</span>
+        </div>
+        <div class="delivery_hope_day_area">
+          <label class="delivery_hope_day_text">배송 희망일</label>
+          <input
+            class="delivery_hope_day_input"
+            placeholder="날짜를 선택 혹은 입력해 주세요." />
+        </div>
+
+        <div class="pay_delivery_notice">
+          <p>※ 본 제품은 순차 배송되는 일반 제품입니다.</p>
+          <p>
+            (가장 가까운 일자 자동 지정. 캘린더 아이콘 클릭 시 날짜 변경 가능,
+            경우에 따라 배송일 변동될 수 있음.)
+          </p>
+          <p>
+            배송 안내를 위해 등록하신 휴대폰 번호로 카카오 알림톡 메시지가
+            전송됩니다.
+          </p>
+        </div>
+      </section>
+      <section class="pay_point_area">
+        <h2 class="pay_point_title">포인트 사용</h2>
+        <span class="pay_tip_add">
+          삼성전자 멤버십 포인트
+          <img src="/public/assets/img/pay/exclamation_mark.svg" />
+        </span>
+        <article class="pay_point_exchange_box">
+          <p class="pay_point_exchange_tit">
+            보유중인 다른 국가의 Samsung Rewards Points도 삼성전자 멤버십
+            포인트로 전환하여 사용할 수 있습니다.
+          </p>
+          <p class="pay_point_exchange_txt">
+            * 나의 삼성 계정 정보 > 나의 멤버십/포인트 > 국가별 포인트 전환
+            탭에서 전환 가능
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2 class="pay_pay_title">결제 수단</h2>
+        <div class="tab-container">
+          <div class="tab-header">
+            <button class="tab-button active" data-tab="tab1">신용카드</button>
+            <button class="tab-button" data-tab="tab2">간편결제</button>
+          </div>
+          <div class="tab-content">
+            <div id="tab1" class="tab-panel active">
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="samsung_card"
+                  name="payment_card"
+                  value="samsung"
+                  class="hidden_radio" />
+                <label for="samsung_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-samsung.svg" />
+                  <em class="payment_em">삼성카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="kb_card"
+                  name="payment_card"
+                  value="kb"
+                  class="hidden_radio" />
+                <label for="kb_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-kb.svg" />
+                  <em class="payment_em">국민카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="hana_card"
+                  name="payment_card"
+                  value="hana"
+                  class="hidden_radio" />
+                <label for="hana_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-hana.svg" />
+                  <em class="payment_em">하나카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="hd_card"
+                  name="payment_card"
+                  value="hd"
+                  class="hidden_radio" />
+                <label for="hd_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-hyundai.svg" />
+                  <em class="payment_em">현대카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="nh_card"
+                  name="payment_card"
+                  value="nh"
+                  class="hidden_radio" />
+                <label for="nh_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-nh.svg" />
+                  <em class="payment_em">농협카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="wr_card"
+                  name="payment_card"
+                  value="wr"
+                  class="hidden_radio" />
+                <label for="wr_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-woori.svg" />
+                  <em class="payment_em">우리카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="lt_card"
+                  name="payment_card"
+                  value="lt"
+                  class="hidden_radio" />
+                <label for="lt_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-lotte.svg" />
+                  <em class="payment_em">롯데카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="etc_card"
+                  name="payment_card"
+                  value="etc"
+                  class="hidden_radio" />
+                <label for="etc_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-etc.svg" />
+                  <em class="payment_em">기타카드</em>
+                </label>
+              </div>
+            </div>
+            <div id="tab2" class="tab-panel">
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="naver_pay"
+                  name="payment_pay"
+                  value="naver"
+                  class="hidden_radio" />
+                <label for="naver_pay" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-naver.svg" />
+                  <em class="payment_em">네이버페이</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="payco"
+                  name="payment_pay"
+                  value="payco"
+                  class="hidden_radio" />
+                <label for="payco" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-payco.svg" />
+                  <em class="payment_em">페이코</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="toss_pay"
+                  name="payment_pay"
+                  value="toss"
+                  class="hidden_radio" />
+                <label for="toss_pay" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-toss.svg" />
+                  <em class="payment_em">토스페이</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="ssg_pay"
+                  name="payment_pay"
+                  value="ssg"
+                  class="hidden_radio" />
+                <label for="ssg_pay" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-ssg.svg" />
+                  <em class="payment_em">SSG페이</em>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pay_notice_box">
+          <div class="pay_notice_more">
+            <!-- 숨겨진 체크박스 -->
+            <input
+              type="checkbox"
+              id="pay_notice_toggle"
+              class="pay_notice_checkbox" />
+
+            <!-- 버튼 역할을 하는 label -->
+            <label for="pay_notice_toggle" class="pay_notice_top">
+              일시불
+            </label>
+
+            <!-- 펼쳐질 내용 -->
+            <div class="pay_notice_content">
+              <p class="pay_notice_text installment">일시불</p>
+              <p class="pay_notice_text installment">2개월(무이자)</p>
+              <p class="pay_notice_text installment">3개월(무이자)</p>
+              <p class="pay_notice_text installment">4개월</p>
+              <p class="pay_notice_text installment">5개월</p>
+              <p class="pay_notice_text installment">6개월</p>
+              <p class="pay_notice_text installment">7개월</p>
+              <p class="pay_notice_text installment">8개월</p>
+              <p class="pay_notice_text installment">9개월</p>
+              <p class="pay_notice_text installment">10개월</p>
+              <p class="pay_notice_text installment">11개월</p>
+              <p class="pay_notice_text installment">12개월</p>
+              <p class="pay_notice_text installment">23개월</p>
+              <p class="pay_notice_text installment">24개월</p>
+            </div>
+          </div>
+        </div>
+        <label class="login_checkbox_custom">
+          <input
+            class="login_checkbox_type pay"
+            type="checkbox"
+            id="rememberId" />
+          <span class="login_checkbox_checkmark"></span>
+          카드사 포인트 사용 여부
+        </label>
+        <label class="login_checkbox_custom">
+          <input class="login_checkbox_type" type="checkbox" id="rememberId" />
+          <span class="login_checkbox_checkmark"></span>
+          결제수단 저장
+        </label>
+      </section>
+      <section>
+        <h2 class="pay_pay_title">구매시 유의사항</h2>
+        <div class="pay_notice_box">
+          <div class="pay_notice_more">
+            <!-- 숨겨진 체크박스 -->
+            <input
+              type="checkbox"
+              id="pay_notice_toggles"
+              class="pay_notice_checkbox" />
+
+            <!-- 버튼 역할을 하는 label -->
+            <label for="pay_notice_toggles" class="pay_notice_top">
+              아래 내용을 모두 확인하였습니다.
+            </label>
+
+            <!-- 펼쳐질 내용 -->
+            <div class="pay_notice_content">
+              <p class="pay_notice_text">
+                ※ 입력하신 이메일 주소로 주문 내역을 안내 드립니다.
+              </p>
+              <p class="pay_notice_text">
+                ※ 사은품 혜택은 조기 품절 시 제공이 어려울 수 있으며, 혜택
+                지급용 개인정보 수집·이용, 마케팅/광고 목적의 개인정보
+                수집·이용, 광고성 정보 수신에 모두 동의하셔야 제공 가능합니다.
+              </p>
+              <p class="pay_notice_text">
+                ※ 멤버십 포인트는 주문 제품의 수량이 1개일 때만 사용 가능합니다.
+              </p>
+              <p class="pay_notice_text">
+                ※ 적립 예정 멤버십 포인트는 멤버십 회원 상태와 등급별 최대 적립
+                한도, 분리 배송 여부에 따라 실제 적립 포인트와 상이할 수
+                있습니다.
+              </p>
+              <p class="pay_notice_text">
+                ※ 멤버십 고객명, 주문자 이름, 받으시는 분이 일치하지 않은 경우
+                멤버십 서비스 중 제한이 있을 수 있습니다.
+              </p>
+              <p class="pay_notice_text">
+                ※ 카드사별 매입 승인 기간 이후로 배송 희망일을 연기할 경우
+                주문이 취소될 수 있습니다. 카드사별 매입 승인 기간은 카드사별로
+                상이하며 주문일로부터 최소 25일부터 최대 88일까지 입니다.
+              </p>
+            </div>
+          </div>
+          <p class="pay_notice_caution">
+            ※ 만 19세 미만 미성년자의 제품 구매 시 법정대리인이 제품 구매에
+            동의하지 않으면 구매자 본인 또는 법정대리인이 주문을 취소할 수
+            있습니다.
+          </p>
+          <p class="pay_notice_caution">
+            ※ 삼성전자주식회사는 통신판매중개자로서 통신판매의 당사자가 아니며,
+            개별판매자가 등록한 거래정보 및 거래에 대하여 책임을 지지 않습니다.
+          </p>
+        </div>
+        <p>
+          갤럭시 S25 울트라 자급제<a class="btn_underline" href="#"
+            >자세히보기</a
+          >
+        </p>
+      </section>
+      <section class="payment_listup_area">
+        <ul class="payment_listup">
+          <li class="payment_list">
+            <span class="payment_listup_head">상품 수</span>
+            <strong class="payment_listup_data">1개</strong>
+          </li>
+          <li class="payment_list">
+            <span class="payment_listup_head">주문 금액</span>
+            <strong class="payment_listup_data">1,698,400원</strong>
+          </li>
+          <li class="payment_list">
+            <span class="payment_listup_head"
+              >총 사용 삼성전자 멤버십 포인트</span
+            >
+            <strong class="payment_listup_data">0원</strong>
+          </li>
+          <li class="payment_list">
+            <span class="payment_listup_head">할인 금액</span>
+            <strong class="payment_listup_data bl">-62,000원</strong>
+          </li>
+        </ul>
+        <ul class="pay_cost_listup">
+          <li class="pay_cost_list">
+            <span class="pay_const_list_head"> 결제 예정 금액 </span>
+            <strong class="pay_const_list_data">1,636,400원</strong>
+          </li>
+        </ul>
+        <ul>
+          <li class="payment_list lg">
+            <span class="payment_listup_head"
+              >적립 예정 삼성전자 멤버십 포인트</span
+            >
+            <strong class="payment_listup_data bl">1,636P</strong>
+          </li>
+        </ul>
+      </section>
+      <section class="pay_agree_area">
+        <h2 class="pay_agree_title">
+          약관 동의
+          <i class="pay_required_item">*</i>
+        </h2>
+        <label class="login_checkbox_custom md">
+          <input
+            class="login_checkbox_type pay"
+            type="checkbox"
+            id="rememberId" />
+          <span class="login_checkbox_checkmark"></span>
+          아래 내용에 모두 동의합니다.
+        </label>
+        <div class="pay_agree_listup">
+          <label class="login_checkbox_custom gr">
+            <input
+              class="login_checkbox_type pay"
+              type="checkbox"
+              id="rememberId" />
+            <span class="login_checkbox_checkmark"> </span>
+            주문 상품정보 및 전자금융거래 이용약관에 모두 동의하십니까?
+          </label>
+          <label class="login_checkbox_custom gr">
+            <input
+              class="login_checkbox_type pay"
+              type="checkbox"
+              id="rememberId" />
+            <span class="login_checkbox_checkmark"> </span>
+            개인정보 수집·이용 및 제3자 제공에 모두 동의하십니까?
+          </label>
+          <label class="login_checkbox_custom gr">
+            <input
+              class="login_checkbox_type pay"
+              type="checkbox"
+              id="rememberId" />
+            <span class="login_checkbox_checkmark"> </span>
+            실제 제품 배송시점이 카드별 가승인 <br />
+            최대기간을 초과할 경우 해당 주문에 대해<br />
+            재결제를 요청드릴 수 있으며,<br />
+            재결제가 이루어 지지 않을 경우<br />
+            주문 취소가 될 수 있음에 동의하십니까?<br />
+            (카드사별 가승인 최대기간:삼성/현대/하나 87일, 그 외 57일)
+          </label>
+        </div>
+      </section>
+      <button class="fin_buy_btn" type="submit">
+        <strong>1,636,400</strong>
+        <span>원 결제하기</span>
+      </button>
+      <section>
+        <!--모바일 버튼-->
+        <div class="pay_buy_btn_box">
+          <button class="pay_buy_btn">
+            <strong>1,636,400</strong>
+            <span>원 결제하기</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="main_footer">
+        <div class="main_footer_textBox">
+          <div class="main_footer_title">
+            <div class="main_footer_text_info_box">
+              삼성전자 주식회사 대표이사 : 한종희
+            </div>
+            <p class="main_footer_text_info_box bar">
+              사업자등록번호 : 124-81-00998
+              <a class="main_footer_text_button">사업자 정보확인</a>
+            </p>
+            <p class="main_footer_text_info_box bar">
+              통신판매업 신고 : 2000-경기수원-0515
+            </p>
+          </div>
+
+          <div class="main_footer_title">
+            <p class="main_footer_text_info_box">
+              사업장주소 : 경기도 수원시 영통구 삼성로 129(매탄동)
+            </p>
+            <p class="main_footer_text_info_box bar">
+              호스팅서비스사업자 : 한국아이비엠(주)
+            </p>
+            <p class="main_footer_text_info_box bar">대표번호 : 02-2255-0114</p>
+            <p class="main_footer_text_info_box bar">
+              제품/서비스/멤버십: 1588-3366(통화요금 : 발신자부담)
+            </p>
+            <p class="main_footer_text_info_box bar">
+              삼성닷컴 구매문의 : 1588-6084
+            </p>
+            <p class="main_footer_text_info_box bar">
+              #Samsung Experience 문의 : 1811-9228
+            </p>
+          </div>
+
+          <div class="main_footer_description">
+            <p class="main_footer_text_info_box">
+              본 사이트에서 판매되는 상품 중에는 등록된 개별 판매자가 판매하는
+              상품이 포함되어 있습니다.
+            </p>
+            <div class="main_footer_description1">
+              <p class="main_footer_inner_description1">
+                개별 판매자 판매 상품의 경우 삼성전자(주)는 통신판매중개업자로서
+                통신판매의 당사자가 아니므로, 개별 판매자가 등록한 상품,
+                거래정보 및 거래 등에 대해 책임을 지지 않습니다.
+                <a
+                  class="main_footer_text_button inner_button"
+                  style="margin-left: 10px"
+                  >소비자분쟁해결기준</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <p>
+            본 사이트의 컨텐츠는 저작권법의 보호를 받는 바 무단 전재,복사,배포
+            등을 금합니다.
+          </p>
+        </div>
+
+        <div class="main_footer_copyright_hr"></div>
+        <div class="main_footer_copyright_box">
+          <div class="main_footer_copyright">
+            Copyright © 1995-2025 Samsung. All Rights Reserved.
+          </div>
+          <div class="main_footer_copyright_logo_box">
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-dcxi.webp"
+              alt="logo" />
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-ccm.webp"
+              alt="logo" />
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-wa-mo.jpg"
+              alt="logo" />
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-eprivacy.svg"
+              alt="logo" />
+          </div>
+        </div>
+        <div class="main_footer_sns_hr"></div>
+        <div class="main_footer_sns_box">
+          <div class="main_footer_sns_kr_box">
+            <div class="main_footer_sns_kr">한국/한국어</div>
+          </div>
+          <div class="main_footer_sns_policy_box">
+            <div class="main_footer_sns_text">이메일 무단 수집거부</div>
+            <div class="main_footer_sns_text">아이디어 정책</div>
+            <div class="main_footer_sns_text">사이트맵</div>
+          </div>
+          <div class="main_footer_sns_title_box">
+            <div class="main_footer_sns_title">
+              <div class="main_footer_sns_title_text">
+                삼성전자의 다양한 소식을 만나보세요!
+              </div>
+            </div>
+            <div class="main_footer_sns_logo_box">
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/facebook.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/youtube.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/instagram.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/kakao.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/twitter.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/share.svg"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+.frame_location {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.frame_location_inner {
+  display: block;
+  width: 100%;
+  max-width: 90rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+
+.frame_location_home,
+.frame_location_shopping_cart {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  font-size: 0.8125rem;
+  color: #8f8f8f;
+  margin-right: 2.1875rem;
+}
+
+.frame_location_shopping_cart {
+  font-weight: 700;
+}
+
+.frame_location_home::after {
+  position: absolute;
+  right: -1.6875rem;
+  top: 50%;
+  width: 1rem;
+  height: 1rem;
+  background: url(../../../public/assets/icon/footer/angle_bracket.svg)
+    no-repeat;
+  transform: translateY(-50%);
+  content: "";
+}
+
+@media (max-width: 800px) {
+  .frame_location_inner {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.smartphone_page_main {
+  background: #f7f7f7;
+  text-align: center;
+}
+.smartphone_list {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.smartphone_storages {
+  margin-block-start: 0.625rem;
+}

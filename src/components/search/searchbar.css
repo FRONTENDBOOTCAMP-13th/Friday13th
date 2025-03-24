@@ -1,0 +1,32 @@
+@import "../../../src/common/a11y.css";
+
+.search_bar_container {
+  margin-top: 30px;
+}
+
+.search_bar_nav {
+  height: 3rem;
+  border-bottom: 0.0625rem solid #ddd;
+}
+
+.search_form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 17px;
+  gap: 5px;
+}
+
+.search_input {
+  border: 0;
+  text-indent: 0;
+  font-weight: 700;
+  height: 32px;
+  width: 100%;
+  font-size: 24px;
+  background: #fff;
+  outline: none;
+
+  &::placeholder {
+    color: rgba(0, 0, 0, 0.18);
+  }
+}

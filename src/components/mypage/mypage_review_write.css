@@ -1,0 +1,47 @@
+.mypage_product_review {
+  display: block;
+  width: 209.67px;
+  height: 209.67px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.mypage_card_icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.mypage_card_title {
+  font-size: 14px;
+  margin: 0 0 4px 0;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+}
+
+.mypage_card_count {
+  font-size: 14px;
+  text-align: center;
+}
+
+.mypage_card_count .mypage_count_number {
+  color: #2189ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mypage_card_count .mypage_count_unit {
+  color: #000000;
+  font-size: 14px;
+}

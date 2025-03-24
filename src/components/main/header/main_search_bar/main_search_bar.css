@@ -1,0 +1,40 @@
+.main_searchbar {
+  display: flex;
+  width: 200px;
+  height: 42px;
+  border-radius: 40px;
+  margin: 0 12px;
+  padding: 9.5px 13px 8.5px 13px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: #f7f7f7;
+
+  .main_searchber_warpper {
+    display: flex;
+    width: 150px;
+    height: 24px;
+    align-items: center;
+
+    flex-shrink: 0;
+
+    .main_searchbar_icon {
+      display: flex;
+      width: 26px;
+      height: 24px;
+      padding: 3.41px 5px 4.59px 5px;
+    }
+
+    .main_searchbar_name {
+      display: flex;
+      color: #757575;
+      font-family: Inter;
+      font-size: 14.5px;
+      font-style: normal;
+      font-weight: 400;
+
+      margin-left: 3px;
+      line-height: 1;
+    }
+  }
+}

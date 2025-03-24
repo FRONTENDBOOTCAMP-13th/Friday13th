@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>수량</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="putchase_quantity_container">
+      <!-- 첫 줄: "수량" 타이틀 + 증감 박스 -->
+      <div class="putchase_quantity_top">
+        <h3 class="putchase_info_tit">수량</h3>
+        <div class="putchase_quantity_wrapper">
+          <button class="putchase_btn putchase_minus putchase_disabled">
+            -
+          </button>
+          <input type="text" class="putchase_qty_input" readonly />
+          <button class="putchase_btn putchase_plus">+</button>
+        </div>
+      </div>
+
+      <!-- 안내 문구 -->
+      <p class="putchase_notice">
+        지금 주문 시 04월 01일 이후 순차 배송됩니다.
+      </p>
+    </div>
+
+    <!-- 자바스크립트: 증감 기능 -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const minusBtn = document.querySelector('.putchase_minus');
+        const plusBtn = document.querySelector('.putchase_plus');
+        const qtyInput = document.querySelector('.putchase_qty_input');
+
+        let currentVal = 1; // 기본값
+        const MIN_VAL = 1; // 최소값
+        const MAX_VAL = 10000; // 최대값
+
+        // 초기값 설정
+        qtyInput.value = currentVal;
+        minusBtn.classList.add('putchase_disabled'); // 수량=1일 땐 감소 비활성
+
+        // 감소 버튼 클릭
+        minusBtn.addEventListener('click', () => {
+          if (currentVal > MIN_VAL) {
+            currentVal--;
+            qtyInput.value = currentVal;
+            // 최소값이 되면 감소 버튼 비활성
+            if (currentVal === MIN_VAL) {
+              minusBtn.classList.add('putchase_disabled');
+            }
+          }
+        });
+
+        // 증가 버튼 클릭
+        plusBtn.addEventListener('click', () => {
+          if (currentVal < MAX_VAL) {
+            currentVal++;
+            qtyInput.value = currentVal;
+            // 감소 버튼 활성화
+            minusBtn.classList.remove('putchase_disabled');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

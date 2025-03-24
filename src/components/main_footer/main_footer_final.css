@@ -1,0 +1,275 @@
+/* =======================
+   기본 스타일
+========================== */
+.main_footer_textBox {
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  display: block;
+  color: #707070;
+  padding: 36px 24px;
+}
+
+.main_footer_title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.main_footer_text_button {
+  background: #777;
+  border-radius: 10px;
+  height: 20px;
+  padding: 3px 5px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.main_footer_description {
+  margin: 10px 0;
+}
+
+.main_footer_copyright {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  color: #707070;
+  font-weight: bold;
+}
+
+.main_footer_copyright_logo {
+  width: 60px;
+  height: 48px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.main_footer_sns_hr {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+}
+
+.main_footer_sns_box {
+  padding: 36px 24px;
+}
+
+.main_footer_sns_kr_box,
+.main_footer_sns_policy_box {
+  display: inline-block;
+}
+
+.main_footer_sns_title {
+  display: flex;
+  align-items: center;
+}
+
+.main_footer_sns_kr,
+.main_footer_sns_text,
+.main_footer_sns_title_text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.main_footer_sns_kr {
+  display: none;
+  @media (min-width: 800px) {
+    display: block;
+    position: relative;
+  }
+}
+
+.main_footer_sns_text {
+  margin-left: 50px;
+}
+
+.main_footer_sns_title_text {
+  font-size: 12px;
+  letter-spacing: -0.1em;
+}
+
+.main_footer_sns_logo {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.main_footer_sns_title_box {
+  display: flex;
+  margin-top: 2px;
+}
+
+/* =======================
+     PC (1440px 이상)
+  ========================== */
+@media (min-width: 1440px) {
+  .main_footer_textBox,
+  .main_footer_copyright_box,
+  .main_footer_sns_box {
+    margin: 0 155px;
+  }
+
+  .main_footer_sns_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main_footer_sns_kr_box,
+  .main_footer_sns_policy_box {
+    margin-top: 20px;
+  }
+}
+
+/* =======================
+     모바일 (800px 이하)
+  ========================== */
+@media (max-width: 800px) {
+  .main_footer_text_info_box {
+    margin-top: 10px;
+  }
+
+  .main_footer_description {
+    margin: 15px 0;
+  }
+
+  .main_footer_text_button.inner_button {
+    white-space: nowrap;
+    justify-content: flex-end;
+  }
+  .main_footer_inner_description1 .main_footer_text_info_box {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .main_footer_inner_button {
+    margin-top: 30px;
+    position: absolute;
+  }
+
+  .main_footer_copyright_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_footer_copyright {
+    margin-left: 23px;
+  }
+  .main_footer_copyright_logo_box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+
+  .main_footer_sns_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main_footer_sns_kr_box {
+    order: 1;
+    position: absolute;
+    top: 440px;
+    left: 0;
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+  .main_footer_sns_title_box {
+    order: -2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 40px;
+    text-align: center;
+  }
+
+  .main_footer_sns_text {
+    margin-left: 20px;
+  }
+
+  .main_footer_sns_policy_box {
+    order: -1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main_footer_sns_logo_box {
+    order: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+  }
+
+  .main_footer_sns_hr {
+    margin-top: 10px;
+  }
+}
+
+/* =======================
+     태블릿 이상 (800px 이상)
+  ========================== */
+@media (min-width: 800px) {
+  .main_footer_text_info_box {
+    display: inline-block;
+    position: relative;
+  }
+
+  .main_footer_bar {
+    padding-left: 10px;
+    margin-left: 8px;
+    position: relative;
+  }
+
+  .main_footer_bar::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 1px;
+    height: 12px;
+    background: #d9d9d9;
+  }
+
+  .main_footer_sns_kr {
+    margin-right: 25px;
+    padding-right: 10px;
+  }
+
+  .main_footer_sns_kr::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 2px;
+    height: 12px;
+    background: #d9d9d9;
+  }
+
+  .main_footer_description1 {
+    display: flex;
+    word-break: keep-all;
+  }
+
+  .main_footer_inner_description1 {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .main_footer_copyright_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 24px;
+  }
+
+  .main_footer_copyright_hr {
+    border-top: 1px solid #d9d9d9;
+  }
+
+  .main_footer_sns_title_box {
+    margin-top: 20px;
+  }
+}

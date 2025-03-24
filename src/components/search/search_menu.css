@@ -1,0 +1,18 @@
+.navbar_menu_container {
+  padding: 1.875rem;
+}
+
+.search_view_title {
+  color: #757575;
+}
+
+.search_view_txt {
+  margin-block-start: 1rem;
+  .search_view_li {
+    padding-block: 0.5rem;
+  }
+  .search_view_a {
+    color: black;
+    font-weight: bold;
+  }
+}

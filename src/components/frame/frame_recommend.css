@@ -1,0 +1,271 @@
+.frame_recommend {
+  display: block;
+  background: #fff;
+  width: 100%;
+}
+
+.frame_recommend_warp_component,
+.frame_recommend_components {
+  padding: 1.875rem 0.625rem; /* 상하 패딩 유지, 좌우는 상대적으로 */
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.frame_recommend_content {
+  padding: 0 0.625rem;
+  max-width: 90rem;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.frame_recommend_title,
+.frame_recommend_title_sub {
+  text-align: left;
+  word-break: keep-all;
+}
+
+.frame_recommend_title {
+  color: #000;
+  line-height: 1.15;
+  font-weight: bold;
+  display: block;
+  font-size: clamp(1.125rem, 2.5vw, 1.375rem); /* 최소, 뷰포트 기준, 최대 */
+}
+
+.frame_recommend_title_sub {
+  margin-top: 0.5rem;
+  font-size: clamp(0.875rem, 2vw, 1.125rem);
+  line-height: 1.3;
+  font-weight: normal;
+}
+
+.frame_recommend_cardbox,
+.frame_recommend_slick_list_draggable {
+  position: relative;
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.frame_recommend_cardbox {
+  user-select: none;
+  touch-action: pan-y;
+  width: 100%;
+}
+
+.frame_recommend_slick_prev,
+.frame_recommend_slick_next {
+  position: absolute;
+  top: -1.625rem;
+  width: clamp(1rem, 3vw, 1.5rem);
+  height: clamp(1rem, 3vw, 1.5rem);
+  font-size: 0;
+  z-index: 2;
+  transform: translateY(-50%);
+  opacity: 0.3;
+  border: none;
+  cursor: pointer;
+}
+
+.frame_recommend_slick_prev {
+  right: clamp(2rem, 5vw, 2.75rem);
+  background: url(../../../public/assets/icon/frame_slick_prev.svg) no-repeat;
+  background-size: contain;
+}
+
+.frame_recommend_slick_next {
+  right: 0.625rem;
+  background: url(../../../public/assets/icon/frame_slick_next.svg) no-repeat;
+  background-size: contain;
+}
+
+.frame_recommend_slick_list_draggable {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.frame_recommend_slick_list_draggable::before {
+  content: "";
+  display: block;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  width: clamp(2rem, 5vw, 3.125rem);
+  height: calc(100% - 0.625rem);
+  position: absolute;
+  top: 0.625rem;
+  left: 0;
+  background: linear-gradient(-90deg, rgba(225, 225, 225, 0) 0%, #fff 100%);
+  z-index: 10;
+}
+
+.frame_recommend_slick_track {
+  opacity: 1;
+  width: 100%; /* 고정값 대신 100%로 변경 */
+  transform: translate3d(0, 0, 0);
+  padding-bottom: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+.frame_recommend_slick_product {
+  width: clamp(15rem, 33vw, 24.4375rem); /* 최소, 뷰포트 기준, 최대 */
+  background: #f7f7f7;
+  margin-top: 0.6875rem;
+  position: relative;
+  margin-right: 0.75rem;
+  padding: 1.25rem 0.625rem 0.9375rem;
+  border-radius: 1.25rem;
+  display: block;
+  height: 100%;
+  min-height: 0.0625rem;
+  box-sizing: border-box;
+  flex-shrink: 0; /* 플렉스 아이템 축소 방지 */
+}
+
+.frame_recommend_box,
+.frame_recommend_bottom,
+.frame_recommend_price_detail,
+.frame_recommend_point {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.frame_recommend_box {
+  gap: 0.125rem;
+  padding-bottom: 0.9375rem;
+  border-bottom: 0.0625rem solid #d9d9d9;
+}
+
+.frame_recommend_bottom {
+  justify-content: space-between;
+  padding: 0.625rem 0.3125rem 0;
+  text-align: right;
+}
+
+.frame_recommend_price_detail,
+.frame_recommend_point {
+  justify-content: space-between;
+}
+
+.frame_recommend_price_detail {
+  margin-bottom: 0.1875rem;
+}
+
+.frame_recommend_imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: clamp(5rem, 15vw, 7.5rem);
+  height: clamp(5rem, 15vw, 7.5rem);
+}
+
+.frame_recommend_img {
+  width: auto;
+  max-height: 100%;
+  display: block;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.frame_recommend_text {
+  position: relative;
+  z-index: 1;
+  width: calc(100% - clamp(5rem, 15vw, 7.625rem));
+}
+
+.frame_recommend_name {
+  margin-bottom: 0.5rem;
+  height: 2.75rem;
+  line-height: 1.3125rem;
+  font-size: clamp(0.75rem, 1.5vw, 0.9631rem);
+  font-weight: bold;
+  white-space: normal;
+  overflow: hidden;
+  color: #000;
+  letter-spacing: -0.0213rem;
+}
+
+.frame_recommend_num {
+  display: none;
+  font-size: clamp(0.75rem, 1.5vw, 0.9375rem);
+  color: #989898;
+}
+
+.frame_recommend_pricebox {
+  margin-top: 1.125rem;
+  padding-right: 0.5rem;
+}
+
+.frame_recommend_price_title,
+.frame_recommend_point_title {
+  font-size: clamp(0.625rem, 1.2vw, 0.8125rem);
+}
+
+.frame_recommend_price_title {
+  color: #000;
+}
+
+.frame_recommend_point_title {
+  color: #707070;
+}
+
+.frame_recommend_price_flex {
+  display: flex;
+}
+
+.frame_recommend_price,
+.frame_recommend_price_ko {
+  font-weight: bold;
+  color: #2189ff;
+}
+
+.frame_recommend_price {
+  font-size: clamp(0.875rem, 1.8vw, 1.0625rem);
+}
+
+.frame_recommend_price_ko {
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+  vertical-align: baseline;
+  margin-left: -0.3125rem;
+}
+
+.frame_recommend_point_p {
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+  font-weight: bold;
+  color: #707070;
+}
+
+.frame_recommend_compare_link,
+.frame_recommend_star {
+  line-height: 1.125rem;
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+}
+
+.frame_recommend_compare_link {
+  display: none;
+  position: relative;
+  padding-left: 1.375rem;
+}
+
+.frame_recommend_star {
+  display: inline-block;
+  padding-left: 1.375rem;
+  color: #000;
+  background: url(../../../public/assets/icon/icon_star_svg_fill.svg) left
+    center no-repeat;
+  background-size: contain;
+}
+
+.frame_recommend_strong {
+  color: #000;
+  line-height: 1.125rem;
+}

@@ -1,0 +1,57 @@
+.pay_input_type_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pay_input_obj {
+  position: relative;
+  margin-bottom: 20px;
+  min-height: 32px;
+}
+
+.pay_s_head {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.pay_address_find_wrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pay_inp_line {
+  width: 296px;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.pay_inp_line:focus {
+  border-color: #000;
+}
+
+.pay_btn_find {
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #212425;
+  background: #ffffff;
+  border: 1px solid #212425;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pay_btn_find:hover {
+  background: #f1f1f1;
+}

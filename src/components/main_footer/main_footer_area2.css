@@ -1,0 +1,127 @@
+/* .main_footer_area2_container2 {
+  padding: .9375rem 1.5rem;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main_footer_area2_copyrightbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_footer_area2_copyright {
+  line-height: 1.0625rem;
+  font-weight: bold;
+  font-size: .8125rem;
+  color: #707070;
+}
+
+.main_footer_area2_markbox {
+  display: flex;
+  align-items: center;
+}
+
+.main_footer_area2_mark {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1.125rem;
+}
+
+.main_footer_area2_mark_dcxi {
+  background-image: url(../../../public/assets/img/footer/icon-footer-dcxi.webp);
+  width: 3.7225rem;
+  height: 3rem;
+}
+
+.main_footer_area2_mark_ccm {
+  background-image: url(../../../public/assets/img/footer/icon-footer-ccm.webp);
+  width: 3rem;
+  height: 3rem;
+}
+
+.main_footer_area2_mark_wa {
+  background-image: url(../../../public/assets/img/footer/icon-footer-wa-mo.jpg);
+  width: 4.25rem;
+  height: 3.1338rem;
+}
+
+.main_footer_area2_mark_ks {
+  background-image: url(../../../public/assets/img/footer/icon-footer-eprivacy.svg);
+  width: 2.5625rem;
+  height: 2.5625rem;
+} */
+
+/* ai 코드 중복 정리 */
+/* 공통 컨테이너 스타일 */
+.main_footer_area2_container2 {
+  border-top: 0.0625rem solid #d9d9d9;
+  background-color: #ffffff;
+  flex-direction: column;
+  padding: 0.9375rem 24px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* 공통 flex 스타일 */
+.main_footer_area2_copyrightbox,
+.main_footer_area2_markbox {
+  display: flex;
+  align-items: center;
+}
+
+/* 개별 flex 스타일 */
+.main_footer_area2_copyrightbox {
+  justify-content: space-between;
+}
+
+/* 저작권 텍스트 스타일 */
+.main_footer_area2_copyright {
+  line-height: 1.0625rem;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  color: #707070;
+}
+
+/* 마크 공통 스타일 */
+.main_footer_area2_mark,
+.main_footer_area2_mark_dcxi,
+.main_footer_area2_mark_ccm,
+.main_footer_area2_mark_wa,
+.main_footer_area2_mark_ks {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* 개별 마크 스타일 */
+.main_footer_area2_mark {
+  margin-right: 1.125rem;
+}
+
+.main_footer_area2_mark_dcxi {
+  background-image: url(../../../public/assets/img/footer/icon-footer-dcxi.webp);
+  width: 3.7225rem;
+  height: 3rem;
+}
+
+.main_footer_area2_mark_ccm {
+  background-image: url(../../../public/assets/img/footer/icon-footer-ccm.webp);
+  width: 3rem;
+  height: 3rem;
+}
+
+.main_footer_area2_mark_wa {
+  background-image: url(../../../public/assets/img/footer/icon-footer-wa-mo.jpg);
+  width: 4.25rem;
+  height: 3.1338rem;
+}
+
+.main_footer_area2_mark_ks {
+  background-image: url(../../../public/assets/img/footer/icon-footer-eprivacy.svg);
+  width: 2.5625rem;
+  height: 2.5625rem;
+}

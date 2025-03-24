@@ -1,0 +1,1566 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>냉장고 | Samsung 대한민국</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- header component-->
+      <div class="main_header">
+        <a class="main_logo_wrapper" href="../../page/main_page/main_page.html">
+          <img
+            class="main_logo_img"
+            src="../../../public/assets/icon/header_files/logo.svg"
+            alt="logo이미지" />
+        </a>
+
+        <div class="main_icon_wrapper">
+          <a
+            class="main_button main_search_button"
+            href="../search_page/search_page.html">
+            <img
+              class="main_icon main_search_icon"
+              src="../../../public/assets/icon/header_files/icon_search.svg"
+              alt="search 아이콘" />
+          </a>
+          <div class="main_searchbar">
+            <a
+              href="../search_page/search_page.html"
+              class="main_searchber_warpper">
+              <img
+                class="main_searchbar_icon"
+                src="../../../public/assets/icon/header_files/icon_search.svg"
+                alt="돋보기 이미지" />
+              <p class="main_searchbar_name">제품 검색</p>
+            </a>
+          </div>
+
+          <a
+            class="main_button main_frame_button"
+            href="../frame_page/frame_page.html">
+            <img
+              class="main_icon main_frame_icon"
+              src="../../../public/assets/icon/header_files/icon_frame.svg"
+              alt="장바구니 아이콘" />
+          </a>
+
+          <a
+            class="main_button main_profile_button"
+            href="../mypage_page/mypage.html">
+            <img
+              class="main_icon main_profile_icon"
+              src="../../../public/assets/icon/header_files/icon_profile.png"
+              alt="프로필 아이콘" />
+          </a>
+
+          <div class="main_mobile_nav">
+            <img
+              class="main_icon main_menu_icon"
+              src="../../../public/assets/icon/header_files/icon_menu.svg"
+              alt="메뉴 아이콘" />
+            <!-- nav -->
+            <section class="main_navigation_wrapper">
+              <section class="main_navigation">
+                <h1 class="main_menu_name">menu</h1>
+                <ul class="main_menu_list">
+                  <li class="main_menu_item">
+                    <a
+                      class="main_nav"
+                      href="../exhibitions_page/exhibitions_page.html"
+                      >기획전</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a
+                      class="main_nav"
+                      href="../smartphone/smartphone_page.html"
+                      >모바일</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../tv_page/tv_page.html"
+                      >TV/영상&#8226;음향</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../kitchen_page/kitchen_page.html"
+                      >주방가전</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../living_page/living_page.html"
+                      >리빙가전</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../pc_page/pc_page.html"
+                      >PC/주변기기</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">AI구독클럽</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">소모품/악세서리</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">스마트싱스</a>
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">AI</a>
+                  </li>
+                </ul>
+                <ul class="main_menu_etc">
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="../mypage_page/mypage.html"
+                      >마이페이지</a
+                    >
+                  </li>
+                  <li class="main_menu_item">
+                    <a class="main_nav" href="#">로그아웃</a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </div>
+        </div>
+        <!-- main_nav_pc -->
+        <section class="main_nav_pc_container">
+          <ul class="main_nav_pc_wrapper">
+            <li class="main_nav_pc_item">
+              <a
+                class="main_nav_pc"
+                href="../exhibitions_page/exhibitions_page.html"
+                >기획전</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../smartphone/smartphone_page.html"
+                >모바일</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../tv_page/tv_page.html"
+                >TV/영상&#8226;음향</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../kitchen_page/kitchen_page.html"
+                >주방가전</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../living_page/living_page.html"
+                >리빙가전</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="../pc_page/pc_page.html"
+                >PC/주변기기</a
+              >
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">AI 구독클럽</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">소모품/악세서리</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">스마트싱스</a>
+            </li>
+            <li class="main_nav_pc_item">
+              <a class="main_nav_pc" href="#">AI</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- prodcutcs nav -->
+      <nav class="products_nav">
+        <h3>냉장고</h3>
+      </nav>
+      <img
+        class="refrigerator_banner"
+        src="../../../public/assets/img/kitchen/refrigerator_banner.png" />
+    </header>
+    <main class="kitchen_page_main">
+      <!-- products order-->
+      <nav class="products_order_nav">
+        <div class="products_detail_search">
+          <img src="../../../public/assets/icon/group.svg" alt="그룹정렬" />
+          <p>상세검색</p>
+        </div>
+        <p>검색 결과<data class="products_value" value="24">24</data>개</p>
+      </nav>
+      <!-- products list-->
+      <article class="kitchen_list">
+        <section class="card_component_section">
+          <span class="products_card_flag">신제품</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/39ef7f1d-fe15-4f86-bff7-0376daeb1f06.avif"
+              alt="BESPOKE 냉장고 4도어 키친핏 Max 640L" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item4.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item3.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE 냉장고 4도어 키친핏 Max 640L</a
+            >
+            <span class="products_code">RM70F63R2XJ</span>
+            <span class="products_coupon">혜택가</span>
+            <span class="products_price">2,890,000 원</span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">2,890P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">신제품</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/39ef7f1d-fe15-4f86-bff7-0376daeb1f06.avif"
+              alt="BESPOKE AI 하이브리드 4도어 키친핏 Max 623L (빅아이스/큐브)" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item4.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item3.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE AI 하이브리드 4도어 키친핏 Max 623L (빅아이스/큐브)</a
+            >
+            <span class="products_code">RM70F64Q1XJ</span>
+            <span class="products_coupon">혜택가</span>
+            <span class="products_price">3,490,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">3,490P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">신제품</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/c4369fe2-8895-43e9-acc1-df90f63b6a77.avif"
+              alt="BESPOKE AI 하이브리드 4도어 키친핏 Max 602L (AI 홈)" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item7.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE AI 하이브리드 4도어 키친핏 Max 602L (AI 홈)</a
+            >
+            <span class="products_code">RM90F64E2W</span>
+            <span class="products_coupon">혜택가</span>
+            <span class="products_price">4,090,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">4,090P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">신제품</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/b9ddc803-ca4d-4eca-8d07-a2471a7152e5.avif"
+              alt="BESPOKE 냉장고 4도어 875L" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item2.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item3.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item4.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item5.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item6.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item7.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name">BESPOKE 냉장고 4도어 875L</a>
+            <span class="products_code">RF85DB90B1AP</span>
+            <span class="products_coupon">혜택가</span>
+            <span class="products_price">1,940,000 원 ~ </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">1,940P~</span>
+            </div>
+            <a class="card_component_button buy" href="/">조합하여 구매하기</a>
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">설치제품</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/8b009f1a-cb33-43e0-8888-5c4e8211090e.avif"
+              alt="BESPOKE 냉장고 4도어 902L" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item4.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item5.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item6.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name">BESPOKE 냉장고 4도어 902L</a>
+            <span class="products_code">RF90DG9111S9</span>
+            <span class="products_coupon">아울렛 특가</span>
+            <span class="products_price">1,750,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">1,750P</span>
+            </div>
+            <a class="card_component_button buy" href="/">조합하여 구매하기</a>
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">설치상품</span>
+          <figure>
+            <img
+              src="/public/assets/img/kitchen/c794557e-920a-4ba6-8fa6-940b8030dbc4.avif"
+              alt="BESPOKE 양문형 냉장고 851L (오토오픈도어)
+              " />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item7.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE 양문형 냉장고 851L (오토오픈도어)
+            </a>
+            <span class="products_code">RS84DB5242CW</span>
+            <span class="products_coupon">혜택가 </span>
+            <span class="products_price">1,990,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">트 1,990P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">설치제품</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/df2410ad-bc3f-4d27-9ae0-ed890e0fe310.avif"
+              alt="B양문형 냉장고 852L (오토오픈도어)" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item8.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item9.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >B양문형 냉장고 852L (오토오픈도어)</a
+            >
+            <span class="products_code">RS84DG5202B4</span>
+            <span class="products_coupon">혜택가</span>
+            <span class="products_price">1,490,000 원</span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">1,490P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">시간 맞춤 설치</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/d8dc4890-30e0-4875-a4ad-4ce10291799c.avif"
+              alt="BESPOKE 냉장고 4도어+김치플러스 3도어 902/328L" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item8.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item9.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE 냉장고 4도어+김치플러스 3도어 902/328L</a
+            >
+            <span class="products_code">RF90DG9111S9G1</span>
+            <span class="products_coupon">아울렛 특가 </span>
+            <span class="products_price">3,200,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">3,200P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">시간 맞춤 설치</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/32283324-9324-4b3d-ac57-c51fb12e62e0.avif"
+              alt="BESPOKE AI 하이브리드 4도어 871L (빅아이스/큐브)" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item2.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item3.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item4.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item5.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item6.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE AI 하이브리드 4도어 871L (빅아이스/큐브)</a
+            >
+            <span class="products_code">RF91DB92K1AP</span>
+            <span class="products_coupon">쿠폰 적용 예상가 </span>
+            <span class="products_price">3,890,000 원 ~</span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">3,890P~</span>
+            </div>
+            <a class="card_component_button buy" href="/">조합하여 구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">시간 맞춤 설치</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/364a6958-c0cf-43f2-b3ab-eb03dfaf6e81.avif"
+              alt="BESPOKE 냉장고 4도어 869L (UV탈취)" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item2.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item3.svg" />
+            <img src="../../../public/assets/icon/kitchen/Item4.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name"
+              >BESPOKE 냉장고 4도어 869L (UV탈취)</a
+            >
+            <span class="products_code">RF85DB91F1AP</span>
+            <span class="products_coupon">혜택가 </span>
+            <span class="products_price">2,740,000 원 ~</span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">2,740P~</span>
+            </div>
+            <a class="card_component_button buy" href="/">조합하여 구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">5</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">시간 맞춤 설치</span>
+          <figure>
+            <img
+              src="../../../public/assets/img/kitchen/bc819064-5fc2-42fe-a33a-25c6db4682d6.avif"
+              alt="냉장고 525L" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item10.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name">냉장고 525L</a>
+            <span class="products_code">RT53DB7A1CET</span>
+            <span class="products_coupon">혜택가 </span>
+            <span class="products_price">830,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">830P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="card_component_section">
+          <span class="products_card_flag">시간 맞춤 설치</span>
+          <figure>
+            <img
+              src="/public/assets/img/kitchen/08a802ee-d0e2-4ff0-8a6b-b6b2d2bcaa3f.avif"
+              alt="냉장고 525L" />
+            <figcaption></figcaption>
+          </figure>
+          <div class="tv_svg">
+            <img src="../../../public/assets/icon/kitchen/Item6.svg" />
+          </div>
+          <div class="products_storages"></div>
+          <div class="products_article">
+            <a href="/" class="products_name">냉장고 525L</a>
+            <span class="products_code">RT53DG7A1CWW</span>
+            <span class="products_coupon">혜택가 </span>
+            <span class="products_price">740,000 원 </span>
+            <div class="products_point_area">
+              <span class="products_expect">적립 예정 포인트</span>
+              <span class="products_point">740P</span>
+            </div>
+            <a class="card_component_button buy" href="/">구매하기</a>
+
+            <div class="products_compare">
+              <div class="products_compare_area">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28299)">
+                    <g clip-path="url(#clip1_1_28299)">
+                      <path
+                        d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                        stroke="black"
+                        stroke-width="0.777778" />
+                      <path
+                        d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                        fill="black" />
+                      <path
+                        d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                        fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28299">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.209961 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_link_compare"> 비교하기</span>
+              </div>
+              <div class="products_star_area">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_28207)">
+                    <g clip-path="url(#clip1_1_28207)">
+                      <path
+                        d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                        fill="#FECE30" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_28207">
+                      <rect
+                        width="14"
+                        height="14"
+                        fill="white"
+                        transform="translate(0.0100098 0.0205078)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="products_star">5</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <div class="main_footer">
+        <div class="main_footer_textBox">
+          <div class="main_footer_title">
+            <div class="main_footer_text_info_box">
+              삼성전자 주식회사 대표이사 : 한종희
+            </div>
+            <p class="main_footer_text_info_box bar">
+              사업자등록번호 : 124-81-00998
+              <a class="main_footer_text_button">사업자 정보확인</a>
+            </p>
+            <p class="main_footer_text_info_box bar">
+              통신판매업 신고 : 2000-경기수원-0515
+            </p>
+          </div>
+
+          <div class="main_footer_title">
+            <p class="main_footer_text_info_box">
+              사업장주소 : 경기도 수원시 영통구 삼성로 129(매탄동)
+            </p>
+            <p class="main_footer_text_info_box bar">
+              호스팅서비스사업자 : 한국아이비엠(주)
+            </p>
+            <p class="main_footer_text_info_box bar">대표번호 : 02-2255-0114</p>
+            <p class="main_footer_text_info_box bar">
+              제품/서비스/멤버십: 1588-3366(통화요금 : 발신자부담)
+            </p>
+            <p class="main_footer_text_info_box bar">
+              삼성닷컴 구매문의 : 1588-6084
+            </p>
+            <p class="main_footer_text_info_box bar">
+              #Samsung Experience 문의 : 1811-9228
+            </p>
+          </div>
+
+          <div class="main_footer_description">
+            <p class="main_footer_text_info_box">
+              본 사이트에서 판매되는 상품 중에는 등록된 개별 판매자가 판매하는
+              상품이 포함되어 있습니다.
+            </p>
+            <div class="main_footer_description1">
+              <p class="main_footer_inner_description1">
+                개별 판매자 판매 상품의 경우 삼성전자(주)는 통신판매중개업자로서
+                통신판매의 당사자가 아니므로, 개별 판매자가 등록한 상품,
+                거래정보 및 거래 등에 대해 책임을 지지 않습니다.
+                <a
+                  class="main_footer_text_button inner_button"
+                  style="margin-left: 10px"
+                  >소비자분쟁해결기준</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <p>
+            본 사이트의 컨텐츠는 저작권법의 보호를 받는 바 무단 전재,복사,배포
+            등을 금합니다.
+          </p>
+        </div>
+
+        <div class="main_footer_copyright_hr"></div>
+        <div class="main_footer_copyright_box">
+          <div class="main_footer_copyright">
+            Copyright © 1995-2025 Samsung. All Rights Reserved.
+          </div>
+          <div class="main_footer_copyright_logo_box">
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-dcxi.webp"
+              alt="logo" />
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-ccm.webp"
+              alt="logo" />
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-wa-mo.jpg"
+              alt="logo" />
+            <img
+              class="main_footer_copyright_logo"
+              src="../../../public/assets/img/footer/icon-footer-eprivacy.svg"
+              alt="logo" />
+          </div>
+        </div>
+        <div class="main_footer_sns_hr"></div>
+        <div class="main_footer_sns_box">
+          <div class="main_footer_sns_kr_box">
+            <div class="main_footer_sns_kr">한국/한국어</div>
+          </div>
+          <div class="main_footer_sns_policy_box">
+            <div class="main_footer_sns_text">이메일 무단 수집거부</div>
+            <div class="main_footer_sns_text">아이디어 정책</div>
+            <div class="main_footer_sns_text">사이트맵</div>
+          </div>
+          <div class="main_footer_sns_title_box">
+            <div class="main_footer_sns_title">
+              <div class="main_footer_sns_title_text">
+                삼성전자의 다양한 소식을 만나보세요!
+              </div>
+            </div>
+            <div class="main_footer_sns_logo_box">
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/facebook.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/youtube.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/instagram.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/kakao.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/twitter.svg"
+                alt="" />
+              <img
+                class="main_footer_sns_logo"
+                src="../../../public/assets/icon/footer/share.svg"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

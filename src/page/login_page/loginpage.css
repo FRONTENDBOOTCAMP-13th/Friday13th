@@ -1,0 +1,93 @@
+.login_body {
+  background: #f7f7f7;
+
+  @media (max-width: 680px) {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .login_header_logo {
+    background: #f7f7f7;
+  }
+}
+
+.login_header_logo {
+  @media (max-width: 680px) {
+    align-items: start;
+  }
+}
+
+.login_header_logo_img {
+  @media (max-width: 680px) {
+    width: 120px;
+    height: 40px;
+    margin-left: 0;
+  }
+}
+
+.login_main_area {
+  display: flex;
+  justify-content: center;
+}
+
+.login_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  background: #fff;
+  border-radius: 26px;
+  padding-block: 72px;
+
+  @media (max-width: 680px) {
+    background: #f7f7f7;
+  }
+}
+
+.login_box {
+  width: 320px;
+  @media (max-width: 680px) {
+    width: 100%;
+  }
+}
+
+.login_ment {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.login_p_ment2 {
+  margin-top: 0.625rem;
+}
+
+.login_form {
+  width: 320px;
+
+  @media (max-width: 680px) {
+    width: 100%;
+  }
+}
+
+.login_search_account {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.login_button_list {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.login_email_type {
+  @media (max-width: 680px) {
+    background: #f7f7f7;
+  }
+}

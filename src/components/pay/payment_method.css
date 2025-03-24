@@ -1,0 +1,38 @@
+.pay_label {
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.125rem solid #dddddd;
+  /* border-radius: 624.9375rem; */
+  border-radius: 10px;
+  font-size: 0.875rem;
+  color: #212425;
+  cursor: pointer;
+  padding-block: 5px;
+}
+
+/* 선택되지 않은 상태 */
+.pay_label {
+  background-color: #fff;
+  border-color: #dddddd;
+
+  .payment_em {
+    font-weight: 400;
+  }
+}
+
+/* 선택된 상태 */
+.hidden_radio:checked + .pay_label {
+  border-color: #2189ff;
+  color: #212425;
+
+  .payment_em {
+    font-weight: bold;
+  }
+
+  .hh {
+    background: #2189ff;
+  }
+}

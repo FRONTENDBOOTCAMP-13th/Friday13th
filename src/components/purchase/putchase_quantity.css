@@ -1,0 +1,81 @@
+/* 전체 컨테이너 (예시로 폭 400px, 필요 시 조정) */
+.putchase_quantity_container {
+  width: 400px;
+  margin: 0 auto; /* 중앙 정렬 예시 */
+}
+
+/* 첫 줄: "수량" + 증감 박스 한 줄 */
+.putchase_quantity_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* "수량" 타이틀 */
+.putchase_info_tit {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 0; /* 기본 여백 제거 */
+}
+
+/* 둥근 테두리 한 줄 */
+.putchase_quantity_wrapper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* 공통 버튼 스타일 */
+.putchase_btn {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 38px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+}
+
+/* 왼쪽(감소) 버튼: 오른쪽 구분선 */
+.putchase_minus {
+  border-right: 1px solid #ddd;
+}
+
+/* 오른쪽(증가) 버튼: 왼쪽 구분선 */
+.putchase_plus {
+  border-left: 1px solid #ddd;
+}
+
+/* 수량 입력 (가운데) */
+.putchase_qty_input {
+  width: 60px;
+  height: 38px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+/* 비활성화 상태 (감소 버튼) */
+.putchase_disabled {
+  color: #a6a6a6;
+  cursor: not-allowed;
+}
+
+/* 안내 문구 */
+.putchase_notice {
+  font-size: 14px;
+  color: #000;
+  background-color: #f7f7f7;
+  padding: 16px;
+  border-radius: 4px;
+  line-height: 1.4;
+}

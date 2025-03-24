@@ -1,0 +1,103 @@
+.frame_cart_foot {
+  border-top: 0.5rem solid #f7f7f7;
+  border-bottom: 3px solid #f7f7f7;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 1.25rem 0 1.125rem;
+  margin-left: 25px;
+}
+
+.frame_cart_foot_inner {
+  padding: 0;
+}
+
+.frame_cart_foot_left {
+  float: left;
+}
+
+.frame_cart_foot_p {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #707070;
+}
+
+.frame_cart_foot_divider {
+  margin: 0 0.5rem;
+  color: #ddd;
+  vertical-align: baseline;
+}
+
+.frame_cart_foot_text_small {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #000000;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+
+.frame_cart_foot_right {
+  float: right;
+  text-align: right;
+}
+
+.frame_cart_cancel {
+  font-size: 0.875rem;
+  line-height: 1;
+  display: inline-block;
+  margin: 0 0.25rem;
+  font-weight: bold;
+  letter-spacing: -0.0044rem;
+  color: #000000;
+  border-bottom: 0.0625rem solid #000000;
+}
+
+.frame_cart_foot_inner::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+@media (max-width: 800px) {
+  .frame_cart_foot {
+    border-bottom: 0.5rem solid #f7f7f7;
+  }
+  .frame_cart_foot_left {
+  }
+
+  .frame_cart_foot_right {
+    margin-top: 24px;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+  .frame_cart_cancel {
+    margin-left: -2px;
+  }
+
+  .frame_recommend_slick_product {
+    flex: 0 0 100%; /* 한 번에 하나씩 화면에 표시 */
+  }
+  .frame_recommend_box {
+    display: flex;
+    align-items: center; /* 이미지와 텍스트를 수직 중앙 정렬 */
+    gap: 16px; /* 이미지와 텍스트 사이 여백 추가 */
+  }
+  .frame_recommend_imgbox {
+    flex: 0 0 auto; /* 이미지 크기 고정 */
+  }
+
+  .frame_recommend_img {
+    width: 100px; /* 이미지 크기 조절 */
+    height: auto;
+  }
+
+  .frame_recommend_text {
+    flex: 1; /* 텍스트가 남은 공간을 차지하도록 설정 */
+    display: flex;
+    flex-direction: column; /* 텍스트 요소들을 세로로 정렬 */
+  }
+
+  .frame_recommend_pricebox {
+    margin-top: 8px;
+  }
+}

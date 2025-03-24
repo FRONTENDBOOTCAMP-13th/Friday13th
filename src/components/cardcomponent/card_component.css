@@ -1,0 +1,41 @@
+.components-container {
+  display: flex;
+  justify-content: center;
+  padding: 1.875rem;
+  background: #dddddd;
+}
+
+/* 컴포넌트 전체 */
+.card_component_section {
+  display: flex;
+  background: #fff;
+  flex-flow: column nowrap;
+  width: 17.5rem;
+  height: auto;
+  align-items: center;
+  padding-block-start: 1rem;
+  margin: 0.8rem;
+  border-radius: 1.3125rem;
+
+  .storage_label {
+    width: 4.6875rem;
+  }
+}
+
+/* 카드 컴포넌트 버튼 묶음  */
+.card_component_button_area {
+  height: 9.375rem;
+}
+.pc_button_list {
+  display: flex;
+  margin-block-start: 0.625rem;
+  flex-flow: column;
+  gap: 0.625rem;
+}
+
+.pc_screen {
+  width: 6.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}

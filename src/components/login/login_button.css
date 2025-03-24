@@ -1,0 +1,32 @@
+.login_button_container {
+  padding: 1.25rem;
+}
+
+.login_button_enable {
+  cursor: pointer;
+  color: #fafafa;
+  background-color: #0381fe;
+  width: 100%;
+  height: 2.75rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  border-width: 0rem;
+  border-radius: 1.375rem;
+}
+
+.login_button_disable {
+  /* margin-top은 임시값 */
+  width: 100%;
+  margin-top: 1.875rem;
+  cursor: pointer;
+  line-height: 1.75;
+  color: #fafafa;
+  background-color: #0381fe;
+  opacity: 40%;
+  width: 100%;
+  height: 2.75rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  border-radius: 1.375rem;
+  border: 0;
+}

@@ -1,0 +1,41 @@
+.pay_product_top {
+  border-block-end: 0.0625rem solid #f0f0f0;
+  padding-block-end: 1.875rem;
+}
+
+.pay_o_link {
+  color: #000;
+  font-weight: bold;
+}
+
+.pay_o_label,
+.pay_o_color {
+  color: #707070;
+  font-size: 0.75rem;
+}
+
+.pay_order_count_price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+
+.pay_order_count {
+  font-weight: bold;
+}
+
+.pay_price {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.pay_o_color {
+  margin-top: 0.625rem;
+}
+
+.pay_bundle {
+  margin-block-start: 1.875rem;
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}

@@ -1,0 +1,42 @@
+.tab-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tab-header {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #000;
+}
+
+.tab-button:not(.active) {
+  color: #888;
+}
+
+.tab-content {
+  padding: 20px 0;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}

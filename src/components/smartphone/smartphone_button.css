@@ -1,0 +1,75 @@
+.smartphone_button_container {
+  padding: 1.25rem;
+}
+
+/* 구매하기, 더 알아보기 버튼 */
+.smartphone_button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 0.125rem solid #212425;
+  border-radius: 1.25rem;
+  width: 16.25rem;
+  height: 4.0625rem;
+  line-height: 4.0625rem;
+  margin-block-start: 0.625rem;
+
+  &.more {
+    background: #fff;
+    color: #212425;
+  }
+
+  &.buy {
+    background: #212425;
+    color: #fff;
+  }
+}
+
+/* 스토리지 크기 */
+
+/* 기본적으로 input radio 숨기기 */
+.hidden_radio {
+  display: none;
+}
+
+/* label을 버튼처럼 스타일링 */
+.storage_label {
+  display: inline-block;
+  border: 0.125rem solid #dddddd;
+  border-radius: 624.9375rem; /* pill shape */
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #212425;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* 선택되지 않은 상태 */
+.storage_label {
+  background-color: #fff;
+  border-color: #dddddd;
+}
+
+/* 선택된 상태 */
+.hidden_radio:checked + .storage_label {
+  border-color: #2189ff;
+  color: #212425;
+}
+
+/* 더보기 버튼 */
+.smore_prd_btn {
+  width: 8.4375rem;
+  height: 2.3rem;
+  border: 0.125rem solid #212425;
+  border-radius: 1.25rem;
+  background: #fff;
+  font-weight: bold;
+  font-size: 0.75rem;
+
+  .smore_prd_svg {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-inline-start: 0.625rem;
+  }
+}

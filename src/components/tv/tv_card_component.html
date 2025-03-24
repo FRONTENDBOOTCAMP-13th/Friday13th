@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>카드 컴포넌트</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <h1>TV 카드 컴포넌트</h1>
+    <div class="components-container">
+      <section class="card_component_section">
+        <!-- card_component text -->
+        <span class="products_card_flag">매장픽업 가능</span>
+        <figure>
+          <img
+            src="../../../public/assets/img/tv/6af375ba-5d6b-43be-b5cb-62c577294f34.avif"
+            alt="갤럭시 S25 울트라 자급제" />
+          <figcaption></figcaption>
+        </figure>
+        <!-- smartphone_select_color -->
+        <div class="smartphone_svg">
+          <img src="../../../public/assets/icon/tv/select_color_yellow.svg" />
+        </div>
+
+        <!-- card_component_button -->
+        <div class="products_storages">
+          <input
+            type="radio"
+            id="storage_256"
+            name="storage"
+            value="256GB"
+            class="hidden_radio" />
+          <label for="storage_256" class="storage_label">256GB</label>
+          <input
+            type="radio"
+            id="storage_512"
+            name="storage"
+            value="512GB"
+            class="hidden_radio" />
+          <label for="storage_512" class="storage_label">512GB</label>
+        </div>
+
+        <!-- card_component text -->
+        <div class="products_article">
+          <a href="/" class="products_name">스마트폰 이름</a>
+          <span class="products_code">제품 코드</span>
+          <span class="products_coupon">쿠폰 적용 예상가</span>
+          <span class="products_price">가격</span>
+          <div class="products_point_area">
+            <span class="products_expect">적립 예정 포인트</span>
+            <span class="products_point">적립 포인트</span>
+          </div>
+          <a class="card_component_button buy" href="/">구매하기</a>
+          <a class="card_component_button more" href="/">더 알아보기</a>
+          <div class="products_compare">
+            <div class="products_compare_area">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_28299)">
+                  <g clip-path="url(#clip1_1_28299)">
+                    <path
+                      d="M7.20999 13.6314C10.8612 13.6314 13.8211 10.6715 13.8211 7.02029C13.8211 3.36908 10.8612 0.40918 7.20999 0.40918C3.55877 0.40918 0.598877 3.36908 0.598877 7.02029C0.598877 10.6715 3.55877 13.6314 7.20999 13.6314Z"
+                      stroke="black"
+                      stroke-width="0.777778" />
+                    <path
+                      d="M7.98768 3.13184H6.43213V10.9096H7.98768V3.13184Z"
+                      fill="black" />
+                    <path
+                      d="M11.0989 7.79872V6.24316L3.3211 6.24316V7.79872H11.0989Z"
+                      fill="black" />
+                  </g>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_28299">
+                    <rect
+                      width="14"
+                      height="14"
+                      fill="white"
+                      transform="translate(0.209961 0.0205078)" />
+                  </clipPath>
+                  <clipPath id="clip1_1_28299">
+                    <rect
+                      width="14"
+                      height="14"
+                      fill="white"
+                      transform="translate(0.209961 0.0205078)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="products_link_compare"> 비교하기</span>
+            </div>
+            <div class="products_star_area">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 16 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_28207)">
+                  <g clip-path="url(#clip1_1_28207)">
+                    <path
+                      d="M8.01001 0.764648L10.482 5.47964L16.01 6.23564L12.01 9.90465L12.954 15.0856L8.01001 12.6386L3.06601 15.0856L4.01001 9.90865L0.0100098 6.23964L5.53702 5.48364L8.01001 0.764648Z"
+                      fill="#FECE30" />
+                  </g>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_28207">
+                    <rect
+                      width="14"
+                      height="14"
+                      fill="white"
+                      transform="translate(0.0100098 0.0205078)" />
+                  </clipPath>
+                  <clipPath id="clip1_1_28207">
+                    <rect
+                      width="14"
+                      height="14"
+                      fill="white"
+                      transform="translate(0.0100098 0.0205078)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="products_star"> 별점</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

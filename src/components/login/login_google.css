@@ -1,0 +1,18 @@
+.login_google_container {
+  margin-top: 25px;
+}
+
+.login_base {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 30px;
+  border: 0;
+  padding: 2px 5px;
+  background: #dddddd;
+}
+
+.login_google_text {
+  margin: 0 auto;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.login_checkbox_custom {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.login_checkbox_custom .login_checkbox_type {
+  display: none;
+}
+
+.login_checkbox_checkmark {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../../public/assets/img/login/check.svg");
+  background-size: cover;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.login_checkbox_custom
+  .login_checkbox_type:checked
+  + .login_checkbox_checkmark {
+  background-image: url("../../../public/assets/img/login/uncheck.svg");
+}

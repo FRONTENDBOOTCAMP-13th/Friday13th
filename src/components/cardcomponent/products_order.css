@@ -1,0 +1,27 @@
+.products_order_container {
+  margin-block-start: 1.875rem;
+}
+
+/* 상세검색 검색결과 컨테이너 */
+.products_order_nav {
+  display: flex;
+  border-top: 0.125rem solid #dddddd;
+  border-bottom: 0.125rem solid #dddddd;
+  background: #fff;
+  padding: 1.25rem;
+  gap: 1.875rem;
+}
+
+/* 상세검색 묶음 */
+
+.products_detail_search {
+  display: flex;
+  font-weight: bold;
+}
+
+/* 검색결과 숫자 */
+
+.products_value {
+  color: #2189ff;
+  font-weight: bold;
+}
