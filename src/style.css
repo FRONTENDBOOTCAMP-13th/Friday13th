@@ -72,11 +72,9 @@
 
 /* kitchen */
 @import "./page/kitchen_page/kitchen_page.css";
-
 @import "./page/living_page/living_page.css";
 
 /* card_component */
-
 @import "./components/cardcomponent/card_component_button.css";
 @import "./components/cardcomponent/card_component.css";
 @import "./components/cardcomponent/card_component_text.css";
@@ -84,10 +82,11 @@
 @import "./components/cardcomponent/products_order.css";
 
 /*pc_page  */
-
 @import "./page/pc_page/pc_page.css";
 
 /* main_page */
-
 @import "./page/main_page/main_page.css";
 @import "./page/main_page/main_page_reset.css";
+
+/* ui_index_page */
+@import "./page/ui_index_page.css";
