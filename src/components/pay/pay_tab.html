@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <h1>tab UI</h1>
+    <div class="tab-container">
+      <div class="tab-header">
+        <button class="tab-button active" data-tab="tab1">탭 1</button>
+        <button class="tab-button" data-tab="tab2">탭 2</button>
+      </div>
+
+      <div class="tab-content">
+        <div id="tab1" class="tab-panel active"></div>
+        <div id="tab2" class="tab-panel">
+          <p>탭 2의 내용이 여기에 표시됩니다.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

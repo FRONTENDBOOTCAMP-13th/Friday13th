@@ -4,14 +4,13 @@
   display: flex;
   align-items: flex-start;
   border-top: 1px solid #f7f7f7;
-  padding: 40px 0;
+  width: 100%;
 }
 
 .pay_coupon_top {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 20px;
 }
 .pay_span_sale {
   display: flex;
@@ -31,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% - 136px);
+  width: 100%;
   padding: 16px;
   border: 1px solid #8f8f8f;
   cursor: pointer;
@@ -51,33 +50,12 @@
   pointer-events: none;
 }
 
-@media (max-width: 800px) {
-  .pay_coupon_code_wrap {
-    padding: 24px 12px 32px;
-    flex-wrap: wrap;
-  }
-  .pay_span_sale {
-    width: 100%;
-    margin-bottom: 16px;
-  }
-  .pay_coupon_top {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    margin: 0 9px;
-  }
-  .pay_coupon_code {
-    width: 100%;
-  }
-}
-
 /* pay_notice */
 /* 기본 스타일 */
 .pay_notice_box {
   margin-bottom: 15px;
   padding-bottom: 24px;
   border-bottom: 1px solid #eee;
-  margin: 0 20px;
 }
 
 .pay_notice_more {
@@ -113,8 +91,8 @@
 /* 버튼 화살표 위치 고정 */
 .pay_notice_top::after {
   content: "";
-  width: 25px;
-  height: 16px;
+  width: 18px;
+  height: 12px;
   background-image: url(../../../public/assets/icon/pay/arrow_down.svg);
   background-size: cover;
   position: absolute;
@@ -133,6 +111,17 @@
 }
 .pay_notice_text {
   margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.pay_notice_text + .installment {
+  padding: 10px;
+
+  &:hover {
+    background: #f7f7f7;
+    color: #000;
+    font-weight: bold;
+  }
 }
 /* 체크되었을 때 버튼 스타일 변경 */
 .pay_notice_checkbox:checked + .pay_notice_top {

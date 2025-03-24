@@ -1,0 +1,215 @@
+.pay_banner {
+  width: 100vw;
+}
+
+.pay_page_main {
+  padding: 0 15px;
+  @media (min-width: 780px) {
+    padding: 0 140px;
+  }
+}
+
+.pay_sub_title {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.sale_coupon_code {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.pay_product_bottom {
+  margin-top: 30px;
+}
+
+.pay_coupon_code_wrap {
+  margin-top: 20px;
+}
+
+.pay_point_title {
+  border-block-end: 1px solid #f0f0f0;
+  padding: 30px 0 10px 0;
+}
+
+.pay_delivery_title {
+  border-block-end: 1px solid #f0f0f0;
+  padding: 30px 0 10px 0;
+}
+
+.pay_pay_title {
+  border-block-end: 1px solid #f0f0f0;
+  padding: 30px 0 10px 0;
+}
+
+.pay_agree_title {
+  border-block-end: 1px solid #f0f0f0;
+  padding: 30px 0 10px 0;
+}
+
+.pay_tip_add {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  gap: 5px;
+  margin-block-start: 20px;
+}
+
+.pay_point_exchange_box {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+
+  .pay_point_exchange_tit {
+    font-size: 14px;
+  }
+
+  .pay_point_exchange_txt {
+    font-size: 12px;
+    color: #707070;
+  }
+}
+
+.pay_arddress_bundle {
+  display: flex;
+}
+
+.delivery_hope_day_area {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.delivery_hope_day_text {
+  color: #707070;
+  font-size: 14px;
+}
+
+.delivery_hope_day_input {
+  height: 40px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding-inline: 10px;
+  outline: none;
+}
+
+.btn_underline {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+  margin-inline-start: 15px;
+}
+
+.payment_listup_area {
+  margin-block-start: 46px;
+  border-block-start: 5px solid #f7f7f7;
+}
+
+.payment_list {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10px;
+
+  .payment_listup_head {
+    color: #707070;
+  }
+}
+
+.pay_agree_area {
+  border-block-end: 5px solid #f7f7f7;
+  padding-block-end: 30px;
+}
+
+.payment_list.lg {
+  padding: 16px 0 20px;
+  height: 82px;
+  border-block-end: 5px solid #f7f7f7;
+}
+.payment_listup_data.bl {
+  color: #2189ff;
+}
+
+.pay_cost_listup {
+  padding: 16px 0;
+  background: #f7f7f7;
+
+  .pay_cost_list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pay_const_list_head {
+    font-size: 14px;
+  }
+
+  .pay_const_list_data {
+    font-size: 20px;
+  }
+}
+
+.pay_required_item {
+  color: #2189ff;
+}
+
+.login_checkbox_custom.md {
+  font-size: 16px;
+  font-weight: bold;
+  border-block-end: 1px solid #f7f7f7;
+  padding-block: 20px;
+}
+
+.login_checkbox_custom.gr {
+  font-size: 14px;
+  font-weight: bold;
+  color: #707070;
+}
+
+.pay_agree_listup {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.pay_buy_btn_box {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100vw;
+  padding: 16px 12px;
+  border-top: 1px solid #d9d9d9;
+  box-shadow: 0 -4px 10px #d9d9d9;
+  z-index: 100;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.pay_buy_btn {
+  height: 11.111vw;
+  line-height: initial;
+  width: 100%;
+  color: #fff;
+  background: #2189ff;
+  border-color: #2189ff;
+  min-width: 150px;
+  border-radius: 30px;
+  padding-inline: 30px;
+}
+
+.fin_buy_btn {
+  width: 100%;
+  background: #2189ff;
+  border-radius: 12px;
+  border-color: #2189ff;
+  padding: 16px 12px;
+  color: #fff;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
