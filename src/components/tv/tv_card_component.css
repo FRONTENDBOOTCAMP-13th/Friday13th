@@ -1,8 +1,3 @@
-@import "/src/components/smartphone/smartphone_button.css";
-@import "/src/components/smartphone/smartphone_select_color.css";
-@import "/src/components/smartphone/smartphone_text.css";
-@import "../../common/modern-reset.css";
-
 .components-container {
   display: flex;
   justify-content: center;
