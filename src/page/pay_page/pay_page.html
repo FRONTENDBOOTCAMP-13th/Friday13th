@@ -188,7 +188,7 @@
     <img class="pay_banner" src="/public/assets/img/pay/pay_page_banner.webp" />
     <main class="pay_page_main">
       <h2 class="pay_sub_title">주문상품</h2>
-      <section class="pay_product">
+      <section class="pay_product_area">
         <!--pay cardcomponent-->
         <article class="pay_product_top">
           <div class="pay_bundle">
@@ -215,9 +215,265 @@
             </div>
           </div>
         </article>
-        <article class="pay_product_buttom">
+        <article class="pay_product_bottom">
+          <!--pay button-->
           <span class="sale_coupon_code">할인 쿠폰/코드</span>
+          <div class="pay_coupon_code_wrap">
+            <div class="pay_coupon_top">
+              <a class="pay_coupon_code" href=""
+                ><span class="pay_span_coupon">쿠폰 할인 적용 금액</span
+                ><span class="pay_span_price"
+                  ><strong id="coupon_price">0 원</strong>변경</span
+                ></a
+              >
+            </div>
+          </div>
         </article>
+      </section>
+      <section class="pay_point_area">
+        <h2 class="pay_point_title">포인트 사용</h2>
+        <span class="pay_tip_add">
+          삼성전자 멤버십 포인트
+          <img src="/public/assets/img/pay/exclamation_mark.svg" />
+        </span>
+        <article class="pay_point_exchange_box">
+          <p class="pay_point_exchange_tit">
+            보유중인 다른 국가의 Samsung Rewards Points도 삼성전자 멤버십
+            포인트로 전환하여 사용할 수 있습니다.
+          </p>
+          <p class="pay_point_exchange_txt">
+            * 나의 삼성 계정 정보 > 나의 멤버십/포인트 > 국가별 포인트 전환
+            탭에서 전환 가능
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2 class="pay_pay_title">결제 수단</h2>
+        <div class="tab-container">
+          <div class="tab-header">
+            <button class="tab-button active" data-tab="tab1">신용카드</button>
+            <button class="tab-button" data-tab="tab2">간편결제</button>
+          </div>
+          <div class="tab-content">
+            <div id="tab1" class="tab-panel active">
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="samsung_card"
+                  name="payment_card"
+                  value="samsung"
+                  class="hidden_radio" />
+                <label for="samsung_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-samsung.svg" />
+                  <em class="payment_em">삼성카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="kb_card"
+                  name="payment_card"
+                  value="kb"
+                  class="hidden_radio" />
+                <label for="kb_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-kb.svg" />
+                  <em class="payment_em">국민카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="hana_card"
+                  name="payment_card"
+                  value="hana"
+                  class="hidden_radio" />
+                <label for="hana_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-hana.svg" />
+                  <em class="payment_em">하나카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="hd_card"
+                  name="payment_card"
+                  value="hd"
+                  class="hidden_radio" />
+                <label for="hd_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-hyundai.svg" />
+                  <em class="payment_em">현대카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="nh_card"
+                  name="payment_card"
+                  value="nh"
+                  class="hidden_radio" />
+                <label for="nh_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-nh.svg" />
+                  <em class="payment_em">농협카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="wr_card"
+                  name="payment_card"
+                  value="wr"
+                  class="hidden_radio" />
+                <label for="wr_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-woori.svg" />
+                  <em class="payment_em">우리카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="lt_card"
+                  name="payment_card"
+                  value="lt"
+                  class="hidden_radio" />
+                <label for="lt_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-lotte.svg" />
+                  <em class="payment_em">롯데카드</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="etc_card"
+                  name="payment_card"
+                  value="etc"
+                  class="hidden_radio" />
+                <label for="etc_card" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-logo-etc.svg" />
+                  <em class="payment_em">기타카드</em>
+                </label>
+              </div>
+            </div>
+            <div id="tab2" class="tab-panel">
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="naver_pay"
+                  name="payment_pay"
+                  value="naver"
+                  class="hidden_radio" />
+                <label for="naver_pay" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-naver.svg" />
+                  <em class="payment_em">네이버페이</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="payco"
+                  name="payment_pay"
+                  value="payco"
+                  class="hidden_radio" />
+                <label for="payco" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-payco.svg" />
+                  <em class="payment_em">페이코</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="toss_pay"
+                  name="payment_pay"
+                  value="toss"
+                  class="hidden_radio" />
+                <label for="toss_pay" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-toss.svg" />
+                  <em class="payment_em">토스페이</em>
+                </label>
+              </div>
+              <div class="storage_options">
+                <input
+                  type="radio"
+                  id="ssg_pay"
+                  name="payment_pay"
+                  value="ssg"
+                  class="hidden_radio" />
+                <label for="ssg_pay" class="pay_label">
+                  <img
+                    class="payment_img"
+                    src="/public/assets/img/pay/credit-simple-ssg.svg" />
+                  <em class="payment_em">SSG페이</em>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pay_notice_box">
+          <div class="pay_notice_more">
+            <!-- 숨겨진 체크박스 -->
+            <input
+              type="checkbox"
+              id="pay_notice_toggle"
+              class="pay_notice_checkbox" />
+
+            <!-- 버튼 역할을 하는 label -->
+            <label for="pay_notice_toggle" class="pay_notice_top">
+              일시불
+            </label>
+
+            <!-- 펼쳐질 내용 -->
+            <div class="pay_notice_content">
+              <p class="pay_notice_text installment">일시불</p>
+              <p class="pay_notice_text installment">2개월(무이자)</p>
+              <p class="pay_notice_text installment">3개월(무이자)</p>
+              <p class="pay_notice_text installment">4개월</p>
+              <p class="pay_notice_text installment">5개월</p>
+              <p class="pay_notice_text installment">6개월</p>
+              <p class="pay_notice_text installment">7개월</p>
+              <p class="pay_notice_text installment">8개월</p>
+              <p class="pay_notice_text installment">9개월</p>
+              <p class="pay_notice_text installment">10개월</p>
+              <p class="pay_notice_text installment">11개월</p>
+              <p class="pay_notice_text installment">12개월</p>
+              <p class="pay_notice_text installment">23개월</p>
+              <p class="pay_notice_text installment">24개월</p>
+            </div>
+          </div>
+        </div>
+        <label class="login_checkbox_custom">
+          <input
+            class="login_checkbox_type pay"
+            type="checkbox"
+            id="rememberId" />
+          <span class="login_checkbox_checkmark"></span>
+          카드사 포인트 사용 여부
+        </label>
+        <label class="login_checkbox_custom">
+          <input class="login_checkbox_type" type="checkbox" id="rememberId" />
+          <span class="login_checkbox_checkmark"></span>
+          결제수단 저장
+        </label>
       </section>
     </main>
   </body>

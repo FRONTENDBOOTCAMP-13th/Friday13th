@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pay_button</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="pay_coupon_code_wrap">
+      <div class="pay_coupon_top">
+        <span class="pay_span_sale">할인 쿠폰/코드</span>
+        <a class="pay_coupon_code" href=""
+          ><span class="pay_span_coupon">쿠폰 할인 적용 금액</span
+          ><span class="pay_span_price"
+            ><strong id="coupon_price">0 원</strong>변경</span
+          ></a
+        >
+      </div>
+    </div>
+    <div class="pay_notice_box">
+      <div class="pay_notice_more">
+        <!-- 숨겨진 체크박스 -->
+        <input
+          type="checkbox"
+          id="pay_notice_toggle"
+          class="pay_notice_checkbox" />
+
+        <!-- 버튼 역할을 하는 label -->
+        <label for="pay_notice_toggle" class="pay_notice_top"> 일시불 </label>
+
+        <!-- 펼쳐질 내용 -->
+        <div class="pay_notice_content">
+          <p class="pay_notice_text installment">일시불</p>
+          <p class="pay_notice_text installment">2개월(무이자)</p>
+          <p class="pay_notice_text installment">3개월(무이자)</p>
+          <p class="pay_notice_text installment">4개월</p>
+          <p class="pay_notice_text installment">5개월</p>
+          <p class="pay_notice_text installment">6개월</p>
+          <p class="pay_notice_text installment">7개월</p>
+          <p class="pay_notice_text installment">8개월</p>
+          <p class="pay_notice_text installment">9개월</p>
+          <p class="pay_notice_text installment">10개월</p>
+          <p class="pay_notice_text installment">11개월</p>
+          <p class="pay_notice_text installment">12개월</p>
+          <p class="pay_notice_text installment">23개월</p>
+          <p class="pay_notice_text installment">24개월</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
