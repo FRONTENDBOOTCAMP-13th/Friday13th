@@ -130,28 +130,32 @@
 
     .member-image1 {
       height: 250px;
-      background: url(/public/assets/img/main/a1.jpeg) center/cover no-repeat;
+      background: url(../../public/assets/img/main/a1.jpeg) center/cover
+        no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
     }
     .member-image2 {
       height: 250px;
-      background: url(/public/assets/img/main/a2.jpeg) center/cover no-repeat;
+      background: url(../../public/assets/img/main/a2.jpeg) center/cover
+        no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
     }
     .member-image3 {
       height: 250px;
-      background: url(/public/assets/img/main/a3.jpeg) center/cover no-repeat;
+      background: url(../../public/assets/img/main/a3.jpeg) center/cover
+        no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
     }
     .member-image4 {
       height: 250px;
-      background: url(/public/assets/img/main/a4.jpeg) center/cover no-repeat;
+      background: url(../../public/assets/img/main/a4.jpeg) center/cover
+        no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -242,7 +246,7 @@
 
   .page-image1 {
     height: 200px;
-    background: url(/public/assets/img/main/b1.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b1.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +254,7 @@
   }
   .page-image2 {
     height: 200px;
-    background: url(/public/assets/img/main/b2.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b2.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +262,7 @@
   }
   .page-image3 {
     height: 200px;
-    background: url(/public/assets/img/main/b3.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b3.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -266,7 +270,7 @@
   }
   .page-image4 {
     height: 200px;
-    background: url(/public/assets/img/main/b4.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b4.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +278,7 @@
   }
   .page-image5 {
     height: 200px;
-    background: url(/public/assets/img/main/b5.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b5.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,7 +286,7 @@
   }
   .page-image6 {
     height: 200px;
-    background: url(/public/assets/img/main/b6.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b6.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -290,7 +294,7 @@
   }
   .page-image7 {
     height: 200px;
-    background: url(/public/assets/img/main/b7.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b7.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,7 +302,7 @@
   }
   .page-image8 {
     height: 200px;
-    background: url(/public/assets/img/main/b8.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b8.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,7 +310,7 @@
   }
   .page-image9 {
     height: 200px;
-    background: url(/public/assets/img/main/b9.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b9.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -314,7 +318,7 @@
   }
   .page-image10 {
     height: 200px;
-    background: url(/public/assets/img/main/b10.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b10.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -322,7 +326,7 @@
   }
   .page-image11 {
     height: 200px;
-    background: url(/public/assets/img/main/b11.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b11.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,7 +334,7 @@
   }
   .page-image12 {
     height: 200px;
-    background: url(/public/assets/img/main/b12.png) center/cover no-repeat;
+    background: url(../../public/assets/img/main/b12.png) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -87,7 +87,6 @@
 
 /* main_page */
 @import "./page/main_page/main_page.css";
-@import "./page/main_page/main_page_reset.css";
 @import "./common/main-theme.css";
 
 /* ui_index_page */
@@ -95,6 +94,8 @@
 
 /* pay */
 @import "./components/pay/payment_method.css";
+
+
 @import "./components/pay/pay_img.css";
 @import "./components/pay/pay_cardcomponent.css";
 @import "./components/pay/pay_tab.css";
@@ -103,3 +104,4 @@
 @import "./components/pay/pay_button.css";
 @import "./components/pay/pay_delivery.css";
 @import "./components/pay/pay_orderer.css";
+
