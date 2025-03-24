@@ -74,11 +74,7 @@
 @import "./page/kitchen_page/kitchen_page.css";
 @import "./page/living_page/living_page.css";
 
-
-/* card_component */
-
 /* card_components */
-
 
 @import "./components/cardcomponent/card_component_button.css";
 @import "./components/cardcomponent/card_component.css";
@@ -95,7 +91,7 @@
 /* main_page */
 @import "./page/main_page/main_page.css";
 @import "./page/main_page/main_page_reset.css";
-
+@import "./common/main-theme.css";
 
 /* ui_index_page */
 @import "./page/ui_index_page.css";
@@ -103,4 +99,3 @@
 /* pay */
 @import "./components/pay/payment_method.css";
 @import "./page/pay_page/pay_page.css";
-
