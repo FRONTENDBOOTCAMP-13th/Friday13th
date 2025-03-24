@@ -19,7 +19,7 @@
 
 .pay_s_head {
   font-size: 14px;
-  color: #000;
+  color: #f7f7f7;
   margin-bottom: 8px;
   font-weight: bold;
 }
@@ -50,21 +50,6 @@
   padding-right: 42px;
 }
 
-.pay_calendar_btn {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
-  border: none;
-  background-color: transparent;
-  background-image: url("../../../public/assets/img/pay/icon-calendar.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  cursor: pointer;
-}
 
 .pay_calendar_btn:hover {
   opacity: 0.8;
