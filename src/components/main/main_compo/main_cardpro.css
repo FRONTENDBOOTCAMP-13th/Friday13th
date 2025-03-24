@@ -40,8 +40,8 @@
   .main_cardpro_pc_wrapper_mobile {
     width: 100%;
     height: 100%;
-    background: url("/public/assets/img/main/모바일PC.jpg") center/cover
-      no-repeat;
+    background: url("../../../../public/assets/img/main/모바일PC.jpg")
+      center/cover no-repeat;
 
     .main_cardpro_txt {
       text-align: center;
@@ -97,7 +97,7 @@
   .main_cardpro_pc_wrapper_white {
     width: 100%;
     height: 100%;
-    background: url("/public/assets/img/main/TV영상음향.webp")
+    background: url("../../../../public/assets/img/main/TV영상음향.webp")
       center/cover no-repeat;
 
     .main_cardpro_txt_white {
@@ -151,8 +151,8 @@
   .main_cardpro_pc_wrapper_bespoke {
     width: 100%;
     height: 100%;
-    background: url("/public/assets/img/main/가전.webp") center/cover
-      no-repeat;
+    background: url("../../../../public/assets/img/main/가전.webp")
+      center/cover no-repeat;
 
     .main_cardpro_txt {
       text-align: center;
@@ -283,7 +283,7 @@
     /* 모바일 & PC */
     .main_cardpro_wrapper_large {
       width: 100%;
-      background: url("/public/assets/img/main/모바일pc_large.webp")
+      background: url("../../../../public/assets/img/main/모바일pc_large.webp")
         center/cover no-repeat;
       .main_cardpro_text_up_large {
         text-align: center;
@@ -333,7 +333,7 @@
     /* TV/영상,음향 */
     .main_cardpro_wrapper_large_white {
       width: 100%;
-      background: url("/public/assets/img/main/TV영상음향large.webp")
+      background: url("../../../../public/assets/img/main/TV영상음향large.webp")
         center/cover no-repeat;
 
       .main_cardpro_text_up_large_white {
@@ -354,6 +354,7 @@
           gap: 2vw;
           white-space: nowrap;
           color: var(--white);
+
           .main_cardpro_navtext_large {
             font-size: 1.5vw;
             font-weight: 600;
