@@ -14,19 +14,19 @@
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
-    <h1>components</h1>
     <div class="components">
-      <h1>mainpage_components</h1>
-      <ul class="mainpage_components">
-        <div class="mainheader">
-          <li>
+      <div class="components">
+        <h1>mainpage_components</h1>
+        <ul class="mainpage_components">
+          <li class="mainheader">
             <a href="./src/components/main/header/main_header/main_header.html"
               >main_header</a
             >
           </li>
           <li>
             <a href="./src/components/main/header/main_nav/main_nav.html"
-              >네비게이션</a>
+              >네비게이션</a
+            >
           </li>
           <li>
             <a href="./src/components/main/header/main_nav_pc/main_nav_pc.html"
@@ -39,19 +39,31 @@
               >search_bar</a
             >
           </li>
-        </div>
-        <div class="maincompo">
+        </ul>
+
+        <ul class="maincompo">
           <li>
             <a href="./src/components/main/main_compo/main_banner.html"
               >메인 베너</a
             >
-            <li><a href="./src/components/main/main_compo/main_cardimg.html">메인 이미지 카드</a></li>
-
-            <li><a href="./src/components/main/main_compo/main_cardpro.html">cardpro</a></li>
-            <li><a href="./src/components/main/main_compo/main_cardscroll.html">cardscroll</a></li>
           </li>
-        </div>
-      </ul>
+          <li>
+            <a href="./src/components/main/main_compo/main_cardimg.html"
+              >메인 이미지 카드</a
+            >
+          </li>
+          <li>
+            <a href="./src/components/main/main_compo/main_cardpro.html"
+              >cardpro</a
+            >
+          </li>
+          <li>
+            <a href="./src/components/main/main_compo/main_cardscroll.html"
+              >cardscroll</a
+            >
+          </li>
+        </ul>
+      </div>
 
       <h1>login_components</h1>
       <ul class="login_components">
@@ -221,37 +233,6 @@
       <h1>mainpage_footer_components</h1>
       <ul class="mainpage_footer_components">
         <li>
-          <a href="./src/components/main_footer/main_footer.html"
-            >main_footer</a
-          >
-        </li>
-        <li>
-          <a href="./src/components/main_footer/main_footer_area1.html"
-            >main_footer_area1</a
-          >
-        </li>
-        <li>
-          <a href="./src/components/main_footer/main_footer_area2.html"
-            >main_footer_area2</a
-          >
-        </li>
-        <li>
-          <a href="./src/components/main_footer/main_footer_area3.html"
-            >main_footer_area3</a
-          >
-        </li>
-        <li>
-          <a href="./src/components/main_footer/main_footer1.html"
-            >main_footer1</a
-          >
-        </li>
-        <li>
-          <a href="./src/components/main_footer/main_footer2.html"
-            >main_footer2</a
-          >
-        </li>
-
-        <li>
           <a href="./src/components/main_footer/main_footer_final.html"
             >main_footer_final</a
           >
@@ -294,18 +275,43 @@
       </ul>
       <h1>pay_components</h1>
       <ul>
-        <li><a href="./src/components/pay/payment_method.html">pay_payment</a></li>
-        <li><a href="./src/components/pay/pay_img.html">pay_img</a></li>
-        <li><a href="./src/components/pay/pay_tab.html">pay_tab</a></li>
+        <li><a href="./src/components/pay/pay_button.html">pay_button</a></li>
+        <li>
+          <a href="./src/components/pay/payment_method.html">pay_payment</a>
+        </li>
+        <li><a href="./src/components/pay/pay_address.html">pay_address</a></li>
+        <li>
+          <a href="./src/components/pay/pay_cardcomponent.html"
+            >pay_cardcomponent</a
+          >
+        </li>
+        <li>
+          <a href="./src/components/pay/pay_delivery.html">pay_delivery</a>
+        </li>
+        <li>
+          <a href="./src/components/pay/pay_img.html">pay_img</a>
+        </li>
+        <li>
+          <a href="./src/components/pay/pay_orderer.html">pay_order</a>
+        </li>
+        <li>
+          <a href="./src/components/pay/pay_tab.html">pay_tab</a>
+        </li>
+        <li>
+          <a href="./src/components/pay/payment_method.html">pay_method</a>
+        </li>
       </ul>
-      <ul><li><a href="./src/components/pay/pay_button.html">pay_button</a></li></ul>
     </div>
 
     <h1>page</h1>
     <div class="page">
       <ul class="page_container">
         <li><a href="./src/page/main_page/main_page.html">메인 페이지</a></li>
-        <li><a href="./src/page/main_page/main_page_reset.html"> 리셋 메인 페이지</a></li>
+        <li>
+          <a href="./src/page/main_page/main_page_reset.html">
+            리셋 메인 페이지</a
+          >
+        </li>
         <li>
           <a href="./src/page/mypage_page/mypage.html">마이페이지 페이지</a>
         </li>
@@ -319,8 +325,6 @@
           <a href="./src/page/smartphone/smartphone_page.html">smartphone</a>
         </li>
 
-        <li><a href="./src/page/test.html">test</a></li>
-
         <li><a href="./src/page/tv_page/tv_page.html">tv_page</a></li>
 
         <li>
@@ -329,13 +333,16 @@
         <li>
           <a href="./src/page/living_page/living_page.html">living_page</a>
         </li>
+        <li>
           <a href="./src/page/exhibitions_page/exhibitions_page.html"
             >기획전 페이지</a
           >
         </li>
         <li><a href="./src/page/purchase/putchase1.html">구매페이지 1</a></li>
         <li><a href="./src/page/pc_page/pc_page.html">pc_page</a></li>
-        <li><a href="./src/page/login_page/loginpage.html">로그인 페이지</a></li>
+        <li>
+          <a href="./src/page/login_page/loginpage.html">로그인 페이지</a>
+        </li>
         <li><a href="./src/page/pay_page/pay_page.html">결제 페이지</a></li>
       </ul>
     </div>
