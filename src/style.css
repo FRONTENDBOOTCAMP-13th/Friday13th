@@ -94,4 +94,6 @@
 
 /* pay */
 @import "./components/pay/payment_method.css";
+@import "./components/pay/pay_img.css";
+@import "./components/pay/pay_cardcomponent.css";
 @import "./page/pay_page/pay_page.css";

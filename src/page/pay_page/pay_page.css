@@ -1,0 +1,17 @@
+.pay_banner {
+  width: 100vw;
+}
+
+.pay_page_main {
+  padding: 0 15px;
+}
+
+.pay_sub_title {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.sale_coupon_code {
+  margin-top: 30px;
+  font-weight: bold;
+}
