@@ -13,18 +13,6 @@
   padding-block: 5px;
 }
 
-.hh {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: gray;
-  color: white;
-  border-top-left-radius: 7px;
-  border-bottom-right-radius: 5px;
-  padding: 4px 8px;
-  font-size: 10px;
-}
-
 /* 선택되지 않은 상태 */
 .pay_label {
   background-color: #fff;

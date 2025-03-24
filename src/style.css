@@ -82,9 +82,6 @@
 @import "./components/cardcomponent/products_nav.css";
 @import "./components/cardcomponent/products_order.css";
 
-/* pay_components */
-@import "./components/pay/pay_button.css";
-
 /*pc_page  */
 @import "./page/pc_page/pc_page.css";
 
@@ -98,4 +95,11 @@
 
 /* pay */
 @import "./components/pay/payment_method.css";
+@import "./components/pay/pay_img.css";
+@import "./components/pay/pay_cardcomponent.css";
+@import "./components/pay/pay_tab.css";
+@import "./components/pay/pay_address.css";
 @import "./page/pay_page/pay_page.css";
+@import "./components/pay/pay_button.css";
+@import "./components/pay/pay_delivery.css";
+@import "./components/pay/pay_orderer.css";

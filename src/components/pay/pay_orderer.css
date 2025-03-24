@@ -1,18 +1,22 @@
-
 .pay_orderer_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding: 8px 16px;
+  padding: 30px 0px;
   margin-bottom: 16px;
-  border-bottom: 1px solid #ddd;
 }
 
 .pay_orderer_title {
   font-size: 16px;
   font-weight: bold;
   color: #000;
+}
+
+.pay_orderer_form {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
 }
 
 .pay_orderer_save_btn {
@@ -27,22 +31,6 @@
 
 .pay_orderer_save_btn:hover {
   opacity: 0.8;
-}
-
-.pay_orderer_form {
-  padding: 0 16px;
-}
-
-.pay_form_row {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 20px;
-}
-
-.pay_form_col {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 .pay_s_head {
@@ -63,6 +51,8 @@
   outline: none;
   box-sizing: border-box;
   margin: 0;
+  border-radius: 8px;
+  margin-block-end: 8px;
 }
 
 .pay_inp_line:focus {

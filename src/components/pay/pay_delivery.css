@@ -1,4 +1,3 @@
-
 .pay_delivery_title {
   font-size: 16px;
   font-weight: bold;
@@ -20,7 +19,7 @@
 
 .pay_s_head {
   font-size: 14px;
-  color: #000;
+  color: #f7f7f7;
   margin-bottom: 8px;
   font-weight: bold;
 }
@@ -49,22 +48,6 @@
 
 .pay_inp_line_calendar {
   padding-right: 42px;
-}
-
-.pay_calendar_btn {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
-  border: none;
-  background-color: transparent;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnL3N2ZyI+PHBhdGggZD0iTTE5IDEuMzgyaC0xLjVWMGgtMnYxLjM4Mkg4VjBoLTJ2MS4zODJINS45ODljLS44NjUgMC0xLjU4NC43MTktMS41ODQgMS41ODR2MTkuMjMyYzAgLjg2Ni43MTkgMS41ODQgMS41ODQgMS41ODRIMTguMDEyYy44NjUgMCAxLjU4NC0uNzE4IDEuNTg0LTEuNTg0VjIuOTY2YzAtLjg2NS0uNzE5LTEuNTg0LTEuNTg0LTEuNTg0ek0xOSAyMS4yM0MxOSAyMS4yMyAxOSAyMS4yMyAxOSAyMS4yM0g1Ljk4OUg1Ljk4NVY5LjgyOCAxOSA5LjgyOEgxOXpNMTkuMDEyIDcuNjQ1aC0xNC4wMTJWNC41NTJoMTh2My4wOTN6Ii8+PC9zdmc+");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  cursor: pointer;
 }
 
 .pay_calendar_btn:hover {
