@@ -91,3 +91,7 @@
 
 @import "./page/main_page/main_page.css";
 @import "./page/main_page/main_page_reset.css";
+
+/* pay */
+@import "./components/pay/payment_method.css";
+@import "./page/pay_page/pay_page.css";
