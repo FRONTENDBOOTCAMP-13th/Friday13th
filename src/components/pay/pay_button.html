@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pay_button</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="pay_coupon_code_wrap">
+      <div class="pay_coupon_top">
+        <span class="pay_span_sale">할인 쿠폰/코드</span>
+        <a class="pay_coupon_code" href=""
+          ><span class="pay_span_coupon">쿠폰 할인 적용 금액</span
+          ><span class="pay_span_price"
+            ><strong id="coupon_price">0 원</strong>변경</span
+          ></a
+        >
+      </div>
+    </div>
+    <div class="pay_notice_box">
+      <div class="pay_notice_more">
+        <!-- 숨겨진 체크박스 -->
+        <input
+          type="checkbox"
+          id="pay_notice_toggle"
+          class="pay_notice_checkbox" />
+
+        <!-- 버튼 역할을 하는 label -->
+        <label for="pay_notice_toggle" class="pay_notice_top">
+          아래 내용을 모두 확인하였습니다.
+        </label>
+
+        <!-- 펼쳐질 내용 -->
+        <div class="pay_notice_content">
+          <p class="pay_notice_text">
+            ※ 입력하신 이메일 주소로 주문 내역을 안내 드립니다.
+          </p>
+          <p class="pay_notice_text">
+            ※ 사은품 혜택은 조기 품절 시 제공이 어려울 수 있으며, 혜택 지급용
+            개인정보 수집·이용, 마케팅/광고 목적의 개인정보 수집·이용, 광고성
+            정보 수신에 모두 동의하셔야 제공 가능합니다.
+          </p>
+          <p class="pay_notice_text">
+            ※ 멤버십 포인트는 주문 제품의 수량이 1개일 때만 사용 가능합니다.
+          </p>
+          <p class="pay_notice_text">
+            ※ 적립 예정 멤버십 포인트는 멤버십 회원 상태와 등급별 최대 적립
+            한도, 분리 배송 여부에 따라 실제 적립 포인트와 상이할 수 있습니다.
+          </p>
+          <p class="pay_notice_text">
+            ※ 멤버십 고객명, 주문자 이름, 받으시는 분이 일치하지 않은 경우
+            멤버십 서비스 중 제한이 있을 수 있습니다.
+          </p>
+          <p class="pay_notice_text">
+            ※ 카드사별 매입 승인 기간 이후로 배송 희망일을 연기할 경우 주문이
+            취소될 수 있습니다. 카드사별 매입 승인 기간은 카드사별로 상이하며
+            주문일로부터 최소 25일부터 최대 88일까지 입니다.
+          </p>
+        </div>
+      </div>
+      <p class="pay_notice_caution">
+        ※ 만 19세 미만 미성년자의 제품 구매 시 법정대리인이 제품 구매에 동의하지
+        않으면 구매자 본인 또는 법정대리인이 주문을 취소할 수 있습니다.
+      </p>
+      <p class="pay_notice_caution">
+        ※ 삼성전자주식회사는 통신판매중개자로서 통신판매의 당사자가 아니며,
+        개별판매자가 등록한 거래정보 및 거래에 대하여 책임을 지지 않습니다.
+      </p>
+    </div>
+  </body>
+</html>
