@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>일반 배송</title>
+    <link rel="stylesheet" href="pay_delivery.css" />
+  </head>
+  <body>
+    <h2 class="pay_delivery_title">일반 배송</h2>
+
+    <div class="pay_form_row">
+      <div class="pay_form_col">
+        <label for="pay_hope_date" class="pay_s_head">배송 희망일</label>
+
+        <div class="pay_calendar_wrapper">
+          <input
+            type="text"
+            id="pay_hope_date"
+            name="pay_hope_date"
+            class="pay_inp_line pay_inp_line_calendar"
+            placeholder="날짜를 선택 혹은 입력해 주세요." />
+          <button
+            type="button"
+            class="pay_calendar_btn"
+            aria-label="달력 보기"
+            title="달력 보기"></button>
+        </div>
+      </div>
+
+      <div class="pay_form_col"></div>
+    </div>
+
+    <div class="pay_delivery_notice">
+      <p>※ 본 제품은 순차 배송되는 일반 제품입니다.</p>
+      <p>
+        (가장 가까운 일자 자동 지정. 캘린더 아이콘 클릭 시 날짜 변경 가능,
+        경우에 따라 배송일 변동될 수 있음.)
+      </p>
+      <p>
+        배송 안내를 위해 등록하신 휴대폰 번호로 카카오 알림톡 메시지가
+        전송됩니다.
+      </p>
+    </div>
+  </body>
+</html>
