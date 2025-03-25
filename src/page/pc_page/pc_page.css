@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.pc_banner {
+  width: 100vw;
+}
+
 .pc_list {
   display: grid;
   place-items: center;
