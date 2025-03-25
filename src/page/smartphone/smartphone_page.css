@@ -2,6 +2,10 @@
   background: #f7f7f7;
   text-align: center;
 }
+
+.smartphone_banner {
+  width: 100vw;
+}
 .smartphone_list {
   display: grid;
   place-items: center;

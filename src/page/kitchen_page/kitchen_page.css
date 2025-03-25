@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.refrigerator_banner {
+  width: 100vw;
+}
+
 .kitchen_list {
   display: grid;
   place-items: center;
