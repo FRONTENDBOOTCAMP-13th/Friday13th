@@ -1,6 +1,9 @@
 /* =======================
    기본 스타일
 ========================== */
+.main_footer {
+  background: #ffffff;
+}
 .main_footer_textBox {
   font-size: 12px;
   letter-spacing: -0.02em;
