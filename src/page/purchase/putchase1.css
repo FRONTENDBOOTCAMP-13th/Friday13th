@@ -10,7 +10,8 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 20px;
-  padding: 20px 0; /* 상하 20px, 좌우 0 => 좌우는 auto정렬 */
+  padding: 20px 0;
+  /* 상하 20px, 좌우 0 => 좌우는 auto정렬 */
 }
 
 /* 왼쪽 배너 */

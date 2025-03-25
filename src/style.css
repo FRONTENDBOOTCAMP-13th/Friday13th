@@ -89,13 +89,14 @@
 @import "./page/main_page/main_page.css";
 @import "./common/main-theme.css";
 
+/* pay_page */
+@import "./page/pay_page/pay_page.css";
+
 /* ui_index_page */
 @import "./page/ui_index_page.css";
 
 /* pay */
 @import "./components/pay/payment_method.css";
-
-
 @import "./components/pay/pay_img.css";
 @import "./components/pay/pay_cardcomponent.css";
 @import "./components/pay/pay_tab.css";
@@ -105,3 +106,16 @@
 @import "./components/pay/pay_delivery.css";
 @import "./components/pay/pay_orderer.css";
 
+/* putchase */
+@import "./components/purchase/putchase_banner.css";
+@import "./components/purchase/putchase_color.css";
+@import "./components/purchase/putchase_memory.css";
+@import "./components/purchase/putchase_method.css";
+@import "./components/purchase/putchase_model.css";
+@import "./components/purchase/putchase_quantity.css";
+@import "./components/purchase/putchase_storage.css";
+
+/* putchase page */
+@import "./page/purchase/putchase1.css";
+
+@import "./page/mypage_page/mypage.css";
